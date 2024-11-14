@@ -1,0 +1,98 @@
+.imu-tree-browser li span:hover
+{
+	background: #E1E1E1;
+}
+
+.imu-tree-browser a:hover
+{
+	background: #E1E1E1;
+}
+
+.imu-tree-browser ul, .imu-tree-browser li
+{
+	list-style: none outside none;
+	margin: 0;
+	padding-left: 20px;
+}
+
+.imu-tree-browser ul
+{
+	margin: 0;
+}
+
+.imu-tree-browser .tree-view-notExpanded 
+{
+    background-image: url("../shared/common/images/arrow_right.png");
+    background-repeat: no-repeat;
+    background-size: 16px auto;
+}
+
+.node-not-expanded
+{
+    background-image: url("../shared/common/images/arrow_right.png");
+    background-repeat: no-repeat;
+    background-size: 16px auto;
+}
+
+
+.imu-tree-browser .tree-view-expanded 
+{
+    background-image: url("../shared/common/images/arrow_down.png");
+    background-repeat: no-repeat;
+    background-size: 16px auto;
+}
+
+.node-expanded
+{
+    background-image: url("../shared/common/images/arrow_down.png");
+    background-repeat: no-repeat;
+    background-size: 16px auto;
+}
+
+.imu-tree-browser .tree-text
+{
+	cursor: pointer;
+}
+
+.node-text
+{
+	cursor: pointer;
+}
+
+.imu-tree-browser .no-children .tree-text
+{
+	display: block;
+}
+
+.imu-tree-browser .no-children
+{
+	background-image: url("");
+	cursor: default;
+	/*list-style-type: disc;*/
+}
+
+.no-children
+{
+	background-image: url("");
+	cursor: default;
+	/*list-style-type: disc;*/
+}
+
+.imu-tree-browser a.tree-text
+{
+	background-image: url("../shared/common/images/result1.png");
+	background-repeat: no-repeat;
+	background-size: 16px auto;
+	padding-left: 20px;
+}
+
+.imu-tree-browser .selected
+{
+	background-color: #E1E1E1;
+}
+
+.selected
+{
+	background-color: #E1E1E1;
+}
+

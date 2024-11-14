@@ -1,0 +1,42 @@
+.imu-keyword-search > .holder div input,
+.imu-keyword-search > .holder div .submit
+{
+	background-color: #ffffff;
+	border: solid 1px #c0c0c0;
+	border-radius: 0.25rem;
+	box-sizing: border-box;
+	height: 1.5rem;
+	vertical-align: top;
+}
+
+.imu-keyword-search > .holder div .submit
+{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+
+	border-left: none;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	
+	color: transparent;	/* hide text */
+	overflow: hidden;
+
+	padding: 0;
+	width: 1.5rem;
+}
+.imu-keyword-search[dir=ltr] > .holder div .submit
+{
+    background-image: url('../../../request.php?request=Image&name=search');
+}
+.imu-keyword-search[dir=rtl] > .holder div .submit
+{
+    background-image: url('../../../request.php?request=Image&name=search_rtl');
+}
+
+.imu-keyword-search > .holder div input
+{
+	border-right: none;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+}

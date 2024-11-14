@@ -1,0 +1,9 @@
+.imu-combined-viewer .near
+{
+	float: left;
+}
+
+.imu-combined-viewer .far
+{
+	float: right;
+}

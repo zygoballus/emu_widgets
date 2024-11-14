@@ -1,0 +1,125 @@
+.imu-search-page > .holder
+{
+	padding-bottom: 0.5em;
+}
+
+.imu-search-page > .holder > .content
+{
+	height: 100%;
+}
+
+.imu-search-page > .holder > .content > .wrapper
+{
+	background-color: #ffffff;
+	max-height: 100%;
+	max-height: calc(100% - 1em);
+	padding: 0.5em;
+	position: relative;
+}
+
+.imu-search-page > .holder > .content > .wrapper > .navigation
+{
+	height: 2em
+}
+.imu-search-page > .holder > .content > .wrapper > .navigation button
+{
+	color: #c6ac90;
+	font-size: 1em;
+}
+
+.imu-search-page > .holder > .content > .wrapper > .navigation .back:before,
+.imu-search-page > .holder > .content > .wrapper > .navigation .back:after
+{
+	background-size: contain;
+	background-repeat: no-repeat;
+	content: '';
+	display: inline-block;
+	height: 1em;
+	vertical-align: text-top;
+	width: 1em;
+}
+.imu-default-page[dir='ltr'] 
+.imu-search-page > .holder > .content > .wrapper > .navigation .back:before
+{
+	background-image: url('../../../request.php?request=Image&name=arrow-back-ltr');
+}
+.imu-default-page[dir='rtl'] 
+.imu-search-page > .holder > .content > .wrapper > .navigation .back:after
+{
+	background-image: url('../../../request.php?request=Image&name=arrow-back-rtl');
+}
+
+.imu-search-page > .holder > .content > .wrapper > .navigation,
+.imu-search-page > .holder > .content > .wrapper > .searches,
+.imu-search-page > .holder > .content > .wrapper > .searches > .holder > .header,
+.imu-search-page > .holder > .content > .wrapper > .searches > .holder > .content,
+.imu-search-page > .holder > .content > .wrapper > .results
+{
+	position: relative;
+}
+
+/* Searches
+*/
+.imu-search-page > .holder > .content > .wrapper > .searches
+{
+	background-color: #e8e7d9;
+	padding: 0.5em;
+}
+
+.imu-search-page .searches,
+.imu-search-page .searches > .holder > .header > button.toggle .title
+{
+	color: #000000;
+}
+
+.imu-search-page .searches > .holder > .header > button.toggle .title
+{
+	text-transform: uppercase;
+}
+
+/* Results
+*/
+.imu-search-page > .holder > .content > .wrapper > .results,
+.imu-search-page > .holder > .content > .wrapper > .results > .holder,
+.imu-search-page > .holder > .content > .wrapper > .results > .holder > .imu-combined-viewer
+{
+	min-height: 16em;
+}
+
+.imu-search-page .searches.open + .results
+{
+	display: none;
+}
+
+.imu-search-page .results > .holder
+{
+	/* TODO: change to js */
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+
+	background-color: #ffffff;
+}
+
+.imu-search-page .results > .holder > .imu-combined-viewer
+{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+@media screen and (min-width: 700px)
+{
+	.imu-search-page .searches > .holder > .header > button.toggle
+	{
+		height: 2em;
+		height: 2rem;
+	}
+	.imu-search-page .searches > .holder > .header > button.toggle .title
+	{
+		font-size: 1.8em;
+		font-size: 1.5rem;
+	}
+}

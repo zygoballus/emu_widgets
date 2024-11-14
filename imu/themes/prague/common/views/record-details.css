@@ -1,0 +1,164 @@
+.imu-record-details
+{
+  background-color: #ffffff;
+  color: #000000;
+  overflow: hidden;
+  width: 100%;
+}
+
+.imu-record-details .section
+{
+  clear: both;
+}
+
+.imu-record-details .section-heading
+{
+  font-weight: bold;
+  padding: 0.5em;
+}
+
+.imu-record-details .multimedia.imu-multimedia-plugin
+{
+  background-color: #eeeeee;
+  height: 28.4em;
+  padding: 1em;
+  width: 28.4em;
+}
+.imu-record-details .multimedia.imu-multimedia-plugin .item
+{
+  max-height: 26.4em;
+  max-width: 26.4em;
+}
+
+.imu-record-details .multimedia-scroller.imu-scroller-plugin
+{
+  height: 10em;
+}
+
+.imu-record-details .multimedia-scroller.imu-scroller-plugin
+	.imu-multimedia-plugin
+{
+  height: 8.3em;
+  padding: 0.5em;
+  width: 8.3em;
+}
+.imu-record-details .multimedia-scroller.imu-scroller-plugin
+	.imu-multimedia-plugin
+{
+  max-height: 7.3em;
+  max-width: 7.3em;
+}
+
+.imu-record-details .multimedia-scroller.imu-scroller-plugin
+	.imu-multimedia-icon .item
+{
+  max-height: 6em;
+  max-width: 6em;
+}
+
+.imu-record-details .details-cell
+{
+	width: 100%;
+}
+
+.imu-record-details .summary .details .title 
+{
+	font-size: 1.5em;
+}
+.imu-record-details .details .title
+{
+  font-weight: bold;
+  font-size: 1.1em;
+  padding-bottom: 0.5em;
+}
+
+.imu-record-details td
+{
+  vertical-align: top;
+}
+
+/*
+** Catalogue records
+*/
+.imu-record-details .summary table.title
+{
+	width: 100%;
+}
+
+
+.imu-record-details .summary .summary-description,
+.imu-record-details .narrative .primary .details .description
+{
+	font-style: italic;
+	text-align: justify;
+	padding-bottom: 0.5em;
+}
+
+/*
+** Multimedia records
+*/
+.imu-record-details .multimedia .items
+{
+  word-wrap: break-word;
+}
+
+/* I don't think multimedia records are shown like this any more. */
+.imu-record-details .multimedia .items .imu-multimedia-plugin
+{
+  height: 4.8em;
+  width: 4.8em;
+}
+.imu-record-details .multimedia .items .imu-multimedia-plugin .item
+{
+	max-height: 4.8em;
+	max-width: 4.8em;
+}
+
+/* Detail sections 
+   (used to separate topics within the one record)
+*/
+.imu-record-details .info table
+{
+	word-wrap: break-word;
+}
+
+.imu-record-details .info table thead tr th
+{
+	font-weight: normal;
+	font-style: italic;
+	background-color: #EEEEEE;
+}
+
+.imu-record-details .info div.record-section-header
+{
+	width: 100%;
+	padding: 0.5em;
+	background-color: #EEEEEE;
+	font-weight: bold;
+}	
+
+.imu-record-details .info table tr td.prompt
+{
+	width:12.5em;
+}
+
+/* References to other viewable records */
+.imu-record-details .info .details .record-link
+{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+/* Tables from records */
+.imu-record-details .info table thead tr th
+{
+	font-weight: normal;
+	font-style: italic;
+	background-color: #EEEEEE;
+}	
+
+.imu-record-details .link
+{
+	cursor: pointer;
+	text-decoration: underline;
+}

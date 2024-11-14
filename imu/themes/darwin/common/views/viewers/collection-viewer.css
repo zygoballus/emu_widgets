@@ -1,0 +1,59 @@
+.imu-collection-viewer .holder
+{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.imu-collection-viewer > .imu-scroller-plugin,
+.imu-collection-viewer > .imu-scroller-plugin > .holder
+{
+	position: relative;
+}
+
+.imu-collection-viewer .record
+{
+	height: 9em;
+	margin-right: 1em;
+	width: 8.5em;
+}
+
+.imu-collection-viewer .record .image
+{
+	height: 8em;
+	margin: 0 auto;
+	padding: 0.25em;
+	width: 8em;
+}
+
+.imu-collection-viewer .record .image > div
+{
+	background-color: #ffffff;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: 100%;
+	width: 100%;
+}
+
+.imu-collection-viewer .record .details
+{
+    height: 2em;
+    width: calc(100% - 1em);
+}
+
+.imu-collection-viewer .record .details h3
+{
+    font-size: 0.75em;
+    max-height: 1.5em;
+    margin: 0;
+    margin-bottom: 0.5em;
+    margin-top: 0.25em;
+}
+
+.imu-collection-viewer .record .favorite
+{
+	display: none;
+}
+

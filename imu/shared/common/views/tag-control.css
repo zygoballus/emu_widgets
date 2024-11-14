@@ -1,0 +1,59 @@
+.imu-tag-control .tag-holder
+{
+	border: 1px solid #999;
+	cursor: text;
+	background-color: White;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.imu-tag-control .holder
+{
+	border: none;
+}
+
+.imu-tag-control button
+{
+	padding: 4px 12px;
+	margin-left: 1em;
+}
+
+.imu-tag-control button.tag-control-disabled-update
+{
+	visibility: hidden;
+}
+
+.imu-tag-control input#tag-update-input
+{
+	border: 1px solid #aaa;
+}
+
+.imu-tag-control .delete-tag:hover
+{
+	color: red;
+	cursor: pointer;
+}
+
+.imu-tag-control .post-tag
+{
+	color: #3E6D8E;
+	background-color: #E0EAF1;
+	border-bottom: 1px solid #b3cee1;
+	border-right: 1px solid #b3cee1;
+	padding: 3px 4px 3px 4px;
+	margin: 2px 2px 2px 0;
+	text-decoration: none;
+	font-size: 90%;
+	line-height: 2.4;
+	white-space: nowrap;
+	float: left;
+}
+
+.imu-tag-control .unauthorised-tag
+{
+	background-color: #F1E0E4;
+	color: #8E3E47;
+	border-bottom: 1px solid #E1B3BB;
+	border-right: 1px solid #E1B3BB;
+}

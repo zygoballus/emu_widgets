@@ -1,0 +1,39 @@
+/* background
+*/
+.imu-page > .holder > .background .bg4
+{
+	background-image: -webkit-linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 0) 0%,
+		rgba(0, 0, 0, 1) 100%);
+}
+
+.imu-page > .holder > .background .bg5
+{
+    background-image: -webkit-gradient(
+		linear,
+		right top,
+		left bottom,
+		color-stop(000%, rgba(160, 160, 160, 0.05)),
+		color-stop(003%, rgba(160, 160, 160, 0.05)),
+		color-stop(004%, rgba(160, 160, 160, 0.0)),
+		color-stop(046%, rgba(160, 160, 160, 0.0)),     
+		color-stop(047%, rgba(160, 160, 160, 0.05)),            
+		color-stop(053%, rgba(160, 160, 160, 0.05)),
+		color-stop(054%, rgba(160, 160, 160, 0.0)),                             
+		color-stop(096%, rgba(160, 160, 160, 0.0)),
+		color-stop(097%, rgba(160, 160, 160, 0.05)),
+		color-stop(100%, rgba(160, 160, 160, 0.05)));
+}
+
+/* footer
+*/
+.imu-page > .holder > .footer
+{
+	background-image: -webkit-gradient(
+        linear,
+		right top,
+		left top,
+		color-stop(0%, rgba(0, 0, 0, 1)),
+		color-stop(100%, rgba(0, 0, 0, 0)));
+}

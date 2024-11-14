@@ -1,0 +1,1397 @@
+/* THIS FILE IS BUILT AUTOMATICALLY.
+** DO NOT CHANGE IT DIRECTLY.
+**
+** Built at: 2024-11-14 04:43:49 UTC (2024-11-14 04:43:49 UTC)
+*/
+
+/* Source: ./themes/darwin/common/views/components/page.css
+*/
+.imu-page > .holder
+{
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/* Source: ./themes/darwin/common/views/components/paged-display.css
+*/
+.imu-paged-display > .holder
+{
+/*
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	*/
+}
+
+/* Source: ./themes/darwin/common/views/components/paged-display.css
+*/
+.imu-paged-display > .holder
+{
+/*
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	*/
+}
+
+/* Source: ./themes/darwin/common/views/components/search-form.css
+*/
+.imu-search-form.owner
+{
+	padding-top: 1em;
+	padding-top: 1rem;
+}
+
+.imu-search-form .holder
+{
+	background: transparent;
+	background: initial;
+
+}
+
+.imu-search-form form > .input
+{
+/* Commented out due to Firefox issues
+ 
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+*/
+
+	clear: both;
+	height: 2.75em;
+	height: 2.75rem;
+	margin: 0 auto;
+	margin-bottom: 0.25em;
+	max-width: 35em;
+	width: 100%;
+}
+
+.imu-search-form label:after
+{
+	content: ': ';
+}
+	
+.imu-search-form label,
+.imu-search-form form > .input input,
+.imu-search-form form > .input select
+{
+	vertical-align: middle;
+}
+
+.imu-search-form form > .input input,
+.imu-search-form form > .input select
+{
+	background-color: #ffffff;
+	border: none;
+	border-radius: 0;
+	box-sizing: border-box;
+	height: 1.5em;
+	width: 100%;
+}
+
+.imu-search-form form > .input input[type=checkbox]
+{
+	height: 1em;
+	height: 1rem;
+	width: 1em;
+	width: 1rem;
+}
+
+
+.imu-search-form .buttons
+{
+	margin-top: 1em;
+	text-align: right;
+}
+
+.imu-search-form .buttons button
+{
+	background-color: #45301c;
+	color: #eeeeee;
+	padding: 0.4em 1em;
+}
+
+.imu-search-form .buttons button + button
+{
+	margin-left: 0.5em;
+}
+
+
+@media screen and (min-width: 700px)
+{
+	.imu-search-form form > .input
+	{
+		height: 2em;
+		height: 2rem;
+	}
+
+	.imu-search-form form > .input input,
+	.imu-search-form form > .input select
+	{
+		max-width: 50%;
+		width: 50%;
+	}
+}
+
+/* Source: ./themes/darwin/common/views/components/my-collections.css
+*/
+.imu-my-collections > .holder
+{
+	padding-top:1em;
+}
+
+.imu-my-collections .name,
+.imu-my-collections .controls,
+.imu-my-collections .controls button
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.imu-my-collections .name
+{
+	background-color: #ffffff;
+	border: solid 1px;
+}
+
+.imu-my-collections .controls button,
+.imu-my-collections .controls button .icon
+{
+	padding: 0;
+}
+
+.imu-my-collections .controls button:nth-child(1),
+.imu-my-collections .controls button:nth-last-child(1)
+{
+	margin-left: 0.5em;
+}
+
+.imu-my-collections .controls button
+{
+	height: 1.5em;
+	width: 1.5em;
+}
+
+.imu-my-collections .controls button .icon
+{
+	height: 100%;
+	width: 100%;
+}
+
+.imu-my-collections .controls button.restore
+{
+	background-color: #45301c;
+	border: none;
+	color: #eeeeee;
+	line-height: 1.5em;
+	padding: 0 0.25em;
+	width: auto;
+}
+
+.imu-my-collections .imu-collection-viewer
+{
+	position: relative;
+}
+
+.imu-my-collections .prev-icon
+{
+    background-image: url('../../../request.php?request=Image&name=my-collections-left');
+}
+
+.imu-my-collections .next-icon
+{
+    background-image: url('../../../request.php?request=Image&name=my-collections-right');
+}
+
+.imu-my-collections .remove-icon
+{
+    background-image: url('../../../request.php?request=Image&name=my-collections-remove');
+}
+
+.imu-my-collections .add-icon
+{
+    background-image: url('../../../request.php?request=Image&name=my-collections-add');
+}
+
+/* Source: ./themes/darwin/common/views/components/keyword-search.css
+*/
+.imu-keyword-search > .holder div input,
+.imu-keyword-search > .holder div .submit
+{
+	background-color: #ffffff;
+	border: solid 1px #c0c0c0;
+	border-radius: 0.25rem;
+	box-sizing: border-box;
+	height: 1.5rem;
+	vertical-align: top;
+}
+
+.imu-keyword-search > .holder div .submit
+{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+
+	border-left: none;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	
+	color: transparent;	/* hide text */
+	overflow: hidden;
+
+	padding: 0;
+	width: 1.5rem;
+}
+.imu-keyword-search[dir=ltr] > .holder div .submit
+{
+    background-image: url('../../../request.php?request=Image&name=search');
+}
+.imu-keyword-search[dir=rtl] > .holder div .submit
+{
+    background-image: url('../../../request.php?request=Image&name=search_rtl');
+}
+
+.imu-keyword-search > .holder div input
+{
+	border-right: none;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+}
+
+/* Source: ./themes/darwin/common/views/viewers/combined-viewer.css
+*/
+.imu-combined-viewer > .holder
+{
+	bottom: 0;
+	left: 0;
+	padding: 0.5em 0.5em 0 0.5em;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.imu-combined-viewer > .holder > .header
+{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+.imu-combined-viewer > .holder > .header,
+.imu-combined-viewer > .holder > .header > .results,
+.imu-combined-viewer > .holder > .header > .icons,
+.imu-combined-viewer > .holder > .header > .icons > .icon
+{
+	height: 2em;
+}
+.imu-combined-viewer > .holder > .header > .results,
+.imu-combined-viewer > .holder > .header > .icons,
+.imu-combined-viewer > .holder > .header > .icons > .icon
+{
+	display: inline-block;
+}
+.imu-combined-viewer > .holder > .header > .icons > .icon
+{
+	width: 2em;
+}
+
+.imu-combined-viewer > .holder > .overlay
+{
+	background: #ffffff;
+	bottom: 0;
+	left: 0;
+	padding: 0.5em;
+	position: absolute;
+	right: 0;
+	top: 3em;
+}
+.imu-combined-viewer > .holder > .overlay:empty
+{
+	display: none;
+}
+
+.imu-combined-viewer > .holder > .overlay .error
+{
+	font-weight: bold;
+}
+
+.imu-combined-viewer > .holder > .results
+{
+	display: none;
+}
+.imu-combined-viewer > .holder > .overlay:empty + .results
+{
+	display: block;
+}
+
+.imu-combined-viewer .header .results > span
+{
+	line-height: 2em;
+}
+.imu-combined-viewer .header .results > .hits:empty:before
+{
+	content: '0';
+}
+
+.imu-combined-viewer .header .results > .spinner,
+.imu-combined-viewer .header .results > .spinner img
+{
+	height: 1em;
+	width: 1em;
+}
+
+
+.imu-combined-viewer > .holder > .item
+{
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 3em;
+}
+
+
+.imu-combined-viewer .details-viewer-icon
+{
+	background-image: 
+		url('../../../request.php?request=Image&name=details-viewer-icon');
+}
+.imu-combined-viewer .details-viewer-icon.selected
+{
+	background-image: 
+		url('../../../request.php?request=Image&name=details-viewer-selected-icon');
+}
+.imu-combined-viewer .lightbox-viewer-icon
+{
+	background-image: 
+		url('../../../request.php?request=Image&name=lightbox-viewer-icon');
+}
+.imu-combined-viewer .lightbox-viewer-icon.selected
+{
+	background-image: 
+		url('../../../request.php?request=Image&name=lightbox-viewer-selected-icon');
+}
+.imu-combined-viewer .list-viewer-icon
+{
+	background-image: 
+		url('../../../request.php?request=Image&name=list-viewer-icon');
+}
+.imu-combined-viewer .list-viewer-icon.selected
+{
+	background-image: 
+		url('../../../request.php?request=Image&name=list-viewer-selected-icon');
+}
+
+/* Source: ./themes/darwin/common/views/viewers/vertical-viewer.css
+*/
+.imu-vertical-viewer > .imu-scroller-plugin,
+.imu-vertical-viewer > .imu-scroller-plugin > .holder
+{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.imu-vertical-viewer > .imu-scroller-plugin > .holder > .view,
+.imu-vertical-viewer > .imu-scroller-plugin > .holder > .scrollbar
+{
+    height: 100%;
+    position: absolute;
+}
+.imu-vertical-viewer > .imu-scroller-plugin > .holder > .view
+{
+    width: 100%;
+}
+.imu-vertical-viewer > .imu-scroller-plugin > .holder > .scrollbar
+{
+    bottom: 0;
+    height: auto;
+    right: 0;
+    top: 0;
+}
+
+.imu-vertical-viewer > .imu-scroller-plugin > .holder > .view > .content
+{
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+
+/* Source: ./themes/darwin/common/views/viewers/list-viewer.css
+*/
+.imu-list-viewer .record
+{
+	position: absolute;
+	height: 4em;
+	width: 100%;
+}
+.imu-list-viewer .record .holder
+{
+	height: 100%;
+	padding: 0.25em;
+	padding: 0;
+	position: relative;
+	text-align: left;
+	width: calc(100% - 2em);
+}
+.imu-list-viewer .record:nth-child(odd)
+{
+	background-color: #e8e7d9;
+}
+
+.imu-list-viewer .record .image,
+.imu-list-viewer .record .details,
+.imu-list-viewer .record .favorite
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.imu-list-viewer .record .image
+{
+	background-color: #e8e7d9;
+	height: 4em;
+	margin-right: 0.5em;
+	padding: 0.25em;
+	width: 4em;
+}
+
+.imu-list-viewer .record .image > div
+{
+	background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 4em;
+    width: 4em;
+}
+
+.imu-list-viewer .record .details
+{
+	height: 4em;
+	max-width: calc(100% - 5em);
+	padding: 0.25em 0;
+	width: 100%;
+}
+
+.imu-list-viewer .record .details h3
+{
+	font-size: 0.75em;
+	margin: 0;
+	margin-bottom: 0.5em;
+	max-height: 2.5em;
+	text-align: left;
+}
+
+.imu-list-viewer .record .favorite
+{
+	width: 1.5em;
+}
+
+/* Source: ./themes/darwin/common/views/viewers/lightbox-viewer.css
+*/
+.imu-lightbox-viewer .record
+{
+	display: inline-block;
+	height: 9em;
+	margin: 0 0.5em 0.5em 0.5em;
+	max-width: calc(50% - 2em);
+	padding: 0em;
+	position: absolute;
+	width: 8.5em;
+}
+
+.imu-lightbox-viewer .record .holder,
+.imu-lightbox-viewer .record .details
+{
+	width: 100%;
+}
+
+.imu-lightbox-viewer .record .holder
+{
+/*	height: 100%;*/
+	padding: 0;
+}
+
+.imu-lightbox-viewer .record .image
+{
+	background-color: #e8e7d9;
+	height: 8em;
+	margin: 0 auto;
+	padding: 0.25em;
+	width: 8em;
+}
+
+.imu-lightbox-viewer .record .image > div
+{
+	background-color: #ffffff;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: 100%;
+	width: 100%;
+}
+
+.imu-lightbox-viewer .record .details
+{
+	height: 2em;
+	width: calc(100% - 1em);
+}
+
+.imu-lightbox-viewer .record .details h3
+{
+	font-size: 0.75em;
+	max-height: 1.5em;
+	margin: 0;
+	margin-bottom: 0.5em;
+	margin-top: 0.25em;
+}
+
+.imu-lightbox-viewer .record .favorite
+{
+	position: absolute;
+	bottom: 1.5em;
+	right: 0;
+}
+
+@media screen and (min-width: 600px)
+{
+	.imu-lightbox-viewer .record
+	{
+		height: 10em;
+	}
+	
+	.imu-lightbox-viewer .record .details
+	{
+		height: 3em;
+	}
+	
+	.imu-lightbox-viewer .record .details h3
+	{
+		max-height: 2.5em;
+	}
+}
+
+/* Source: ./themes/darwin/common/views/viewers/record-details.css
+*/
+.imu-record-details .record .details > section > h4
+{
+	margin: 1em 0 0.5em 0;
+}
+
+.imu-record-details .record .details > section > div
+{
+	margin-bottom: 0.75em;
+	margin-top: 0.5em;
+}
+
+.imu-record-details .record .details > section > div > .value:empty:after
+{
+	content: '-';
+}
+
+.imu-record-details .record .image > div
+{
+	cursor: pointer;
+}
+.imu-record-details .record .image > .placeholder
+{
+	cursor: default;
+}
+
+/* Source: ./themes/darwin/common/views/viewers/details-viewer.css
+*/
+.imu-details-viewer
+{
+	margin-bottom: -0.5em;
+}
+
+.imu-details-viewer > .imu-scroller-plugin,
+.imu-details-viewer > .imu-scroller-plugin > .holder
+{
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.imu-details-viewer > .imu-scroller-plugin > .holder > .view > .content
+{
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+
+.imu-details-viewer .record
+{
+	overflow: auto;
+}
+
+
+.imu-details-viewer .record > .holder > .image,
+.imu-details-viewer .record > .holder > .image > div
+{
+	height: 12em;
+	width: 12em;
+}
+
+.imu-details-viewer .record > .holder > .image
+{
+	background-color: #e8e7d9;
+	padding: 0.5em;
+}
+
+.imu-details-viewer .record > .holder > .image > div
+{
+	background-color: #ffffff;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.imu-details-viewer .record > .holder > .details
+{
+	width: 100%;
+}
+
+.imu-details-viewer .record > .holder > .image,
+.imu-details-viewer .record > .holder > .details,
+.imu-details-viewer .record > .holder > .details > section > div > .label,
+.imu-details-viewer .record > .holder > .details > section > div > .value
+{
+	vertical-align: top;
+}
+
+.imu-details-viewer .record > .holder > .image,
+.imu-details-viewer .record > .holder > .details
+{
+	display: block;
+}
+
+.imu-details-viewer .record > .holder > .details > section > div > .label
+{
+	color: #000000;
+	font-weight: bold;
+	min-width: 18em;
+}
+
+.imu-details-viewer .record > .holder > .details > section > div > .label:empty
+{
+	display: none;
+}
+
+
+.imu-details-viewer .record > .holder > .details > section > div > .value a
+{
+	color: #dac48f;
+	cursor: pointer;
+}
+.imu-details-viewer .record > .holder > .details > section > div > .value > a + a:before
+{
+	content: ', ';
+	display: inline-block;
+	width: 1em;
+}
+	
+@media screen and (min-width: 600px)
+{
+	.imu-details-viewer .record > .holder > .image,
+	.imu-details-viewer .record > .holder > .details
+	{
+		display: inline-block;
+	}
+
+	.imu-details-viewer .record > .holder > div,
+	.imu-details-viewer .record > .holder > section
+	{
+		margin: 0 0.5em;
+	}
+
+	.imu-details-viewer .record > .holder > .image + .details
+	{
+		width: calc(100% - 15em);
+	}
+
+	.imu-details-viewer .record .holder > .details
+	{
+		min-width: 30em;
+	}
+
+
+	.imu-details-viewer .record > .holder > .details > section > div
+	{
+		display: table;
+	}
+	.imu-details-viewer .record > .holder > .details > section > div > .label,
+	.imu-details-viewer .record > .holder > .details > section > div > .value
+	{
+		display: table-cell;
+	}
+}
+@media screen and (min-width: 1200px)
+{
+	.imu-details-viewer .record > .holder > .image,
+	.imu-details-viewer .record > .holder > .image > div
+	{
+		height: 25em;
+		width: 25em;
+	}
+	
+	.imu-details-viewer .record > .holder > .image + .details
+	{
+		width: calc(100% - 28em);
+	}
+}
+
+/* Source: ./themes/darwin/common/views/viewers/details-viewer/emultimedia.css
+*/
+.imu-details-viewer .emultimedia-record a.placeholder.document-placeholder
+{
+	cursor: pointer;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.imu-details-viewer .emultimedia-record .imu-multimedia-plugin audio.item
+{
+	background-image: url('../../../request.php?request=Image&name=placeholder-audio');
+}
+
+.imu-details-viewer .emultimedia-record .imu-multimedia-plugin video.item
+{
+	background-image: url('../../../request.php?request=Image&name=placeholder-video');
+}
+
+.imu-details-viewer .emultimedia-record a.placeholder.document-placeholder,
+.imu-details-viewer .emultimedia-record .imu-multimedia-plugin audio.item,
+.imu-details-viewer .emultimedia-record .imu-multimedia-plugin video.item
+{
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.imu-details-viewer .emultimedia-record section.resolutions > div > .value,
+.imu-details-viewer .emultimedia-record section.resolutions .value > table,
+.imu-details-viewer .emultimedia-record section.supplementary > div > .value,
+.imu-details-viewer .emultimedia-record section.supplementary .value > table,
+.imu-details-viewer .emultimedia-record section.exif > div > .value,
+.imu-details-viewer .emultimedia-record section.exif .value > table,
+.imu-details-viewer .emultimedia-record section.ipt > div > .value,
+.imu-details-viewer .emultimedia-record section.ipt .value > table
+{
+	width: 100%;
+}
+
+.imu-details-viewer .emultimedia-record section.resolutions .value > table,
+.imu-details-viewer .emultimedia-record section.supplementary .value > table,
+.imu-details-viewer .emultimedia-record section.exif .value > table,
+.imu-details-viewer .emultimedia-record section.ipt .value > table
+{
+	border-collapse: collapse;
+	text-align: left;
+}
+
+.imu-details-viewer .emultimedia-record section.resolutions .value > table th,
+.imu-details-viewer .emultimedia-record section.resolutions .value > table td,
+.imu-details-viewer .emultimedia-record section.supplementary .value > table th,
+.imu-details-viewer .emultimedia-record section.supplementary .value > table td,
+.imu-details-viewer .emultimedia-record section.exif .value > table th,
+.imu-details-viewer .emultimedia-record section.exif .value > table td,
+.imu-details-viewer .emultimedia-record section.ipt .value > table th,
+.imu-details-viewer .emultimedia-record section.ipt .value > table td
+{
+	border: solid 1px;
+	padding: 0.25em;
+	vertical-align: top;
+}
+
+/* Source: ./themes/darwin/common/views/viewers/collection-viewer.css
+*/
+.imu-collection-viewer .holder
+{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.imu-collection-viewer > .imu-scroller-plugin,
+.imu-collection-viewer > .imu-scroller-plugin > .holder
+{
+	position: relative;
+}
+
+.imu-collection-viewer .record
+{
+	height: 9em;
+	margin-right: 1em;
+	width: 8.5em;
+}
+
+.imu-collection-viewer .record .image
+{
+	height: 8em;
+	margin: 0 auto;
+	padding: 0.25em;
+	width: 8em;
+}
+
+.imu-collection-viewer .record .image > div
+{
+	background-color: #ffffff;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: 100%;
+	width: 100%;
+}
+
+.imu-collection-viewer .record .details
+{
+    height: 2em;
+    width: calc(100% - 1em);
+}
+
+.imu-collection-viewer .record .details h3
+{
+    font-size: 0.75em;
+    max-height: 1.5em;
+    margin: 0;
+    margin-bottom: 0.5em;
+    margin-top: 0.25em;
+}
+
+.imu-collection-viewer .record .favorite
+{
+	display: none;
+}
+
+
+/* Source: ./themes/darwin/common/views/pages/welcome-page.css
+*/
+.imu-welcome-page > .holder > .content
+{
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+
+.imu-welcome-page section.category-selection a
+{
+	color: #B58A5E;
+}
+
+
+.imu-welcome-page .categories
+{
+	text-align: center;
+}
+
+.imu-welcome-page .categories button a
+{
+	height: 2em;
+	text-transform: uppercase;
+}
+
+.imu-welcome-page > .holder > .content > section
+{
+	padding: 1em;
+}
+
+.imu-welcome-page > .holder > .content > section
+{
+	background: #ffffff;
+	margin-bottom: 0.75em;
+	margin-left: auto;
+	margin-right: auto;
+
+	max-width: 45em;
+}
+
+.imu-welcome-page section.category-selection > .holder,
+.imu-welcome-page section.my-collection > .holder,
+.imu-welcome-page section.my-collection > .holder > .header
+{
+	width: 100%;
+}
+
+
+.imu-welcome-page section.category-selection .categories
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.imu-welcome-page section.category-selection .categories button
+{
+	max-width: 50%;
+	min-height: 5em;
+	min-width: 35%;
+	width: 10em;
+}
+
+.imu-welcome-page section.category-selection .categories button .icon
+{
+	height: 5em;
+	width: auto;
+}
+
+.imu-welcome-page section.category-selection .categories button *
+{
+	display: block;
+	margin: 0 auto;
+	vertical-align: top;
+}
+
+.imu-welcome-page section.category-selection > .holder h1,
+.imu-welcome-page section.category-selection > .holder h2
+{
+	font-weight: normal;
+	text-align: center;
+}
+
+
+@media screen and (min-width: 600px)
+{
+	.imu-welcome-page section.category-selection .categories button
+	{
+		margin: auto;
+		min-width: 0;
+	}
+}
+
+/* Source: ./themes/darwin/common/views/pages/search-page.css
+*/
+.imu-search-page > .holder
+{
+	padding-bottom: 0.5em;
+}
+
+.imu-search-page > .holder > .content
+{
+	height: 100%;
+}
+
+.imu-search-page > .holder > .content > .wrapper
+{
+	background-color: #ffffff;
+	max-height: 100%;
+	max-height: calc(100% - 1em);
+	padding: 0.5em;
+	position: relative;
+}
+
+.imu-search-page > .holder > .content > .wrapper > .navigation
+{
+	height: 2em
+}
+.imu-search-page > .holder > .content > .wrapper > .navigation button
+{
+	color: #c6ac90;
+	font-size: 1em;
+}
+
+.imu-search-page > .holder > .content > .wrapper > .navigation .back:before,
+.imu-search-page > .holder > .content > .wrapper > .navigation .back:after
+{
+	background-size: contain;
+	background-repeat: no-repeat;
+	content: '';
+	display: inline-block;
+	height: 1em;
+	vertical-align: text-top;
+	width: 1em;
+}
+.imu-default-page[dir='ltr'] 
+.imu-search-page > .holder > .content > .wrapper > .navigation .back:before
+{
+	background-image: url('../../../request.php?request=Image&name=arrow-back-ltr');
+}
+.imu-default-page[dir='rtl'] 
+.imu-search-page > .holder > .content > .wrapper > .navigation .back:after
+{
+	background-image: url('../../../request.php?request=Image&name=arrow-back-rtl');
+}
+
+.imu-search-page > .holder > .content > .wrapper > .navigation,
+.imu-search-page > .holder > .content > .wrapper > .searches,
+.imu-search-page > .holder > .content > .wrapper > .searches > .holder > .header,
+.imu-search-page > .holder > .content > .wrapper > .searches > .holder > .content,
+.imu-search-page > .holder > .content > .wrapper > .results
+{
+	position: relative;
+}
+
+/* Searches
+*/
+.imu-search-page > .holder > .content > .wrapper > .searches
+{
+	background-color: #e8e7d9;
+	padding: 0.5em;
+}
+
+.imu-search-page .searches,
+.imu-search-page .searches > .holder > .header > button.toggle .title
+{
+	color: #000000;
+}
+
+.imu-search-page .searches > .holder > .header > button.toggle .title
+{
+	text-transform: uppercase;
+}
+
+/* Results
+*/
+.imu-search-page > .holder > .content > .wrapper > .results,
+.imu-search-page > .holder > .content > .wrapper > .results > .holder,
+.imu-search-page > .holder > .content > .wrapper > .results > .holder > .imu-combined-viewer
+{
+	min-height: 16em;
+}
+
+.imu-search-page .searches.open + .results
+{
+	display: none;
+}
+
+.imu-search-page .results > .holder
+{
+	/* TODO: change to js */
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+
+	background-color: #ffffff;
+}
+
+.imu-search-page .results > .holder > .imu-combined-viewer
+{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+@media screen and (min-width: 700px)
+{
+	.imu-search-page .searches > .holder > .header > button.toggle
+	{
+		height: 2em;
+		height: 2rem;
+	}
+	.imu-search-page .searches > .holder > .header > button.toggle .title
+	{
+		font-size: 1.8em;
+		font-size: 1.5rem;
+	}
+}
+
+/* Source: ./themes/darwin/common/views/default-page.css
+*/
+body {}
+
+@font-face
+{
+    font-family: Raleway;
+	src: url(../../../dist/common/fonts/Raleway/Raleway-Regular.ttf);
+}
+
+.imu-default-page *
+{
+    font-family: Raleway;
+}
+
+main:empty:before
+{
+	content: "Loading...";
+}
+
+body,
+.imu-default-page,
+.imu-default-page .app-pages > .holder
+{
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+body,
+.imu-default-page,
+.imu-default-page .header > button.toggle .title
+{
+	color: #666;
+}
+body,
+.imu-default-page
+{
+	margin: 0;
+	padding: 0;
+}
+.imu-default-page
+{
+	overflow: auto;
+}
+.imu-default-page > .holder
+{
+	padding: 1em;
+}
+
+.imu-default-page > .holder > .header
+{
+	height: 5em;
+}
+.imu-default-page > .holder > .content
+{
+	height: calc(100% - 4em);
+	min-height: 23em;
+}
+
+.imu-default-page .app-pages,
+.imu-default-page .app-pages > .holder > .page
+{
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+
+.imu-default-page > .holder > .header .logo,
+.imu-default-page > .holder > .header .keyword-search
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.imu-default-page > .holder > .header .logo
+{
+	height: 4em;
+	width: 4em;
+}
+
+.imu-default-page > .holder > .header .imu-keyword-search
+{
+	padding: 0.75em 0;
+	text-align: right;
+}
+
+.imu-default-page > .holder > .header .imu-keyword-search label,
+.imu-default-page > .holder > .header .imu-keyword-search input
+{
+	display: inline-block;
+}
+
+html
+{
+	background: #cccccc; /* TODO: put in client css */
+}
+
+.imu-default-page
+{
+	background: #cccccc; /* TODO: get bg right */
+	font-family: sans-serif; /* TODO: get font family right */
+}
+
+.imu-default-page button
+{
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.imu-default-page input
+{
+	text-indent: 0.25em;
+	text-indent: 0.2rem;
+}
+
+
+.imu-default-page h1
+.imu-default-page h2,
+.imu-default-page h3
+{
+	font-weight: normal;
+}
+
+.imu-default-page h1
+{
+	font-size: 2em;
+	font-size: 2rem;
+
+	margin-bottom: 1em;
+	margin-bottom: 1rem;
+
+	margin-top: 1em;
+	margin-top: 1rem;
+}
+.imu-default-page h2
+{
+	font-size: 1.3em;
+	font-size: 1.3rem;
+	
+	margin-bottom: 1em;
+	margin-bottom: 1rem;
+
+	margin-top: 1em;
+	margin-top: 1rem;
+}
+.imu-default-page h1 + h2
+{
+	margin-top: -1em;
+	margin-top: -1rem;
+}
+
+.imu-default-page .hidden
+{
+	max-height: 0;
+	opacity: 0;
+	overflow: hidden;
+}
+
+.imu-default-page .header > button.toggle,
+.imu-default-page > .holder > .header
+{
+/*  Commented out due to Firefox issues
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+*/
+	width: 100%;
+}
+
+.imu-default-page .header > button.toggle > *,
+.imu-default-page > .holder > .header > *
+{
+	display: inline-block;
+}
+
+
+.imu-default-page .header > button.toggle,
+.imu-default-page .header > button.toggle .icon
+{
+	height: 2em;
+	padding: 0;
+}
+
+.imu-default-page .header > button.toggle .icon
+{
+	width: 2em;
+}
+
+.imu-default-page .header > button.toggle .title
+{
+	font-size: 1.3em;
+	font-size: 1.3rem;
+	line-height: 1.3em;
+}
+
+.imu-default-page .header > button.toggle .icon,
+.imu-default-page .header > button.toggle .title
+{
+	vertical-align: middle;
+}
+
+
+.imu-default-page .icon,
+.imu-default-page > .holder > .header > .logo,
+.imu-default-page .placeholder
+{
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.imu-default-page .toggle.closed .toggle-icon
+{
+	background-image: url('../../../request.php?request=Image&name=arrow-expand');
+}
+.imu-default-page .toggle.open .toggle-icon
+{
+	background-image: url('../../../request.php?request=Image&name=arrow-collapse');
+}
+.imu-default-page .ecatalogue-icon
+{
+	background-image: url('../../../request.php?request=Image&name=ecatalogue-icon');
+}
+.imu-default-page .ecollectionevents-icon
+{
+	background-image: url('../../../request.php?request=Image&name=ecollectionevents-icon');
+}
+.imu-default-page .emultimedia-icon
+{
+	background-image: url('../../../request.php?request=Image&name=emultimedia-icon');
+}
+.imu-default-page .eparties-icon
+{
+	background-image: url('../../../request.php?request=Image&name=eparties-icon');
+}
+
+.imu-default-page .placeholder:empty,
+.imu-default-page .placeholder.unknown-placeholder:empty
+{
+	background-image: url('../../../request.php?request=Image&name=placeholder-image');
+}
+.imu-default-page .placeholder.audio-placeholder:empty
+{
+	background-image: url('../../../request.php?request=Image&name=placeholder-audio');
+}
+.imu-default-page .placeholder.bibliography-placeholder:empty
+{
+	background-image: url('../../../request.php?request=Image&name=placeholder-bibliography');
+}
+.imu-default-page .placeholder.document-placeholder:empty
+{
+	background-image: url('../../../request.php?request=Image&name=placeholder-document');
+}
+.imu-default-page .placeholder.image-placeholder:empty
+{
+	background-image: url('../../../request.php?request=Image&name=placeholder-image');
+}
+.imu-default-page .placeholder.party-placeholder:empty
+{
+	background-image: url('../../../request.php?request=Image&name=placeholder-party');
+}
+.imu-default-page .placeholder.video-placeholder:empty
+{
+	background-image: url('../../../request.php?request=Image&name=placeholder-video');
+}
+
+@media screen and (min-width: 700px)
+{
+	.imu-default-page > .holder > .header
+	{
+		height: 9em;
+	}
+	.imu-default-page > .holder > .header .logo
+	{
+		height: 8em;
+		width: 8em;
+	}
+
+	.imu-default-page > .holder > .content
+	{
+		height: calc(100% - 8em);
+		min-height: 23em;
+	}
+}

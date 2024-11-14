@@ -1,0 +1,208 @@
+/* Header
+*/
+.imu-record-details .record > .header > .holder,
+.imu-record-details .record > .header > .holder > table
+{
+	width: 100%;
+}
+.imu-record-details .record > .header > .holder > table
+{
+	height: 100%;
+}
+.imu-record-details .record > .header .image
+{
+	width: 1%;
+}
+.imu-record-details .record > .header .summary ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.imu-record-details .record > .header .final
+{
+	position: relative;
+}
+.imu-record-details .record > .header .favorite
+{
+	bottom: 0.5em;
+	background-color: transparent;
+	height: 1.5em;
+	position: absolute;
+	width: 1.5em;
+}
+
+/* Media
+*/
+.imu-record-details .record > .multimedia
+{
+	border-bottom: solid;
+	border-width: 0.15em;
+
+	height: 25em;
+}
+.imu-record-details .record > .multimedia > table
+{
+	border-spacing: 0px;
+	height: 25em;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	table-layout: fixed;
+	width: 100%;
+}
+.imu-record-details .record > .multimedia table td
+{
+	padding: 0;
+}
+
+.imu-record-details .record > .multimedia > table > tbody > tr
+{
+	text-align: center;
+}
+.imu-record-details .record > .multimedia .multimedia-cell
+{
+	height: 22em;
+}
+.imu-record-details .record > .multimedia .multimedia-cell > .multimedia
+{
+	height: 20em;
+}
+
+/* TODO: get icons */
+.imu-record-details .record > .multimedia .mm-tab 
+{
+	height: 1%;
+	text-align: center;
+}
+.imu-record-details .record > .multimedia .mm-tab .imu-button-control
+{
+	background-color: transparent;
+	display: inline-block;
+	height: 2em;
+	margin: 0.1em;
+	width: 2em;
+}
+
+/* Images and videos */
+/* TODO: box positioning after it has been tested */
+.imu-record-details .record > .multimedia .slidesjs-slide img
+{
+	max-height: 100%;
+	max-width: 100%;
+}
+.imu-record-details .record > .multimedia .slidesjs-navigation
+{
+	display: none; /* TODO: just to clear some space on screen for now */
+}
+.imu-record-details .record > .multimedia .slidesjs-pagination
+{
+	list-style: none;
+	margin-left: auto;
+	margin-top: 6px;
+	margin-right: auto;
+	padding: 0;
+	text-align: center;
+}
+.imu-record-details .record > .multimedia .slidesjs-pagination li
+{
+	display: inline-block;
+	margin: 0 1px;
+}
+.imu-record-details .record > .multimedia .slidesjs-pagination li a
+{
+	display: block;
+	width: 13px;
+	height: 0;
+	padding-top: 13px;
+	background-image: url(../common/images/pagination.png);
+	background-position: 0 0;
+	float: left;
+	overflow: hidden;
+}
+.imu-record-details .record > .multimedia .slidesjs-pagination li a.active,
+.imu-record-details .record > .multimedia .slidesjs-pagination li a:hover.active 
+{
+	background-position: 0 -13px;
+}
+.imu-record-details .record > .multimedia .slidesjs-pagination li a:hover
+{
+	background-position: 0 -26px;
+}
+.imu-record-details .record > .multimedia .imu-multimedia-plugin
+{
+	height: 20em;
+	width: 20em;
+	/* temporary until scroll plugin used
+	padding-bottom: 20px;
+	*/
+
+	/* needed for vertically aligning images */
+	line-height: 20em;
+}
+
+/* Map */
+.imu-record-details .record > .multimedia .map-cell
+{
+}
+.imu-record-details .record > .multimedia .map-cell > .imu-map-viewer
+{
+	height: 100%;
+	width: 100%;
+	left: 0;
+	right: 0;
+}
+/* NASTY!!!
+** Unfortunately open layers apply !important css. Adding our own is lazy but
+** the issue might need a bit of investigation.
+** - Phil
+*/
+.imu-record-details .record > .multimedia .map-cell .olMap
+{
+	margin: 0 auto !important;
+	width: 100% !important;
+}
+/* hide toggle options if only one option exists */
+.imu-record-details .record > .multimedia .mm-tab .imu-button-control:first-child:last-child,
+.imu-record-details .record > .multimedia .slidesjs-pagination li:first-child:last-child 
+{
+	opacity: 0;
+	visibility: hidden;
+}
+
+/* Content
+*/
+.imu-record-details .record > .content *
+{
+	font-style: italic;
+	vertical-align: top;
+}
+.imu-record-details .record > .content > table
+{
+	width: 100%;
+}
+.imu-record-details .record > .content > table .sub-header
+{
+	color: #b6c6cd;
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: bold;
+	padding-bottom: 0.15em;
+}
+
+.imu-record-details .record > .content tr.section-first-row > *
+{
+	padding-top: 0.8em;
+}
+.imu-record-details .record > .content tr.section-last-row > *
+{
+	padding-bottom: 0.2em;
+}
+.imu-record-details .record > .content .prompt
+{
+	font-style: normal;
+	width: 10em;
+}
+
+/* Related records
+*/

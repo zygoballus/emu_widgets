@@ -1,0 +1,67 @@
+body.imu-page
+{
+/*	
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 90%;
+*/
+
+	width: 100%;
+	margin: 0 auto;
+}
+
+body.imu-page > .holder
+{
+	margin-left: auto;
+	margin-right: auto;
+	
+	width: 100%;
+	max-width: 95em;
+	min-width: 70em;
+}
+
+/* header
+*/
+.imu-page > .holder > .header 
+{
+	height: 9em;
+}
+
+.imu-page > .holder > .header .image
+{
+	height: 2.5em;
+}
+
+.imu-page > .holder > .header .title
+{
+	font-family: Arial, Helvetica, Tahoma, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 0.3em;
+}
+
+.imu-page button
+{
+	min-width: 6em;
+}	
+
+/* footer
+*/
+.imu-page > .holder > .footer
+{
+	height: 1.5em;
+}
+
+.imu-page > .holder > .footer img
+{
+	max-height: 1.1em;
+	vertical-align: middle;
+}
+
+/* toggle
+*/
+.imu-page > .holder > .toggle
+{
+	font-weight: bold;
+	font-size: 16px;
+}

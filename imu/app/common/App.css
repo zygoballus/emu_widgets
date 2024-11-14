@@ -1,0 +1,16 @@
+.imu-app .loading
+{
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.imu-app .loading > .holder
+{
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40%;
+}

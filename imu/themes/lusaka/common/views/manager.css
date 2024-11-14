@@ -1,0 +1,19 @@
+.imu-manager
+{
+	-moz-border-radius: 0.2em;
+	-webkit-border-radius: 0.2em;
+	border-radius: 0.2em;
+}
+
+.imu-manager > .list > .item
+{
+	border-bottom: solid 1px rgba(200, 200, 200, 0.15);
+}
+
+.imu-manager > .list > .item,
+.imu-manager > .list > .item *
+{
+	height: 1.5em;
+	line-height: 1.5em;
+	vertical-align: middle;
+}

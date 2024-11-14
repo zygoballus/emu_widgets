@@ -1,0 +1,10 @@
+.imu-attachment-control .popout img
+{
+	height:1.3em; 
+}
+.imu-attachment-control .popout
+{
+	height:1.3em;
+	float: right;
+	cursor: pointer;
+}

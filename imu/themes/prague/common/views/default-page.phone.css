@@ -1,0 +1,78 @@
+.imu-default-page > .holder > .header
+{
+	height: 3.5em;
+}
+.imu-default-page > .holder > .header > table,
+.imu-default-page > .holder > .header .logo > a
+{
+	height: 3.25em;
+}
+.imu-default-page > .holder > .sidebar
+{
+	z-index: 2;
+}
+.imu-default-page > .holder > .content
+{
+	left: 0;
+	right: 0;
+}
+
+/* Header styling
+*/
+.imu-default-page > .holder > .header .search
+{
+	width: auto;
+}
+
+.imu-default-page > .holder > .header .logo > a
+.imu-default-page > .holder > .header .imu-keyword-search
+{
+	display: block;
+}
+.imu-default-page > .holder > .header .logo > a
+{
+	width: 5em;
+}
+.imu-default-page > .holder > .header .imu-keyword-search,
+.imu-default-page > .holder > .header .search .toggle
+{
+	width: 100%;
+}
+.imu-default-page > .holder > .header .imu-keyword-search input
+{
+	width: calc(100% - 3.5em);
+}
+.imu-default-page > .holder > .header .imu-keyword-search .submit
+{
+	width: 3.5em;
+}
+
+.imu-default-page > .holder > .header .title,
+.imu-default-page > .holder > .header .language-selection,
+.imu-default-page > .holder > .header .search .label
+{
+	display: none;
+}
+
+.imu-default-page > .holder > .header .search .toggle
+{
+	font-size: small;
+}
+
+/* Sidebar styling
+*/
+.imu-default-page > .holder > .sidebar .search-forms .header
+{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+	flex-wrap: wrap;
+}
+.imu-default-page > .holder > .sidebar .search-forms .header .tab
+{
+	box-sizing: border-box;
+	text-align: center;
+	width: 25%;
+}

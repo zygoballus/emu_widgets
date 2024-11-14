@@ -1,0 +1,82 @@
+.imu-lightbox-viewer .record
+{
+	display: inline-block;
+	height: 9em;
+	margin: 0 0.5em 0.5em 0.5em;
+	max-width: calc(50% - 2em);
+	padding: 0em;
+	position: absolute;
+	width: 8.5em;
+}
+
+.imu-lightbox-viewer .record .holder,
+.imu-lightbox-viewer .record .details
+{
+	width: 100%;
+}
+
+.imu-lightbox-viewer .record .holder
+{
+/*	height: 100%;*/
+	padding: 0;
+}
+
+.imu-lightbox-viewer .record .image
+{
+	background-color: #e8e7d9;
+	height: 8em;
+	margin: 0 auto;
+	padding: 0.25em;
+	width: 8em;
+}
+
+.imu-lightbox-viewer .record .image > div
+{
+	background-color: #ffffff;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: 100%;
+	width: 100%;
+}
+
+.imu-lightbox-viewer .record .details
+{
+	height: 2em;
+	width: calc(100% - 1em);
+}
+
+.imu-lightbox-viewer .record .details h3
+{
+	font-size: 0.75em;
+	max-height: 1.5em;
+	margin: 0;
+	margin-bottom: 0.5em;
+	margin-top: 0.25em;
+}
+
+.imu-lightbox-viewer .record .favorite
+{
+	position: absolute;
+	bottom: 1.5em;
+	right: 0;
+}
+
+@media screen and (min-width: 600px)
+{
+	.imu-lightbox-viewer .record
+	{
+		height: 10em;
+	}
+	
+	.imu-lightbox-viewer .record .details
+	{
+		height: 3em;
+	}
+	
+	.imu-lightbox-viewer .record .details h3
+	{
+		max-height: 2.5em;
+	}
+}

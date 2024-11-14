@@ -1,0 +1,33 @@
+.imu-list-viewer .record
+{
+	height: 10.0em;
+	overflow: hidden;
+	width: 30.0em;	/* minimum */
+}
+.imu-list-viewer .record td
+{
+	vertical-align: top;
+}
+.imu-list-viewer .image-frame
+{
+	background-color: gray;
+	height: 100px;
+	text-align: center;
+	width: 100px;
+}
+.imu-list-viewer .frame .item-image
+{
+	max-height: 90px;
+	max-width: 90px;
+}
+.imu-list-viewer .title
+{
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.imu-list-viewer .description
+{
+	overflow: hidden;
+	height: 7.0em;
+}

@@ -1,0 +1,9 @@
+#tree-viewer-holder
+{
+	overflow: auto;
+}
+
+#tree-viewer-holder a.scroll
+{
+	padding-bottom: 10px;
+}

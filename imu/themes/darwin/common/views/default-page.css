@@ -1,0 +1,286 @@
+body {}
+
+@font-face
+{
+    font-family: Raleway;
+	src: url(../../../dist/common/fonts/Raleway/Raleway-Regular.ttf);
+}
+
+.imu-default-page *
+{
+    font-family: Raleway;
+}
+
+main:empty:before
+{
+	content: "Loading...";
+}
+
+body,
+.imu-default-page,
+.imu-default-page .app-pages > .holder
+{
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+body,
+.imu-default-page,
+.imu-default-page .header > button.toggle .title
+{
+	color: #666;
+}
+body,
+.imu-default-page
+{
+	margin: 0;
+	padding: 0;
+}
+.imu-default-page
+{
+	overflow: auto;
+}
+.imu-default-page > .holder
+{
+	padding: 1em;
+}
+
+.imu-default-page > .holder > .header
+{
+	height: 5em;
+}
+.imu-default-page > .holder > .content
+{
+	height: calc(100% - 4em);
+	min-height: 23em;
+}
+
+.imu-default-page .app-pages,
+.imu-default-page .app-pages > .holder > .page
+{
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+
+.imu-default-page > .holder > .header .logo,
+.imu-default-page > .holder > .header .keyword-search
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.imu-default-page > .holder > .header .logo
+{
+	height: 4em;
+	width: 4em;
+}
+
+.imu-default-page > .holder > .header .imu-keyword-search
+{
+	padding: 0.75em 0;
+	text-align: right;
+}
+
+.imu-default-page > .holder > .header .imu-keyword-search label,
+.imu-default-page > .holder > .header .imu-keyword-search input
+{
+	display: inline-block;
+}
+
+html
+{
+	background: #cccccc; /* TODO: put in client css */
+}
+
+.imu-default-page
+{
+	background: #cccccc; /* TODO: get bg right */
+	font-family: sans-serif; /* TODO: get font family right */
+}
+
+.imu-default-page button
+{
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.imu-default-page input
+{
+	text-indent: 0.25em;
+	text-indent: 0.2rem;
+}
+
+
+.imu-default-page h1
+.imu-default-page h2,
+.imu-default-page h3
+{
+	font-weight: normal;
+}
+
+.imu-default-page h1
+{
+	font-size: 2em;
+	font-size: 2rem;
+
+	margin-bottom: 1em;
+	margin-bottom: 1rem;
+
+	margin-top: 1em;
+	margin-top: 1rem;
+}
+.imu-default-page h2
+{
+	font-size: 1.3em;
+	font-size: 1.3rem;
+	
+	margin-bottom: 1em;
+	margin-bottom: 1rem;
+
+	margin-top: 1em;
+	margin-top: 1rem;
+}
+.imu-default-page h1 + h2
+{
+	margin-top: -1em;
+	margin-top: -1rem;
+}
+
+.imu-default-page .hidden
+{
+	max-height: 0;
+	opacity: 0;
+	overflow: hidden;
+}
+
+.imu-default-page .header > button.toggle,
+.imu-default-page > .holder > .header
+{
+/*  Commented out due to Firefox issues
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+*/
+	width: 100%;
+}
+
+.imu-default-page .header > button.toggle > *,
+.imu-default-page > .holder > .header > *
+{
+	display: inline-block;
+}
+
+
+.imu-default-page .header > button.toggle,
+.imu-default-page .header > button.toggle .icon
+{
+	height: 2em;
+	padding: 0;
+}
+
+.imu-default-page .header > button.toggle .icon
+{
+	width: 2em;
+}
+
+.imu-default-page .header > button.toggle .title
+{
+	font-size: 1.3em;
+	font-size: 1.3rem;
+	line-height: 1.3em;
+}
+
+.imu-default-page .header > button.toggle .icon,
+.imu-default-page .header > button.toggle .title
+{
+	vertical-align: middle;
+}
+
+
+.imu-default-page .icon,
+.imu-default-page > .holder > .header > .logo,
+.imu-default-page .placeholder
+{
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.imu-default-page .toggle.closed .toggle-icon
+{
+	background-image: url('../../../request.php?request=Image&name=arrow-expand');
+}
+.imu-default-page .toggle.open .toggle-icon
+{
+	background-image: url('../../../request.php?request=Image&name=arrow-collapse');
+}
+.imu-default-page .ecatalogue-icon
+{
+	background-image: url('../../../request.php?request=Image&name=ecatalogue-icon');
+}
+.imu-default-page .ecollectionevents-icon
+{
+	background-image: url('../../../request.php?request=Image&name=ecollectionevents-icon');
+}
+.imu-default-page .emultimedia-icon
+{
+	background-image: url('../../../request.php?request=Image&name=emultimedia-icon');
+}
+.imu-default-page .eparties-icon
+{
+	background-image: url('../../../request.php?request=Image&name=eparties-icon');
+}
+
+.imu-default-page .placeholder:empty,
+.imu-default-page .placeholder.unknown-placeholder:empty
+{
+	background-image: url('../../../request.php?request=Image&name=placeholder-image');
+}
+.imu-default-page .placeholder.audio-placeholder:empty
+{
+	background-image: url('../../../request.php?request=Image&name=placeholder-audio');
+}
+.imu-default-page .placeholder.bibliography-placeholder:empty
+{
+	background-image: url('../../../request.php?request=Image&name=placeholder-bibliography');
+}
+.imu-default-page .placeholder.document-placeholder:empty
+{
+	background-image: url('../../../request.php?request=Image&name=placeholder-document');
+}
+.imu-default-page .placeholder.image-placeholder:empty
+{
+	background-image: url('../../../request.php?request=Image&name=placeholder-image');
+}
+.imu-default-page .placeholder.party-placeholder:empty
+{
+	background-image: url('../../../request.php?request=Image&name=placeholder-party');
+}
+.imu-default-page .placeholder.video-placeholder:empty
+{
+	background-image: url('../../../request.php?request=Image&name=placeholder-video');
+}
+
+@media screen and (min-width: 700px)
+{
+	.imu-default-page > .holder > .header
+	{
+		height: 9em;
+	}
+	.imu-default-page > .holder > .header .logo
+	{
+		height: 8em;
+		width: 8em;
+	}
+
+	.imu-default-page > .holder > .content
+	{
+		height: calc(100% - 8em);
+		min-height: 23em;
+	}
+}

@@ -1,0 +1,80 @@
+/* THIS FILE IS BUILT AUTOMATICALLY.
+** DO NOT CHANGE IT DIRECTLY.
+**
+** Built at: 2024-11-14 04:43:49 UTC (2024-11-14 04:43:49 UTC)
+*/
+
+/* Source: ./themes/darwin/common/views/components/search-form.ltr.css
+*/
+.imu-search-form form > .input > .prompt
+{
+    float: left;
+}
+
+.imu-search-form form > .input > .input
+{
+    float: right;
+}
+
+/* Commented out due to Firefox issues.
+
+@supports (display: flex)
+{
+	.imu-search-form form > .input
+    {
+        float: none;
+    }
+}
+*/
+
+/* Source: ./themes/darwin/common/views/viewers/combined-viewer.ltr.css
+*/
+.imu-combined-viewer > .holder > .header > .results
+{
+	float: left;
+}
+.imu-combined-viewer > .holder > .header > .icons
+{
+	float: right;
+}
+
+/* Commented out due to Firefox issues.
+
+@supports (display: flex)
+{
+	.imu-combined-viewer > .holder > .header > .results,
+	.imu-combined-viewer > .holder > .header > .icons
+	{
+		float: none;
+	}
+}
+*/
+
+/* Source: ./themes/darwin/common/views/default-page.ltr.css
+*/
+.imu-default-page > .holder > .header .logo,
+.imu-default-page .header > button.toggle > img,
+.imu-default-page .header > button.toggle > .icon
+{
+	float: left;
+}
+.imu-default-page > .holder > .header .keyword-search,
+.imu-default-page .header > button.toggle > .toggle-icon
+{
+	float: right;
+}
+
+/* Commented out due to Firefox issues.
+
+@supports (display: flex)
+{
+	.imu-default-page > .holder > .header .logo,
+	.imu-default-page > .holder > .header .keyword-search,
+	.imu-default-page .header > button.toggle > img,
+	.imu-default-page .header > button.toggle > .icon,
+	.imu-default-page .header > button.toggle > .toggle-icon
+	{
+		float: none;
+	}
+}
+*/

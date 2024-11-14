@@ -1,0 +1,91 @@
+.imu-welcome-page > .holder > .content
+{
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+
+.imu-welcome-page section.category-selection a
+{
+	color: #B58A5E;
+}
+
+
+.imu-welcome-page .categories
+{
+	text-align: center;
+}
+
+.imu-welcome-page .categories button a
+{
+	height: 2em;
+	text-transform: uppercase;
+}
+
+.imu-welcome-page > .holder > .content > section
+{
+	padding: 1em;
+}
+
+.imu-welcome-page > .holder > .content > section
+{
+	background: #ffffff;
+	margin-bottom: 0.75em;
+	margin-left: auto;
+	margin-right: auto;
+
+	max-width: 45em;
+}
+
+.imu-welcome-page section.category-selection > .holder,
+.imu-welcome-page section.my-collection > .holder,
+.imu-welcome-page section.my-collection > .holder > .header
+{
+	width: 100%;
+}
+
+
+.imu-welcome-page section.category-selection .categories
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.imu-welcome-page section.category-selection .categories button
+{
+	max-width: 50%;
+	min-height: 5em;
+	min-width: 35%;
+	width: 10em;
+}
+
+.imu-welcome-page section.category-selection .categories button .icon
+{
+	height: 5em;
+	width: auto;
+}
+
+.imu-welcome-page section.category-selection .categories button *
+{
+	display: block;
+	margin: 0 auto;
+	vertical-align: top;
+}
+
+.imu-welcome-page section.category-selection > .holder h1,
+.imu-welcome-page section.category-selection > .holder h2
+{
+	font-weight: normal;
+	text-align: center;
+}
+
+
+@media screen and (min-width: 600px)
+{
+	.imu-welcome-page section.category-selection .categories button
+	{
+		margin: auto;
+		min-width: 0;
+	}
+}

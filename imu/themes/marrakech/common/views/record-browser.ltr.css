@@ -1,0 +1,14 @@
+.imu-record-browser .objects .object
+{
+	float: left;
+}
+
+.imu-record-browser .children .child
+{
+	float: left;
+}
+
+.imu-record-browser .associations .association
+{
+	float: left;
+}

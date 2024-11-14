@@ -1,0 +1,94 @@
+/* Setup the theme's default font. By convention we name the font by the theme
+** itself.
+**
+** In this case the font is based on Droid Sans. To avoid any issues with
+** missing fonts or downloading fonts from the web we distribute a version of
+** Droid Sans itself.
+**
+** Be aware that the relative path to the fonts is from the
+** imu/themes/lusaka/css directory to the imu/dist/common/fonts/DroidSans
+** directory.
+*/
+@font-face
+{
+	font-family: 'Lusaka';
+
+	src: url('../../../dist/common/fonts/DroidSans/DroidSans-webfont.eot');
+	src: url('../../../dist/common/fonts/DroidSans/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../../../dist/common/fonts/DroidSans/DroidSans-webfont.woff') format('woff'),
+	     url('../../../dist/common/fonts/DroidSans/DroidSans-webfont.ttf') format('truetype'),
+	     url('../../../dist/common/fonts/DroidSans/DroidSans-webfont.svg#webfont') format('svg');
+}
+@font-face
+{
+	font-family: 'Lusaka';
+	font-weight: bold;
+
+	src: url('../../../dist/common/fonts/DroidSans/DroidSans-Bold-webfont.eot');
+	src: url('../../../dist/common/fonts/DroidSans/DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../../../dist/common/fonts/DroidSans/DroidSans-Bold-webfont.woff') format('woff'),
+	     url('../../../dist/common/fonts/DroidSans/DroidSans-Bold-webfont.ttf') format('truetype'),
+	     url('../../../dist/common/fonts/DroidSans/DroidSans-Bold-webfont.svg#webfont') format('svg');
+}
+
+/* Backgrounds
+*/
+.bg-colour-1
+{
+	background-color: #FFFFFF; /*white*/
+}
+.bg-colour-2
+{
+	background-color: #DCE9F1; /*light-blue*/
+}
+.bg-colour-3
+{
+	background-color: #006BA8; /*dark-blue*/
+}
+.bg-colour-4
+{
+	background-color: #F2F2F2;
+}
+
+/* Borders
+*/
+.border-1
+{
+	border: none;
+}
+.border-2, .border-3, .border-4
+{
+	border: solid 1px;
+}
+.border-2
+{
+	border-color: #DCE9F1; /*light-blue*/
+}
+.border-3
+{
+	border-color: #006BA8; /*dark-blue*/
+}
+.border-4
+{
+	border-color: #E0E0E0;
+}
+
+/* Text colour
+*/
+.txt-colour-1
+{
+	color: #FFFFFF; /*white*/
+}
+.txt-colour-2
+{
+	color: #666666; /*grey*/
+}
+.txt-colour-3
+{
+	color: #006BA8; /*dark-blue*/
+}
+.txt-colour-inherit *
+{
+	/* this is needed for child elements such as input */
+	color: inherit;
+}

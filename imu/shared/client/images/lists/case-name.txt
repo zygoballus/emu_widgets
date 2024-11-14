@@ -1,0 +1,75 @@
+HH|Entrance Cube|Entrance Cube
+HH|Igneous|Igneous Rocks 
+HH|Sedimentary|Sedimentary Rocks
+HH|Metamorphic|Metamorphic Rocks
+HH|Weathering Processes|Weathering Processes
+HH|Entrance |Old Entrance Case
+HH|Mineral Slices|Mineral Slices  
+HH|Crystal Systems|Crystal Systems
+HH|Twins|Twinning in Minerals
+HH|Building Blocks|Earth's Building Blocks
+HH|Properties|Properties of Minerals
+HH|Radioactivity|Radioactivity
+HH|Fluorescence|Fluorescence & Phosphorescence
+HH|Tin Isles|The Tin Isles
+HH|Pegmatite|A Pegmatite Gem Pocket
+HH|Float Copper|Touch a Piece of Float Copper
+HH|Pseudomorphisim|Pseudomorphism in Minerals
+HH|Romania|The Maremures District of Romania 
+HH|U.S.S.R.|Minerals From the Former Soviet Union
+HH|Quartz|Quartz
+HH|India|The Deccan Plateau of India
+HH|Geode|Amethyst Geode
+HH|Bulgaria|The Rhodope Mountains of Bulgaria
+HH|Pennsylvania|Pennsylvania Minerals and Gems
+HH|Economic PA|The Economic Rocks and Minerals of Pennsylvania
+HH|Pittsburgh|The Minerals That Made Pittsburgh
+HH|Native Elements|Native Elements
+HH|Sulfides 1|Sulfides 1
+HH|Sulfosalts|Sulfosalts, Arsenides, Tellurides & Antimonides
+HH|Sulfides 2|Sulfides 2
+HH|Halides|Halides
+HH|Oxides|Oxides & Hydroxides
+HH|Carbonates|Carbonates
+HH|Silicates 1|Silicates 1
+HH|Silicates 2|Silicates 2
+HH|Silicates 3|Silicates 3
+HH|Phosphates|Phosphates, Arsenates & Vanadates
+HH|Sulfates|Sulfates, Borates & Nitrates
+HH|Molybdates|Tungstates, Molybdates, Chromates, Niobates & Tantalates
+HH|Calcite|Calcite
+HH|Microminerals|Microminerals
+HH|Laurium Greece|The Silver Mines of Laurium, Greece
+HH|Masterpiece Gallery|Masterpiece Gallery
+HH|Concretions|Curious Concretions
+HH|Fred's Case|Temporary exhibit
+WG|Jade|Jade
+WG|Gem Beryl|Beryl as a Gemstone
+WG|4Cs Carat|The 4 C's Carat
+WG|4Cs Color|The 4 C's Color
+WG|4Cs Clarity|The 4 C's Clarity
+WG|4Cs Cut|The 4 C's Cut
+WG|What Is a Gem|What is a Gemstone?
+WG|Diamond Replicas|Famous Diamonds
+WG|Gem Quartz|Quartz as a Gemstone
+WG|Ruby Spinel|Spinel
+WG|Birthstones|Birthstones
+WG|Tourmalines|Tourmalines of Brazil
+WG|Amber|Amber
+WG|Treated Stones|Artificial and Treated Stones
+WG|Lapidary Craft|Lapidary Craft
+WG|Asterism|Asterism
+WG|Lapidary Art|Lapidary Art
+WG|Cryptocrystalline Quartz|Small Wonders: The World of Cryptocrystalline Quartz
+WG|Temporary|Temporary exhibits
+HF|Meteorites|Meteorites and Stalagmite
+DH|Dinosaur Hall|Dawn of the Dinosaurs: The Chinle Group
+BH|Fossil Fuel|What's a Fossil Fuel?
+BH|Radiometric|Parents, Daughters, Dating
+BH|What is a Fossil|What is a Fossil?
+BH|What Makes a Rock|What Makes a Rock?
+BH|Rock of Ages|The Rock of Ages
+BH|Which is a Fossil|Which is a Fossil?
+LL|Look and Discover|Look and Discover
+LL|Assayers Exhibit|Life Lab 
+

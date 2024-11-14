@@ -1,0 +1,932 @@
+/* THIS FILE IS BUILT AUTOMATICALLY.
+** DO NOT CHANGE IT DIRECTLY.
+**
+** Built at: 2024-11-14 04:43:49 UTC (2024-11-14 04:43:49 UTC)
+*/
+
+/* Source: ./themes/colombo/common/views/page.css
+*/
+/****************************************************************
+** 
+** Colours and fonts
+**
+****************************************************************/
+
+/* Clear unwanted shared styles
+*/
+.selected
+{
+	background-color: inherit;
+}
+
+/* Background colour scheme
+*/
+.imu-page .bg-colour-1 
+{
+	background-color: #2f3741;
+}
+.imu-page .bg-colour-2 
+{
+	background-color: #b6c6cd;
+}
+.imu-page .bg-colour-3 
+{
+	background-color: #d7dfe2;
+}
+.imu-page .bg-colour-4 
+{
+	background-color: #ffffff;
+	outline: #d7dfe2;
+}
+.imu-page .bg-colour-5 
+{
+	background-color: #ffffff;
+}
+
+/* Text colour scheme
+*/
+.imu-page .colour-1
+{
+	color: #2f3741;
+}
+.imu-page .colour-2
+{
+	color: #b6c6cd;
+}
+.imu-page .colour-3
+{
+	color: #d7dfe2;
+}
+.imu-page .colour-4
+{
+	color: #ffffff;
+}
+
+/* Border colour scheme
+*/
+.imu-page .border-1
+{
+	border-color: #2f3741;
+}
+.imu-page .border-2
+{
+	border-color: #b6c6cd;
+}
+.imu-page .border-3
+{
+	border-color: #d7dfe2;
+}
+.imu-page .border-4
+{
+	border-color: #ffffff;
+}
+
+/* This is pretty slack.
+** Other colours are only set here because we need
+** to use the hover/other attributes and I haven't come up with a more elegant
+** solution.
+*/
+.imu-page button
+{
+	background-color: transparent;
+	border: none;
+	color: #2f3741;
+}
+.imu-page button:hover
+{
+	color: #ffffff;
+}
+.imu-page button:active
+{
+	color: #b6c6cd;
+}
+.imu-page button:focus
+{
+	outline: none;
+}
+.imu-page > .holder > .header .controls .button:hover,
+.imu-page > .swipe > .swipe-wrap > .holder > .header .controls .button:hover
+{
+/*	background-color: rgba(255, 255, 255, 0.3);*/
+}
+
+/* Fonts
+*/
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url(http://themes.googleusercontent.com/static/fonts/droidsans/v4/s-BiyweUPV0v-yRb-cjciBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/droidsans/v4/EFpQQyG9GqCrobXxL-KRMQFhaRv2pGgT5Kf0An0s4MM.woff) format('woff');
+}
+
+
+.imu-page .font-1
+{
+	font-family: "Droid Sans";
+	font-size: 12pt;
+	line-height: 14pt;
+}
+.imu-page .font-2
+{
+	font-family: "Droid Sans";
+	font-size: 10pt;
+	line-height: 10pt;
+}
+.imu-page .font-3
+{
+	font-family: "Droid Sans";
+	font-size: 8pt;
+	line-height: 8pt;
+}
+
+
+/* Screen overlay
+*/
+.imu-page .overlay
+{
+	background-color: rgba(200, 200, 200, 0.8);
+	opacity: 0;
+}
+
+/* Scrollbar
+*/
+/*
+::-webkit-scrollbar
+{
+	opacity: 0;
+	width: 0;
+}
+*/
+
+/****************************************************************
+** 
+** Swipe style
+**
+****************************************************************/
+
+.swipe
+{
+	overflow-x: hidden;
+	overflow-y: visible;
+	visiblity: hidden;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.swipe-wrap
+{
+	overflow-x: hidden;
+	overflow-y: visible;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.swipe-wrap > div
+{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+/****************************************************************
+** 
+** Page Elements
+**
+****************************************************************/
+
+body.imu-page
+{
+	background-color: #ffffff;
+	height: 100%;
+	margin: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.imu-page > .holder,
+.imu-page > .swipe > .swipe-wrap > .holder
+{
+	height: 100%;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	right: 0;
+	width: 100%;
+}
+
+/* Initial display
+*/
+.imu-page > .holder > .header {	opacity: 0.0; }
+.imu-page > .swipe > .swipe-wrap > .holder > .header {	opacity: 0.0; }
+.imu-page > .holder > .content{	opacity: 0.0; }
+.imu-page > .swipe > .swipe-wrap > .holder > .content{	opacity: 0.0; }
+.imu-page > .holder > .footer {	opacity: 0.0; }
+.imu-page > .swipe > .swipe-wrap > .holder > .footer {	opacity: 0.0; }
+
+.imu-page > .holder > .header .imu-keyword-search,
+.imu-page > .swipe > .swipe-wrap > .holder > .header .imu-keyword-search
+{
+	display: none;
+}
+
+
+/* Toggling icons
+*/
+.imu-page .button img
+{
+	display: none;
+	height: 100%;
+	width: 100%;
+	visibility: hidden;
+}
+.imu-page .button.deselected img.deselected
+{
+	display: inline;
+	visibility: visible;
+}
+.imu-page .button.selected img.selected
+{
+	display: inline;
+	visibility: visible;
+}
+.imu-page .button:hover img.deselected,
+.imu-page .button:hover img.pressed
+{
+	display: none;
+	visibility: hidden;
+}
+.imu-page .button:hover img.selected
+{
+	display: inline;
+	visibility: visible;
+}
+/* TODO: this doesn't seem to work as expected*/
+.imu-page .button:active img.deselected
+{
+	display: none;
+	visibility: hidden;
+}
+.imu-page .button:active img.selected
+{
+	display: inline;
+	visibility: visible;
+	opacity: 0.5;
+}
+.imu-page .button:hover
+{
+	cursor: pointer;
+}
+
+
+/* Header 
+*/
+.imu-page > .holder > .header,
+.imu-page > .swipe > .swipe-wrap > .holder .header
+{
+	margin-left: auto;
+	margin-right: auto;
+	top: 0;
+	width: 58em;
+}
+.imu-page > .swipe > .swipe-wrap > .holder .header
+{
+	width: 100%;
+}
+.imu-page > .holder > .header > table > tbody > tr > td,
+.imu-page > .swipe > .swipe-wrap > .holder > .header > table > tbody > tr > td
+{
+	vertical-align: top;
+}
+.imu-page > .holder > .header .controls .search *,
+.imu-page > .swipe > .swipe-wrap > .holder > .header .controls .search *
+{
+	padding: 0;
+}
+.imu-page > .holder > .header .controls .search .imu-keyword-search .holder,
+.imu-page > .swipe > .swipe-wrap > .holder > .header .controls .search .imu-keyword-search .holder
+{
+	white-space: nowrap;
+}
+.imu-page > .holder > .header .controls .search .imu-keyword-search .input,
+.imu-page > .swipe > .swipe-wrap > .holder > .header .controls .search .imu-keyword-search .input
+{
+	border: 0;
+	border-radius: 0;
+}
+.imu-page > .holder > .header .controls .search .button,
+.imu-page > .swipe > .swipe-wrap > .holder > .header .controls .search .button
+{
+	padding: 0em;		/* Can alter this value in client */
+}
+
+.imu-page > .holder > .header .controls .imu-button-control,
+.imu-page > .holder > .header .controls .imu-button-control .graphic
+{
+	height: 1.5em;
+	width: 1.5em;
+}
+
+.imu-page > .holder > .header .categories ul,
+.imu-page > .swipe > .swipe-wrap >.holder > .header .categories ul
+{
+	margin: 0;
+	padding: 0;
+}
+.imu-page > .holder > .header .categories li,
+.imu-page > .swipe > .swipe-wrap >.holder > .header .categories li
+{
+	display: inline;
+}
+.imu-page > .holder > .header .categories li:after,
+.imu-page > .swipe > .swipe-wrap >.holder > .header .categories li:after
+{
+	content: " / ";
+}
+.imu-page > .holder > .header .categories li:last-child:after,
+.imu-page > .swipe > .swipe-wrap >.holder > .header .categories li:last-child:after
+{
+	content: "";
+}
+
+.imu-page > .holder > .header .categories a,
+.imu-page > .swipe > .swipe-wrap >.holder > .header .categories a
+{
+	cursor: pointer;
+}
+
+/* Content
+*/
+.imu-page > .holder > .content,
+.imu-page > .swipe > .swipe-wrap > .holder > .content
+{
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 58em;
+}
+.imu-page > .swipe > .swipe-wrap > .holder > .content
+{
+	width: 100%;
+}
+
+/* Search forms
+*/
+.imu-page > .holder > .search,
+.imu-page > .swipe > .swipe-wrap > .search
+{
+	z-index: 10000;
+}
+.imu-page > .holder > .search > .holder .searches-label,
+.imu-page > .swipe > .swipe-wrap > .search > .holder .searches-label
+{
+	font-weight: bold;
+}
+.imu-page > .holder > .search > .holder .close-search-button,
+.imu-page > .swipe > .swipe-wrap > .search > .holder .close-search-button
+{
+	width: 1.5em;
+}
+.imu-page > .holder > .search .searches.imu-widget > .holder,
+.imu-page > .swipe > .swipe-wrap > .search .searches.imu-widget > .holder
+{
+	width: 100%;
+}
+.imu-page > .holder > .search .searches.imu-widget .imu-search-form, 
+.imu-page > .swipe > .swipe-wrap > .search .searches.imu-widget .imu-search-form 
+{
+	padding-top: 1.5em;
+}
+.imu-page > .holder > .search .searches.imu-widget .imu-search-form > .holder,
+.imu-page > .swipe > .swipe-wrap > .search .searches.imu-widget .imu-search-form > .holder
+{
+	background-color: transparent;
+}
+.imu-page > .holder > .search .searches.imu-widget .imu-search-form .row,
+.imu-page > .swipe > .swipe-wrap > .search .searches.imu-widget .imu-search-form .row
+{
+	padding-bottom: 0.5em;
+}
+.imu-page > .holder > .search .searches.imu-widget .imu-search-form .prompt,
+.imu-page > .swipe > .swipe-wrap > .search .searches.imu-widget .imu-search-form .prompt
+{
+	font-weight: bold;
+	min-width: 10em;
+}
+.imu-page > .holder > .search .input,
+.imu-page > .swipe > .swipe-wrap > .search .searches.imu-widget .imu-search-form .input
+{
+	border: 0;
+	border-radius: 0;
+}
+.imu-page > .holder > .search .searches.imu-widget .imu-search-form .button,
+.imu-page > .swipe > .swipe-wrap > .search .searches.imu-widget .imu-search-form .button
+{
+	padding-bottom: 0.1em;
+	padding-top: 0.1em;
+}
+.imu-page > .holder > .search > .holder,
+.imu-page > .swipe > .swipe-wrap > .search > .holder
+{
+	height: 100%;
+	position: relative;
+}
+
+.imu-page > .holder > .search.none,
+.imu-page > .swipe > .swipe-wrap > .search.none,
+.imu-page > .holder > .search.popup
+{
+	display: none;
+	opacity: 0;
+}
+
+.imu-page > .holder > .search.popup,
+.imu-page > .swipe > .swipe-wrap > .search.popup
+{
+	bottom: 0em;
+	left: 0;
+	margin: 3em;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.imu-page > .holder > .search.popup > .holder,
+.imu-page > .swipe > .swipe-wrap > .search.popup > .holder
+{
+	padding: 0.8em;
+}
+
+/*.imu-page > .holder > .search.slide, */
+.imu-page > .holder > .search.slide 
+{
+	bottom: 0;
+	height: 100%;
+	left: -100%;
+	position: fixed;
+	top: 0;
+	right: 100%;
+}
+
+.imu-page > .holder > .search.slide .imu-keyword-search
+{
+	height: 3em;
+}
+
+.imu-page > .holder > .search.slide .imu-keyword-search > .holder
+{
+	left: 0;
+	position: absolute;
+	right: 0;
+}
+
+.imu-page > .holder > .search.slide .imu-keyword-search img
+{
+	height: 2em;
+	margin: 0.5em;
+	position: absolute;
+	width: 2em;
+	z-index: 1;
+}
+
+.imu-page > .holder > .search.slide .imu-keyword-search input
+{	
+	height: 2.5em;
+	margin: 0.5em;
+	padding: 0;
+	width: 100%;
+}
+.imu-page > .holder > .search.slide .imu-keyword-search button
+{
+	height: 2.5em;
+	margin: 0.5em;
+}
+
+.imu-page > .holder > .search.slide > .holder > .advanced-search
+{
+	bottom: 3em;
+	left: 0;
+	top: 3em;
+	right: 0;
+}
+
+/* Source: ./themes/colombo/common/views/record-details.css
+*/
+/* Header
+*/
+.imu-record-details .record > .header > .holder,
+.imu-record-details .record > .header > .holder > table
+{
+	width: 100%;
+}
+.imu-record-details .record > .header > .holder > table
+{
+	height: 100%;
+}
+.imu-record-details .record > .header .image
+{
+	width: 1%;
+}
+.imu-record-details .record > .header .summary ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.imu-record-details .record > .header .final
+{
+	position: relative;
+}
+.imu-record-details .record > .header .favorite
+{
+	bottom: 0.5em;
+	background-color: transparent;
+	height: 1.5em;
+	position: absolute;
+	width: 1.5em;
+}
+
+/* Media
+*/
+.imu-record-details .record > .multimedia
+{
+	border-bottom: solid;
+	border-width: 0.15em;
+
+	height: 25em;
+}
+.imu-record-details .record > .multimedia > table
+{
+	border-spacing: 0px;
+	height: 25em;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	table-layout: fixed;
+	width: 100%;
+}
+.imu-record-details .record > .multimedia table td
+{
+	padding: 0;
+}
+
+.imu-record-details .record > .multimedia > table > tbody > tr
+{
+	text-align: center;
+}
+.imu-record-details .record > .multimedia .multimedia-cell
+{
+	height: 22em;
+}
+.imu-record-details .record > .multimedia .multimedia-cell > .multimedia
+{
+	height: 20em;
+}
+
+/* TODO: get icons */
+.imu-record-details .record > .multimedia .mm-tab 
+{
+	height: 1%;
+	text-align: center;
+}
+.imu-record-details .record > .multimedia .mm-tab .imu-button-control
+{
+	background-color: transparent;
+	display: inline-block;
+	height: 2em;
+	margin: 0.1em;
+	width: 2em;
+}
+
+/* Images and videos */
+/* TODO: box positioning after it has been tested */
+.imu-record-details .record > .multimedia .slidesjs-slide img
+{
+	max-height: 100%;
+	max-width: 100%;
+}
+.imu-record-details .record > .multimedia .slidesjs-navigation
+{
+	display: none; /* TODO: just to clear some space on screen for now */
+}
+.imu-record-details .record > .multimedia .slidesjs-pagination
+{
+	list-style: none;
+	margin-left: auto;
+	margin-top: 6px;
+	margin-right: auto;
+	padding: 0;
+	text-align: center;
+}
+.imu-record-details .record > .multimedia .slidesjs-pagination li
+{
+	display: inline-block;
+	margin: 0 1px;
+}
+.imu-record-details .record > .multimedia .slidesjs-pagination li a
+{
+	display: block;
+	width: 13px;
+	height: 0;
+	padding-top: 13px;
+	background-image: url(../common/images/pagination.png);
+	background-position: 0 0;
+	float: left;
+	overflow: hidden;
+}
+.imu-record-details .record > .multimedia .slidesjs-pagination li a.active,
+.imu-record-details .record > .multimedia .slidesjs-pagination li a:hover.active 
+{
+	background-position: 0 -13px;
+}
+.imu-record-details .record > .multimedia .slidesjs-pagination li a:hover
+{
+	background-position: 0 -26px;
+}
+.imu-record-details .record > .multimedia .imu-multimedia-plugin
+{
+	height: 20em;
+	width: 20em;
+	/* temporary until scroll plugin used
+	padding-bottom: 20px;
+	*/
+
+	/* needed for vertically aligning images */
+	line-height: 20em;
+}
+
+/* Map */
+.imu-record-details .record > .multimedia .map-cell
+{
+}
+.imu-record-details .record > .multimedia .map-cell > .imu-map-viewer
+{
+	height: 100%;
+	width: 100%;
+	left: 0;
+	right: 0;
+}
+/* NASTY!!!
+** Unfortunately open layers apply !important css. Adding our own is lazy but
+** the issue might need a bit of investigation.
+** - Phil
+*/
+.imu-record-details .record > .multimedia .map-cell .olMap
+{
+	margin: 0 auto !important;
+	width: 100% !important;
+}
+/* hide toggle options if only one option exists */
+.imu-record-details .record > .multimedia .mm-tab .imu-button-control:first-child:last-child,
+.imu-record-details .record > .multimedia .slidesjs-pagination li:first-child:last-child 
+{
+	opacity: 0;
+	visibility: hidden;
+}
+
+/* Content
+*/
+.imu-record-details .record > .content *
+{
+	font-style: italic;
+	vertical-align: top;
+}
+.imu-record-details .record > .content > table
+{
+	width: 100%;
+}
+.imu-record-details .record > .content > table .sub-header
+{
+	color: #b6c6cd;
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: bold;
+	padding-bottom: 0.15em;
+}
+
+.imu-record-details .record > .content tr.section-first-row > *
+{
+	padding-top: 0.8em;
+}
+.imu-record-details .record > .content tr.section-last-row > *
+{
+	padding-bottom: 0.2em;
+}
+.imu-record-details .record > .content .prompt
+{
+	font-style: normal;
+	width: 10em;
+}
+
+/* Related records
+*/
+
+/* Source: ./themes/colombo/common/views/details-viewer.css
+*/
+.imu-details-viewer .record
+{
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 0.5em;
+}
+
+.imu-record-details .record .header
+{
+	height: 5.5em;
+}
+.imu-record-details .record .header > .holder
+{
+	height: 100%;
+}
+
+.imu-record-details .record .header table
+{
+	border-collapse: collapse;
+}
+
+/* Thumbnail
+*/
+.imu-record-details .record .header .image 
+{
+	padding: 0.4em;
+}
+.imu-record-details .record .header .image img
+{
+	height: 4.5em;
+}
+
+/* Summary
+*/
+.imu-record-details .record .header .summary,
+.imu-record-details .record .header .final
+{
+	padding-top: 0.5em;
+	vertical-align: top;
+}
+
+/* Final
+*/
+.imu-record-details .record .header .final
+{
+	min-width: 6em;
+	padding: 0.5em;
+}
+
+/* Source: ./themes/colombo/common/views/explore.css
+*/
+body.imu-page 
+{
+	overflow-y: auto;
+}
+
+
+.imu-explore
+{
+	padding-bottom: 25%;
+}
+
+.imu-explore > .sidebar
+{
+	height: 4em;
+	position: fixed;
+	top: 50%;
+	width: 2em;
+	z-index: 1;
+}
+.imu-explore > .sidebar > .imu-button-control
+{
+	height: 100%;
+	width: 100%;
+}
+.imu-explore > .sidebar > .imu-button-control .graphic
+{
+ 	height: 100%;
+	width: 100%;
+}
+
+.imu-explore > .content > table
+{
+	border-spacing: 0.3em;
+	min-height: 100%;
+	width: 100%;
+}
+
+/* Records
+*/
+.imu-explore .record
+{
+	cursor: pointer;
+	margin-bottom: 0.5em;
+/*	width:100%;*/
+}
+
+.imu-explore .record > img
+{
+	margin: 0%;
+	width: 100%;
+}
+
+.imu-explore .record > .info
+{
+	border-spacing: 0;
+	/*
+	padding: 0.3em;
+	*/
+	padding: 1% 2%;
+	width: 100%;
+}
+.imu-explore .record > .info td
+{
+	font-size: 0.8em;
+	height: 1em;
+	margin-top: 1em;
+	padding: 0.25em;
+	vertical-align: top;
+}
+.imu-explore .record > .info .record-label-1 td
+{
+	font-size: 1em;
+	font-weight: bold;
+}
+/*
+.imu-explore .record > .info tr:nth-last-child(2) td
+{
+	height: 0;
+}
+*/
+
+/* TODO: mark for deletion later
+.imu-explore .record > .info td.last-row
+{
+	border-top-style: solid;
+	border-top-width: 1px;
+	font-weight: normal;
+	vertical-align: middle;
+}
+.imu-explore .record > .info td.last-row .favorite
+{
+	height: 1.5em;
+	width: 1.5em;
+}
+*/
+
+
+.imu-explore .record > .footer
+{
+	border-top: 1px solid;
+	cursor: default;
+	height: 1.5em;
+	padding: 0 0%;
+	width: 100%;
+}
+.imu-explore .record > .footer .imu-button-control
+{
+	background-color: transparent;
+	display: inline-block;
+	height: 1.5em;
+	width: 1.5em;
+}
+.imu-explore .record > .footer .imu-button-control .graphic
+{
+	margin: 0.2em;
+}
+.imu-explore .record > .footer .text
+{
+	display: inline-block;
+/*	margin-top: 0.25em;*/
+	vertical-align: super;
+}
+
+
+/* Footer
+*/
+.imu-explore > .footer
+{
+	width: 100%;
+}
+
+.imu-explore > .footer > .imu-button-control
+{
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+}	
+.imu-explore > .footer .imu-button-control .state-loading
+{
+	height: 2em;
+	width: 4em;
+}
+
+.imu-explore > .footer .imu-button-control .to-top,
+.imu-explore > .footer .imu-button-control .to-top .graphic
+{
+	height: 2em;
+	width: 2em;
+}

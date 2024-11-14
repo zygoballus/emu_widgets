@@ -1,0 +1,22 @@
+.imu-my-collections.owner
+{
+	padding: 0.3em;
+}
+
+.imu-my-collections .holder
+{
+	background-color: #eeeeee;
+	color: #000000;
+}
+
+.imu-my-collections .label
+{
+	font-weight: bold;
+}
+
+.imu-my-collections .header button
+{
+	background-color: inherit;
+	border: 0px;
+	margin: 0;
+}

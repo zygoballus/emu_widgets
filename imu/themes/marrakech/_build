@@ -1,0 +1,7 @@
+theme	marrakech
+title	ar مراكش
+title	en Marrakech
+title	fr Marrakech
+include	common
+include	client
+include	local

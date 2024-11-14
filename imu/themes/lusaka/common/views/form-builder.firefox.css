@@ -1,0 +1,9 @@
+.imu-form-builder.custom-layout .row .column > .holder > table > tbody > tr > td
+{
+	padding-bottom: 1em;
+}
+.imu-form-builder.custom-layout .row .column > .holder > table > tbody > tr.last-row > td,
+.imu-form-builder.custom-layout .row .column > .holder > table > tbody > tr.padding > td
+{
+	padding-bottom: 0;
+}

@@ -1,0 +1,11 @@
+include tabbed-display
+include combined-viewer
+include page
+include default-page
+include record-details
+include details-viewer
+include lightbox-viewer
+include list-viewer
+include explore
+include widget-browser
+include record-browser

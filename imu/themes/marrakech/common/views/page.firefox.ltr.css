@@ -1,0 +1,35 @@
+/* background
+*/
+.imu-page > .holder > .background .bg4
+{
+	background-image: -moz-linear-gradient(
+    	0deg,
+		rgba(0, 0, 0, 0) 0%,
+		rgba(0, 0, 0, 1) 100%);
+}
+
+.imu-page > .holder > .background .bg5
+{
+	background-image: -moz-linear-gradient(
+        -45deg,
+		rgba(160, 160, 160, 0.3) 0%,
+		rgba(160, 160, 160, 0.3) 3%,
+		transparent 4%,
+		transparent 46%,
+		rgba(160, 160, 160, 0.3) 47%,
+		rgba(160, 160, 160, 0.3) 53%,
+		transparent 54%,
+		transparent 96%,
+		rgba(160, 160, 160, 0.3) 97%,
+		rgba(160, 160, 160, 0.3) 100%);
+}
+
+/* footer
+*/
+.imu-page > .holder > .footer
+{
+	background-image: -moz-linear-gradient(
+        left,
+		rgba(0, 0, 0, 1),
+		rgba(0, 0, 0, 0));
+}

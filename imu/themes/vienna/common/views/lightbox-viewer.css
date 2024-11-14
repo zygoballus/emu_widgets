@@ -1,0 +1,50 @@
+.imu-lightbox-viewer .record
+{
+	height: 20.0em;
+	overflow: hidden;
+	padding: 0.5em;
+	width: 20.0em;		/* minimum */
+}
+
+.imu-lightbox-viewer .frame
+{
+	background-color: gray;
+	height: 18.0em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 18.0em;
+}
+
+.imu-lightbox-viewer .frame img
+{
+	max-height: 17.0em;
+	max-width: 17.0em;
+}
+
+.imu-lightbox-viewer .no-image
+{
+	height: 80%;
+	width: 80%;
+	margin: 1.8em 0;
+}
+
+.imu-lightbox-viewer .info
+{
+	height: 1.5em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 18.0em;
+}
+
+.imu-lightbox-viewer .title
+{
+	cursor: pointer;
+	font-weight: bold;
+	width: 15.5em;
+}
+
+.imu-lightbox-viewer .select
+{
+	width: 1.5em;
+}

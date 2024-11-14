@@ -1,0 +1,61 @@
+/* Image capture needs different styling to other control widgets otherwise it
+   breaks. 
+*/
+
+.imu-image-control > .table,
+.imu-image-control > .table > .table-row,
+.imu-image-control > .table > .table-row > .table-cell
+{
+	display: block;
+	height: 100%;
+}
+.imu-image-control > .table > .table-row > .table-cell.icon
+{
+	display: none;
+}
+
+.olControlNavToolbar div,
+.olControlEditingToolbar div 
+{
+	background-image: url('../shared/common/images/rde_polgygon_icons.png')!important;
+
+}
+
+.olControlRemoveCurrentLayerItemActive
+{
+	background-position: -130px -1px;
+}
+
+.olControlRemovePolygonItemInactive
+{
+	background-position: -52px 1px;
+}
+
+div.olControlZoom a 
+{
+	background: #006BA8; /* fallback for IE */
+	background: rgba(0, 100, 165, 1)!important;
+}
+
+div.olControlZoom a:hover 
+{
+	background: #8bb9d6; /* fallback for IE */
+	background: rgba(0, 100, 165, 0.5)!important;
+}
+
+.imu-image-control svg
+{
+	height: auto;
+	width: auto;
+}
+
+.imu-image-control .olControlNoSelect > .layersDiv > .baseLayersDiv > input
+{
+	vertical-align: inherit;
+	width: auto;
+}
+
+.imu-image-control .olControlLayerSwitcher
+{
+	display: none;
+}

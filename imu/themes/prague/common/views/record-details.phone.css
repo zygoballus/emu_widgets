@@ -1,0 +1,82 @@
+.imu-record-details
+{
+	box-sizing: border-box;
+	padding: 0.25em;
+}
+
+.imu-record-details .summary > table,
+.imu-record-details .summary > table > tbody,
+.imu-record-details .summary > table > tbody > tr,
+.imu-record-details .summary > table > tbody > tr > td
+{
+	display: block;
+}
+
+/* Title & select
+*/
+.imu-record-details .title,
+.imu-record-details .select-cell
+{
+	display: inline-block;
+	vertical-align: top;
+}
+.imu-record-details .title
+{
+	min-height: 4em;
+	width: calc(100% - 1.5em);
+}
+.imu-record-details .select-cell
+{
+	float: right;
+	width: 1.5em;
+}
+
+/* Details
+*/
+.imu-record-details .info table tr td.prompt
+{
+	padding-top: 0.5em;
+	width: 100%;
+}
+
+
+/* Multimedia
+*/
+.imu-record-details .multimedia-cell > .imu-multimedia-plugin
+{
+	height: auto;
+	line-height: normal;
+	min-height: 12em;
+}
+.imu-record-details .multimedia-cell > .imu-multimedia-plugin,
+.imu-record-details .multimedia-cell > .multimedia-scroller
+{
+	width: 100%;
+}
+.imu-record-details .multimedia-cell > .multimedia-scroller,
+.imu-record-details .multimedia-cell > .multimedia-scroller .imu-multimedia-plugin
+{
+	height: 6em;
+	line-height: 6em;
+}
+.imu-record-details .multimedia-cell > .multimedia-scroller .imu-multimedia-plugin
+{
+	width: 6em;
+}
+
+.imu-record-details .record .multimedia-scroller > .holder
+{
+	min-width: 100%;
+}
+.imu-record-details .record .multimedia-scroller > .holder > .view
+{
+	min-width: calc(100% - 2.4em);
+}
+
+.imu-record-details .section > .items > .item
+{
+	float: none;
+	margin: none;
+	margin-bottom: 0.25em;
+	width: 100%;
+}

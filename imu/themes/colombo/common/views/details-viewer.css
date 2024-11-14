@@ -1,0 +1,48 @@
+.imu-details-viewer .record
+{
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 0.5em;
+}
+
+.imu-record-details .record .header
+{
+	height: 5.5em;
+}
+.imu-record-details .record .header > .holder
+{
+	height: 100%;
+}
+
+.imu-record-details .record .header table
+{
+	border-collapse: collapse;
+}
+
+/* Thumbnail
+*/
+.imu-record-details .record .header .image 
+{
+	padding: 0.4em;
+}
+.imu-record-details .record .header .image img
+{
+	height: 4.5em;
+}
+
+/* Summary
+*/
+.imu-record-details .record .header .summary,
+.imu-record-details .record .header .final
+{
+	padding-top: 0.5em;
+	vertical-align: top;
+}
+
+/* Final
+*/
+.imu-record-details .record .header .final
+{
+	min-width: 6em;
+	padding: 0.5em;
+}

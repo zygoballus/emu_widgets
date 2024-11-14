@@ -1,0 +1,154 @@
+/* Functional requirements.
+** Do not change.
+*/
+.imu-highlights-banner .dynamicContent .slide
+{
+	width: 100%;
+}
+
+.imu-highlights-banner > .holder,
+.imu-highlights-banner > .holder > .stickyContent,
+.imu-highlights-banner > .holder > .dynamicContent,
+.imu-highlights-banner > .holder > .dynamicContent .slide,
+.imu-highlights-banner > .holder > .dynamicContent .image,
+.imu-highlights-banner > .holder > .dynamicContent .content
+{
+	height: 100%;
+}
+
+.imu-highlights-banner > .holder,
+.imu-highlights-banner .dynamicContent .slide
+{
+	position: relative;
+}
+.imu-highlights-banner > .holder > .stickyContent,
+.imu-highlights-banner > .holder > .dynamicContent
+{
+	position: absolute;
+}
+
+/* While widget is loading
+** Toggling classes method was used over show/hide to prevent
+** conflicts caused by inline styling.
+*/
+.imu-highlights-banner.delay .stickyContent,
+.imu-highlights-banner.delay .dynamicContent
+{
+	display: none;
+}
+
+
+/* If no sticky content
+*/
+.imu-highlights-banner > .holder > .stickyContent:empty
+{
+	display: none;
+	width: 0;
+}
+.imu-highlights-banner > .holder > .stickyContent:empty + .dynamicContent
+{
+	left: 0;
+}
+
+.imu-highlights-banner > .holder > .dynamicContent,
+.imu-highlights-banner > .holder > .dynamicContent .image
+{
+	overflow: hidden;
+}
+
+.imu-highlights-banner > .holder > .dynamicContent .image img
+{
+	display: block;
+	height: auto;
+	max-height: 100%;
+	width: auto;
+
+	margin-left: auto;
+}
+
+.imu-highlights-banner > .holder > .dynamicContent .image,
+.imu-highlights-banner > .holder > .dynamicContent .content
+{
+	position: absolute;
+}
+.imu-highlights-banner > .holder > .dynamicContent .content
+{
+	vertical-align: top;
+}
+
+/* Errors */
+.imu-highlights-banner .error-message
+{
+	padding: 3em;
+	text-align: center;
+}
+
+/* Some arbitrary settings.
+** Obviously this can be customized in css files elsewhere.
+*/
+
+/* :link means only a elements with href attr are styled */
+.imu-highlights-banner a.view-all:hover,
+.imu-highlights-banner a:link:hover
+{
+	cursor: pointer;
+}
+
+.imu-highlights-banner
+{
+	height: 15rem;
+}
+
+.imu-highlights-banner > .holder > .stickyContent
+{
+	width: 15rem;
+}
+.imu-highlights-banner > .holder > .dynamicContent
+{
+	left: 15rem;	/* Same value as stickyContent content width */
+	right: 0;
+}
+
+.imu-highlights-banner .dynamicContent .image
+{
+	left: 0;
+	right: 11.5rem; /* same as content width */
+}
+.imu-highlights-banner .dynamicContent .content
+{
+	right: 0;
+	width: 11.5rem;
+}
+
+/* Ideas for theme or client style.
+.imu-highlights-banner > .holder > .dynamicContent .image
+{
+	/* Set if client wants text to overlap image.
+	**
+	right: 0;
+	*/
+
+	/* Set if padding between image and other elements is to be different
+	** than text area.
+	** For example, the client might create supplementary images that 
+	** fade to white, in which case setting the background to white would be 
+	** ideal.
+	**
+	** background: #ffffff;
+	*/
+
+	/* Set if client wants image to sit to left, but not let text overflow.
+	** (where 11.5rem is size of text area)
+	**
+	left: 0;
+	right: auto;
+	max-width: calc(100% - 11.5rem); 
+	*/
+
+	/* Set a value if the image shouldn't be shrunk beyond a set point.
+	**
+	min-width: auto;
+	*/
+/*	
+}
+*/

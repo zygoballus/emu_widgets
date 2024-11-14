@@ -1,0 +1,7 @@
+include default-page
+include mineralogy-page
+include record-details
+include details-viewer
+include lightbox-viewer
+include combined-viewer
+include page

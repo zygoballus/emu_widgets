@@ -1,0 +1,10 @@
+include	base
+include	dist
+include	utils
+include	requests
+include	plugins
+include	widgets
+include	shared
+include	themes
+include app
+include	config

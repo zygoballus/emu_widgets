@@ -1,0 +1,22 @@
+include	json3
+include	jquery-1.8.1
+include	jquery.autoellipsis-1.0.10
+include	jquery.ba-hashchange
+include	jquery.form
+include	jquery.imagesloaded
+include jquery.maskedinput
+include	jquery.mousewheel
+include jquery.slides.js
+include jquery.splendid.textchange.js
+include jquery-ui-1.9.0.custom/js/jquery-ui-1.9.0.custom.min.js
+import	jquery-ui-1.9.0.custom/css/imu/jquery-ui-1.9.0.custom.css
+include jquery-ui-timepicker-addon.js
+include	slimbox-2.04/js/slimbox2.js
+import	slimbox-2.04/css/slimbox2.css
+include transit.js
+include TweenMax.js
+
+include fonts
+include globalize
+
+include	aliases.js

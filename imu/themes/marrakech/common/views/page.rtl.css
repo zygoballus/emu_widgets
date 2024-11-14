@@ -1,0 +1,80 @@
+/* header                                                                       
+*/                                                                              
+.imu-page .header
+{
+	padding-left: 1.5em;
+}
+
+.imu-page .header .near .item                                                   
+{                                                                               
+    padding-right: 0.3em;                                                       
+}                                                                               
+                                                                                
+.imu-page > .holder > .header > .background1
+{
+	float: right;
+    right: -2.2em;
+}                                                                               
+                                                                                
+.imu-page > .holder > .header > .background1 > .background2
+{                                                                               
+    right: 0;
+}               
+
+.imu-page > .holder > .header > .navigation
+{
+	float: left;
+}
+.imu-page > .holder > .header > .navigation > div
+{
+	float: left;
+}
+
+/* background
+*/
+.imu-page > .holder > .background .bg1
+{                                                                               
+    float: right;
+    right: 0;
+}
+
+.imu-page > .holder > .background .bg2                                    
+{                                                                               
+	right: 0;
+}
+
+.imu-page > .holder > .background .bg3
+{
+    float: right;                                                               
+    right: -25.5em;
+}
+
+.imu-page > .holder > .background .bg4
+{
+	float: right;
+	left: 0;
+}
+
+.imu-page > .holder > .background .bg5
+{
+    float: right;
+    right: 0;
+    
+	/* fallback image
+	*/
+	background-image:
+		url('../../../request.php?request=Image&name=stripe-rtl');
+}                                                                               
+                                                                                
+/* footer                                                                       
+*/                                                                              
+.imu-page > .holder > .footer > .logos
+{
+	left: 0;
+}
+
+.imu-page > .holder > .footer > .logos > img
+{
+	margin: 0;
+	margin-right: 0.5em;
+}

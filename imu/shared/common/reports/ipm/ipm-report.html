@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<!--
+** Copyright (c) 2012-2014 KE Software Pty Ltd
+-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>IMu IPM Report</title>
+
+    <script type="text/javascript" src="../../../../imu.php"></script>
+    <script type="text/javascript" src="../../../../dist/common/jquery-ui-1.9.0.custom/js/jquery-ui-1.9.0.custom.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./css/ipm-report.css">
+</head>
+<body>
+<div id="menu-bar"></div>
+
+<div id="map-panel">
+    <div id="ipm-viewer"> </div>
+</div>
+
+<div id="legend-panel" class="dockable-panel"> </div>
+
+
+<div id="filter-panel" class="dockable-panel">
+            <fieldset>
+                <div id="category-selector"></div>
+
+                <span id="filter-ecological-type-wrapper">Ecological Type </span>
+                <span id="filter-common-name-wrapper">Common Name </span>
+                <span id="filter-species-wrapper">Species </span>
+                <span id="filter-life-stage-wrapper">Life Stage </span>
+                <span id="filter-date-checked-wrapper">Date Checked </span>
+
+                <div class="button-group">
+                    <span>
+                        <button id="step-time-forward">Step Forward</button>
+                        <button id="step-time-backward">Step Backward</button>
+                    </span>
+                    <span>
+                        <button id="animate-time-forward">Play Forward</button>
+                        <button id="animate-time-backward">Play Backward</button>
+                        <button id="animate-loop">Play Loop</button>
+                    </span>
+                    <span>
+                        <button id="animate-stop">Stop</button>
+                    </span>
+                    <div class="button-group">
+                        <span>step time:
+                            <input type="radio" id="step-speed-1"/> 
+                                    fastest</span>
+                            <span><input type="radio" id="step-speed-2" checked="1"/> 
+                                     medium</span>
+                            <span><input type="radio" id="step-speed-3"/>
+                                    slower</span>
+                            <span><input type="radio" id="step-speed-4"/>
+                                    slowest</span>
+                    </div>
+                </div>
+                <div id="clear-all-holder" class="button-group"> </div>
+            </fieldset>
+</div>
+<div id="marker-info" class="dockable-panel"></div>
+
+<div id="feature-details" class="dockable-panel"></div>
+
+
+<ul id="menu-items">
+        <li id="menu-controls" class="menu-panel">
+            <fieldset>
+                <div id="site-selector">Select Site:</div>
+
+                <div id="layer-selector"></div>
+
+                <div class="control-group">
+                    <label for="collate-by">Show by</label>
+                    <div id="collate-by"><select></select></div>
+                    <label for="cluster-distance">Cluster Distance</label>
+                    <div id="cluster-distance"></div>
+                    <label for="marker-size">Marker Sizing</label>
+                    <div id="marker-size"></div>
+                </div>
+                <div id="container-marker-sizes">
+                    <fieldset>
+                        <legend>Marker Sizes</legend>
+                        <div>trap count:<br/>
+                            <span style="vertical-align: top" id="sizes">
+                    </span></div>
+                    </fieldset>
+                </div>
+            </fieldset>
+        </li>
+
+        <li id="menu-help" class="menu-panel">
+            <fieldset>
+                <div id="help-panel">
+                <h2>IPM Report Quick Help</h2>
+                <dl class="help-definitions">
+                    <dt>To access map controls to adjust the map display</dt>
+                    <dd>Click the 'Map Controls' Menu Item.  NB If wanted, this
+                    menu can be dragged away from the map.</dd>
+
+                    <dt>To minimise or minimise any controls</dt>
+                    <dd>Click the associated 'up' or 'down' icon at the top left of
+                    the control</dd>
+
+                    <dt>To pan the map display</dt>
+                    <dd>Click the map and drag</dd>
+
+                    <dt>To zoom in or out</dt>
+                    <dd>any of the following actions can be used to zoom the
+                        map display
+                        <ul>
+                            <li>Click the +/- button on the map</li>
+                            <li>Hold the Shift key down and click and drag a
+                                rectangle on the map</li>
+                            <li>Move the mouse scroll wheel up or down</li>
+                            <li>double clicking on the map will zoom in one
+                                level</li>
+                        </ul>
+                    </dd>
+
+                    <dt>To get information on trapped items represented by a map
+                        marker</dt>
+                    <dd>Click the mouse on the marker.  This will display all
+                    trap events that contribute items to the selected
+                    marker.</dd>
+
+                    <dt>To get more details on a aprticular trap event</dt>
+                    <dd>After selecting the marker, click on the trap 'Event#'
+                    link</dd>
+
+                    <dt>To merge all items within a certain distance into a
+                    single marker</dt>
+                    <dd>Open 'Map Controls' and adjust the 'cluster distance'
+                        setting</dd>
+
+                    <dt>To change the size of markers or to display items by a
+                    different property</dt> <dd>Open the Map Controls (or click
+                    on the configuration icon in the Legend) and adjust the
+                    display options</dd>
+
+                    <dt>To filter the items displayed</dt>
+                    <dd>Use the Data filter controls.  Clicking on a value in
+                    the select boxes will initially add it to the wanted items.
+                    Clicking it again will remove it.</dd>
+                </dl>
+            </div>
+            </fieldset>
+    </li>
+
+</ul>
+
+            
+<script type="text/javascript" src="./js/search.js"></script>
+<script type="text/javascript" src="../map/js/map-utilities.js"></script>
+<script type="text/javascript" src="./js/ipm-report-utilities.js"></script>
+<script type="text/javascript" src="./js/ipm-report.js"></script>
+
+</body>
+</html>

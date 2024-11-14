@@ -1,0 +1,57 @@
+.imu-form-builder .section
+{
+	padding:0.25em;
+}
+
+.imu-form-builder .imu-box-control,
+.imu-form-builder .imu-selection-control,
+.imu-form-builder .imu-box-control > .holder > .table-row > .icon,
+.imu-form-builder .imu-box-control > .holder > .table-row > .icon > img
+{
+	height: 1.7em;
+}
+
+.imu-form-builder .imu-box-control > .holder,
+.imu-form-builder .imu-selection-control > .holder
+{
+	height: 100%;
+}
+
+.imu-form-builder .input
+{
+	padding-bottom: 0.5em;
+}
+.imu-form-builder .section-search .search input
+{
+	border: none;
+}
+
+.imu-form-builder .section-search .results .row:hover
+{
+	background-color: #EDFAF2;
+}
+.imu-form-builder .section-search .results .row td
+{
+	border-bottom: solid 1px rgba(200, 200, 200, 0.15);
+	padding: 0 0.25em; 
+}
+.imu-form-builder .section-search .results .row td > .holder
+{
+	border: none;
+}
+.imu-form-builder .section-search .results .row td,
+.imu-form-builder .section-search .results .row td *
+{
+	height: 1.5em;
+	line-height: 1.5em;
+	vertical-align: middle;
+}
+
+.imu-form-builder > .buttons
+{
+	margin-top: 0.5em;
+}
+.imu-form-builder > .buttons > table
+{
+	border-collapse: collapse;
+}

@@ -1,0 +1,14 @@
+.imu-record-browser .main .info
+{
+	-webkit-overflow-scrolling: touch;
+}
+
+.imu-record-browser .children
+{
+	-webkit-overflow-scrolling: touch;
+}
+
+.imu-record-browser .children .child
+{
+	width: 23.0em;
+}

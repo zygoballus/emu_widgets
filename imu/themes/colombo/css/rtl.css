@@ -1,0 +1,50 @@
+/* THIS FILE IS BUILT AUTOMATICALLY.
+** DO NOT CHANGE IT DIRECTLY.
+**
+** Built at: 2024-11-14 04:43:49 UTC (2024-11-14 04:43:49 UTC)
+*/
+
+/* Source: ./themes/colombo/common/views/page.rtl.css
+*/
+/* Header
+*/
+.imu-page .holder .header .logo img
+{
+    margin-left: 1em;
+}
+
+/* Sidebar
+*/
+.imu-page .holder .sidebar
+{
+	left: 0;
+}
+
+/* Slide search form */
+.imu-page > .holder > .search.slide .imu-keyword-search > .holder 
+{
+	right: 0;
+}
+
+.imu-page > .holder > .search.slide .imu-keyword-search > .holder > div > .holder
+{
+    position: absolute;
+    left: 5.5em;
+    right: 0;
+}
+.imu-page > .holder > .search.slide .imu-keyword-search .input
+{
+	padding-right: 3em;
+}
+.imu-page > .holder > .search.slide .imu-keyword-search > .holder > div > button
+{
+    position: absolute;
+    left: 0;
+}
+
+/* Source: ./themes/colombo/common/views/explore.rtl.css
+*/
+.imu-explore > .sidebar
+{
+	left: 0;
+}

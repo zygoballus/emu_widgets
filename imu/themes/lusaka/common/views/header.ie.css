@@ -1,0 +1,38 @@
+.imu-app > .holder > .header > .defer-toolbar > .connection
+{
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='imu/request.php?request=Image&name=deferredSave/no_connection', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='imu/request.php?request=Image&name=deferredSave/no_connection', sizingMethod='scale')";
+}
+.imu-app > .holder > .header > .defer-toolbar > .connection.online
+{
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='imu/request.php?request=Image&name=deferredSave/connection', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='imu/request.php?request=Image&name=deferredSave/connection', sizingMethod='scale')";
+}
+
+.imu-app > .holder > .header > .defer-toolbar > .errors
+{
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='imu/request.php?request=Image&name=deferredSave/bell', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='imu/request.php?request=Image&name=deferredSave/bell', sizingMethod='scale')";
+}
+.imu-app > .holder > .header > .defer-toolbar > .errors.disabled
+{
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='imu/request.php?request=Image&name=deferredSave/bell_outline', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='imu/request.php?request=Image&name=deferredSave/bell_outline', sizingMethod='scale')";
+}
+
+.imu-app > .holder > .header > .defer-toolbar > .pending
+{
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='imu/request.php?request=Image&name=deferredSave/hourglass', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='imu/request.php?request=Image&name=deferredSave/hourglass', sizingMethod='scale')";
+}
+.imu-app > .holder > .header > .defer-toolbar > .pending.disabled
+{
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='imu/request.php?request=Image&name=deferredSave/hourglass_outline', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='imu/request.php?request=Image&name=deferredSave/hourglass_outline', sizingMethod='scale')";
+}

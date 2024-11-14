@@ -1,0 +1,149 @@
+body.imu-page 
+{
+	overflow-y: auto;
+}
+
+
+.imu-explore
+{
+	padding-bottom: 25%;
+}
+
+.imu-explore > .sidebar
+{
+	height: 4em;
+	position: fixed;
+	top: 50%;
+	width: 2em;
+	z-index: 1;
+}
+.imu-explore > .sidebar > .imu-button-control
+{
+	height: 100%;
+	width: 100%;
+}
+.imu-explore > .sidebar > .imu-button-control .graphic
+{
+ 	height: 100%;
+	width: 100%;
+}
+
+.imu-explore > .content > table
+{
+	border-spacing: 0.3em;
+	min-height: 100%;
+	width: 100%;
+}
+
+/* Records
+*/
+.imu-explore .record
+{
+	cursor: pointer;
+	margin-bottom: 0.5em;
+/*	width:100%;*/
+}
+
+.imu-explore .record > img
+{
+	margin: 0%;
+	width: 100%;
+}
+
+.imu-explore .record > .info
+{
+	border-spacing: 0;
+	/*
+	padding: 0.3em;
+	*/
+	padding: 1% 2%;
+	width: 100%;
+}
+.imu-explore .record > .info td
+{
+	font-size: 0.8em;
+	height: 1em;
+	margin-top: 1em;
+	padding: 0.25em;
+	vertical-align: top;
+}
+.imu-explore .record > .info .record-label-1 td
+{
+	font-size: 1em;
+	font-weight: bold;
+}
+/*
+.imu-explore .record > .info tr:nth-last-child(2) td
+{
+	height: 0;
+}
+*/
+
+/* TODO: mark for deletion later
+.imu-explore .record > .info td.last-row
+{
+	border-top-style: solid;
+	border-top-width: 1px;
+	font-weight: normal;
+	vertical-align: middle;
+}
+.imu-explore .record > .info td.last-row .favorite
+{
+	height: 1.5em;
+	width: 1.5em;
+}
+*/
+
+
+.imu-explore .record > .footer
+{
+	border-top: 1px solid;
+	cursor: default;
+	height: 1.5em;
+	padding: 0 0%;
+	width: 100%;
+}
+.imu-explore .record > .footer .imu-button-control
+{
+	background-color: transparent;
+	display: inline-block;
+	height: 1.5em;
+	width: 1.5em;
+}
+.imu-explore .record > .footer .imu-button-control .graphic
+{
+	margin: 0.2em;
+}
+.imu-explore .record > .footer .text
+{
+	display: inline-block;
+/*	margin-top: 0.25em;*/
+	vertical-align: super;
+}
+
+
+/* Footer
+*/
+.imu-explore > .footer
+{
+	width: 100%;
+}
+
+.imu-explore > .footer > .imu-button-control
+{
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+}	
+.imu-explore > .footer .imu-button-control .state-loading
+{
+	height: 2em;
+	width: 4em;
+}
+
+.imu-explore > .footer .imu-button-control .to-top,
+.imu-explore > .footer .imu-button-control .to-top .graphic
+{
+	height: 2em;
+	width: 2em;
+}

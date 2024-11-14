@@ -1,0 +1,45 @@
+.imu-collection-viewer .record
+{
+	border-bottom: solid 1px rgba(0, 0, 0, 0.055);
+	height: 4.5em;
+	overflow: hidden;
+	width: 18.0em;	/* minimum */
+}
+
+.imu-collection-viewer .record table
+{
+	width: 100%;
+}
+
+.imu-collection-viewer .record td
+{
+	vertical-align: top;
+}
+
+.imu-collection-viewer .image .frame
+{
+	background-color: #eeeff0;
+	height: 4.4em;
+	text-align: center;
+	width: 4.4em;
+}
+
+.imu-collection-viewer .image .frame:empty
+{
+	background-image: url("../../../request.php?request=Image&name=no-multimedia");
+	background-size: cover;
+}
+
+.imu-collection-viewer .image img
+{
+	height: auto;
+	max-height: 4.4em;
+	max-width: 4.4em;
+	width: auto;
+	vertical-align: middle;
+}
+
+.imu-collection-viewer .title
+{
+	font-weight: bold;
+}

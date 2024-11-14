@@ -1,0 +1,17 @@
+/* THIS FILE IS BUILT AUTOMATICALLY.
+** DO NOT CHANGE IT DIRECTLY.
+**
+** Built at: 2024-11-14 04:43:49 UTC (2024-11-14 04:43:49 UTC)
+*/
+
+/* Source: ./themes/lusaka/common/views/form-builder.firefox.css
+*/
+.imu-form-builder.custom-layout .row .column > .holder > table > tbody > tr > td
+{
+	padding-bottom: 1em;
+}
+.imu-form-builder.custom-layout .row .column > .holder > table > tbody > tr.last-row > td,
+.imu-form-builder.custom-layout .row .column > .holder > table > tbody > tr.padding > td
+{
+	padding-bottom: 0;
+}

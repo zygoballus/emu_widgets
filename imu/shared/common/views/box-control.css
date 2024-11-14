@@ -1,0 +1,54 @@
+.imu-box-control
+{
+    padding: 0;
+}
+
+.imu-box-control textarea,
+.imu-box-control input
+{
+	text-indent: 0.25em;
+}
+
+.imu-box-control > .holder
+{
+    background: white;
+    border: solid 1px #aaa;
+    border-spacing: 0;
+    width: 100%;
+}
+
+/* styling needed to stop a jquery-ui element overflowing and
+** creating issues */
+.imu-box-control > .holder .content
+{
+	position: relative;
+}
+
+.imu-box-control > .holder .content > *
+{
+	border: none;
+	background: transparent;
+	display: block;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	width: 100%;
+}
+.imu-box-control > .holder > .table-row > .icon,
+.imu-box-control > .holder > .table-row > .icon > img
+{
+	cursor: pointer;
+
+	/* There are allsorts of weird styling issues if these dimensions are not
+	** set to exact values.
+	*/
+	height: 1em;
+    width: auto;
+
+	vertical-align: middle;
+}
+.imu-box-control > .holder > .table-row > .icon > img
+{
+    display: block;
+}

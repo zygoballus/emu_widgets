@@ -1,0 +1,18 @@
+/* THIS FILE IS BUILT AUTOMATICALLY.
+** DO NOT CHANGE IT DIRECTLY.
+**
+** Built at: 2024-11-14 04:43:49 UTC (2024-11-14 04:43:49 UTC)
+*/
+
+/* Source: ./themes/lusaka/common/views/dialogue.phone.css
+*/
+.imu-dialogue > .box
+{
+	width: 80%;
+}
+/* Source: ./themes/lusaka/common/views/login.phone.css
+*/
+.imu-app > .holder > .login > .holder > .row > .input
+{
+	width: inherit;
+}

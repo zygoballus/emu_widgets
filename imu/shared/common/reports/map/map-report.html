@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<!--
+** Copyright (c) 2012-2014 KE Software Pty Ltd
+-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>IMu Map Report</title>
+    <script src="http://maps.google.com/maps/api/js?v=3.7&sensor=false"></script>
+    <script type="text/javascript" src="../../../../imu.php"></script>
+    <script type="text/javascript" src="../../../../dist/common/jquery-ui-1.9.0.custom/js/jquery-ui-1.9.0.custom.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/map-report.css">
+    <style>
+    </style>
+</head>
+<body>
+<div id="menu-bar"></div>
+
+<div id="map-panel">
+    <div id="map-viewer"></div>
+</div>
+
+<div id="marker-info"></div>
+<div id="feature-details"></div>
+<div id="legend-panel"> </div>
+
+<ul id="menu-items">
+    <li id="menu-controls" class="menu-panel">
+        <fieldset>
+                <div id="layer-selector"></div>
+                <div class="control-group">
+                    <label for="cluster-distance">Cluster Distance</label>
+                    <div id="cluster-distance"></div>
+                    <label for="collate-by"><span id="active-search"></span></label>
+                    <div id="collate-by"><select></select></div>
+                    <label for="marker-shape">Symbol</label>
+                    <div id="marker-shape"><select></select></div>
+                    <label for="marker-size">Size</label>
+                    <div id="marker-size"><select></select></div>
+                </div>
+        </fieldset>
+    </li>
+
+    <li id="menu-help" class="menu-panel">
+        <fieldset>
+        <div id="help-panel">
+                <h2>Map Report Quick Help</h2>
+                <dl class="help-definitions">
+                    <dt>To access map controls to do things like change
+                    underlying maps, set how points cluster etc</dt>
+                    <dd>Click the 'Map Controls' Link</dd>
+
+                    <dt>To minimise the map controls</dt>
+                    <dd>Click the associated 'up angle' icon at the top of the
+                    control</dd>
+
+                    <dt>To maximise the map controls</dt>
+                    <dd>Click the associated 'down angle' icon at the top of the
+                    control</dd>
+
+                    <dt>To move the map controls</dt>
+                    <dd>Click and drag the control</dd>
+
+                    <dt>To resize thelegend</dt>
+                    <dd>Click and drag the right and bottom borders of the
+                    legend</dd>
+
+                    <dt>To pan the map display</dt>
+                    <dd>Click the map and drag</dd>
+
+                    <dt>To zoom in or out</dt>
+                    <dd>any of the following actions can be used to zoom the
+                        map display
+                        <ul>
+                            <li>Click the +/- button on the map</li>
+                            <li>Hold the Shift key down and click and drag a
+                                rectangle on the map</li>
+                            <li>Move the mouse scroll wheel up or down</li>
+                            <li>double clicking on the map will zoom in one
+                                level</li>
+                        </ul>
+                    </dd>
+
+                    <dt>To get information on the items represented by a map
+                        marker</dt>
+                    <dd>Click the mouse on the marker</dd>
+
+                    <dt>To get more details on an item</dt>
+                    <dd>After selecting the marker, click on the wanted item
+                    summary</dd>
+
+                    <dt>To merge items within a certain distance into a single
+                        marker</dt>
+                    <dd>Open 'Map Controls' and adjust the 'cluster distance'
+                        setting</dd>
+
+                    <dt>To change the way the points are assigned a marker (eg
+                    to group by a different property or use different symbols
+                        etc)</dt>
+                    <dd>Open the Map Controls (or click on the configuration
+                    icon in the Legend) and adjust the display options</dd>
+                </dl>
+        </div>
+        </fieldset>
+    </li>
+</ul>
+
+<script type="text/javascript" src="./js/search.js"></script>
+<script type="text/javascript" src="./js/map-utilities.js"></script>
+<script type="text/javascript" src="./js/map-report.js"></script>
+</body>
+</html>

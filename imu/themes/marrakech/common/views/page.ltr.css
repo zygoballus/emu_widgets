@@ -1,0 +1,80 @@
+/* header                                                                       
+*/
+.imu-page .header
+{
+	padding-right: 1.5em;
+}
+
+.imu-page .header .near .item                                                   
+{                                                                               
+    padding-left: 0.3em;                                                        
+}                                                                               
+                                                                                
+.imu-page > .holder > .header > .background1
+{
+	float: left;
+    left: -2.2em;
+}
+
+.imu-page > .holder > .header > .background1 > .background2
+{                                                                               
+	left: 0;
+}
+
+.imu-page > .holder > .header > .navigation
+{
+	float: right;
+}
+.imu-page > .holder > .header > .navigation > div
+{
+	float: right;
+}
+                                                                                
+/* background                                                                   
+*/
+.imu-page > .holder > .background .bg1
+{                                                                               
+    float: left;
+    left: 0;
+}                                                                               
+                                                                                
+.imu-page > .holder > .background .bg2
+{
+    left: 0;                                                                    
+}                                                                               
+                                                                                
+.imu-page > .holder > .background .bg3
+{                                                                               
+    float: left;                                                                
+    left: -25.5em;                                                              
+}                                                                               
+                                                                                
+.imu-page > .holder > .background .bg4
+{
+    float: left;                                                                
+    left: 0;                                                                    
+}                                                                               
+                                                                                
+.imu-page > .holder > .background .bg5
+{
+    float: left;
+    left: 0;
+
+	/* fallback image
+	*/
+	background-image:
+        url('../../../request.php?request=Image&name=stripe-ltr');
+}                                                                               
+                                                                                
+/* footer
+*/
+.imu-page > .holder > .footer > .logos
+{
+	right: 0;
+}
+
+.imu-page > .holder > .footer > .logos > img
+{
+	margin: 0;
+	margin-left: 0.5em;
+}

@@ -1,0 +1,134 @@
+/* THIS FILE IS BUILT AUTOMATICALLY.
+** DO NOT CHANGE IT DIRECTLY.
+**
+** Built at: 2024-11-14 04:43:49 UTC (2024-11-14 04:43:49 UTC)
+*/
+
+/* Source: ./themes/prague/common/views/base.desktop.css
+*/
+.imu-widget
+{
+	font-size: 12px;
+}
+
+/* Source: ./themes/prague/common/views/page.desktop.css
+*/
+body.imu-page
+{
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 90%;
+}
+
+/* header
+*/
+.imu-page > .holder > .header
+{
+	height: 3.5em;
+}
+
+/* header
+*/
+.imu-page > .holder > .header .image
+{
+	height: 2.5em;
+}
+
+.imu-page > .holder > .header .title
+{
+	font-family: Arial, Helvetica, Tahoma, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 0.3em;
+}
+
+/* footer
+*/
+.imu-page > .holder > .footer
+{
+	height: 1.3em;
+}
+
+.imu-page > .holder > .footer img
+{
+	max-height: 1.2em;
+}
+
+/* toggle
+*/
+.imu-page > .holder > .toggle
+{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/* Source: ./themes/prague/common/views/record-details/enarratives.desktop.css
+*/
+.imu-record-details .record.enarratives .section.subnarratives .items > .item,
+.imu-record-details .record.enarratives .section.related-narratives .items > .item,
+.imu-record-details .record.enarratives .section.objects .items > .item
+{
+  min-height: 4.8em;
+  width: 23.0em;
+}
+
+/* Source: ./themes/prague/common/views/record-browser/enarratives.desktop.css
+*/
+.imu-record-browser.enarratives .section.subnarratives .items > .item,
+.imu-record-browser.enarratives .section.related-narratives .items > .item,
+.imu-record-browser.enarratives .section.objects .items > .item
+{
+  min-height: 4.8em;
+  width: 23.0em;
+}
+
+/* Source: ./themes/prague/client/views/page.desktop.css
+*/
+body.imu-page
+{
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 100%;
+}
+
+/* header
+*/
+.imu-page > .holder > .header
+{
+    height: 0em;
+}
+
+/* header
+*/
+.imu-page > .holder > .header .image
+{
+    height: 0em;
+}
+
+.imu-page > .holder > .header .title
+{
+    font-family: Arial, Helvetica, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 0em;
+}
+
+/* footer
+*/
+.imu-page > .holder > .footer
+{
+    height: 0em;
+}
+
+.imu-page > .holder > .footer img
+{
+    max-height: 0em;
+}
+
+/* toggle
+*/
+.imu-page > .holder > .toggle
+{
+    font-weight: bold;
+    font-size: 16px;
+}

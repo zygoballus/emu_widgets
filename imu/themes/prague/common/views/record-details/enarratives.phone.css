@@ -1,0 +1,8 @@
+.imu-record-details.enarratives .section > .items > .item
+{
+	float: none;
+	margin: none;
+	margin-bottom: 0.25em;
+	width: 100%;
+}
+

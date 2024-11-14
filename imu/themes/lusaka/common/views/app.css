@@ -1,0 +1,59 @@
+body.imu-app
+{
+	font-family: "Lusaka";
+}
+
+.imu-app .imu-dialogue .box
+{
+	-moz-border-radius: 0.2em;
+	-webkit-border-radius: 0.2em;
+	border-radius: 0.2em;
+}
+
+.imu-app input,
+.imu-app .input > .imu-control,
+.imu-app .input > .imu-control > .holder,
+.imu-app .imu-box-control > .holder,
+.imu-app .imu-grid .imu-control .content > *,
+.imu-app .input > .imu-control .content > *,
+.imu-app .input > .imu-grid.wrapper
+{
+	border: none;
+	width: 100%;
+}
+.imu-app .input > .wrapper,
+.imu-app .imu-grid > table > tbody > tr > td > .holder
+{
+    border: solid 1px #E0E0E0;
+}
+
+.imu-app .imu-selection-control,
+.imu-app .imu-box-control,
+.imu-app .imu-box-control > .holder > .table-row > .icon,
+.imu-app .imu-box-control > .holder > .table-row > .icon > img,
+.imu-app .imu-selection-control > .holder > .table-row > .icon,
+.imu-app .imu-selection-control > .holder > .table-row > .icon > img,
+.imu-app .login > .holder > .row > input
+{
+	height: 1.7em;
+	line-height: 1.7em;
+}
+.imu-app .imu-box-control > .holder > .table-row > .icon,
+.imu-app .imu-box-control > .holder > .table-row > .icon > img,
+.imu-app .imu-selection-control > .holder > .table-row > .icon,
+.imu-app .imu-selection-control > .holder > .table-row > .icon > img
+{
+	width: 1.7em;
+}
+
+.imu-app .add > .text
+{
+	padding: 0 0.25em;
+}
+
+.imu-app > .holder > .page
+{
+    height: calc(100% - 3.4em); /* calc has been reproduced in js for IE8 */
+	overflow: visible;
+	padding-top: 1em;
+}

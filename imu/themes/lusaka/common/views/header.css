@@ -1,0 +1,20 @@
+html.logged-in:before
+{
+    background-color: #D7D5D5;
+    content: "";
+    height: 2.5em;
+    width: 100%;
+    position: absolute;
+}
+
+.imu-app > .holder > .header
+{
+	height: 2.4em;
+}
+
+.imu-app > .holder > .header > .column
+{
+	padding: 0 0.2em;
+	vertical-align: middle;
+	white-space: nowrap;
+}

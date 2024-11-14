@@ -1,0 +1,9 @@
+.imu-lightbox-viewer .title
+{
+	float: right;
+}
+
+.imu-lightbox-viewer .select
+{
+	float: left;
+}

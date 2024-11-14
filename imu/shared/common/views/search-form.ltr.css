@@ -1,0 +1,5 @@
+.imu-search-form .table .row div.submit,
+.imu-search-form .table .row div.clear
+{
+	float: left;
+}	

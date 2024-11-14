@@ -1,0 +1,37 @@
+.imu-comments-control
+{
+	width: 100%;
+}
+
+.imu-comments-control textarea
+{
+	width: 100%
+}
+
+.post-comment-btn
+{
+	float: right;
+}
+
+.imu-comments
+{
+	width: 100%;
+}
+
+.imu-comment
+{
+	border-bottom: 2px solid #F1F2F7;
+}
+
+.imu-comment-timestamp
+{
+	font-weight: bold;
+	width: 100%;
+	float: left;
+}
+
+.imu-comment-text
+{
+	width: 100%;
+	float: left;
+}

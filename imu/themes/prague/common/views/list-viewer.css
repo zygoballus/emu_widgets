@@ -1,0 +1,51 @@
+.imu-list-viewer .record
+{
+	padding-bottom: 0.5em;
+	box-sizing: border-box;
+}
+
+.imu-list-viewer .record  > table
+{
+	background-color: #eeeeee;
+	height: 100%;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.imu-list-viewer .record
+{
+	height: 10.0em;
+	overflow: hidden;
+	width: 30.0em;	/* minimum */
+}
+.imu-list-viewer .record td
+{
+	vertical-align: top;
+}
+.imu-list-viewer .imu-multimedia-plugin
+{
+	height: 100px;
+	text-align: center;
+	width: 100px;
+}
+.imu-list-viewer .imu-multimedia-plugin .item
+{
+	max-height: 90px;
+	max-width: 90px;
+}
+.imu-list-viewer .no-image
+{
+	height: 80%;
+	width: 80%;
+	margin: 10px 0;
+}
+.imu-list-viewer .title
+{
+	cursor: pointer;
+	font-weight: bold;
+}
+.imu-list-viewer .description
+{
+	overflow: hidden;
+	height: 7.0em;
+}

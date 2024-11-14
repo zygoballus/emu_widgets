@@ -1,0 +1,53 @@
+.imu-form .hint
+{
+	color: #8f8f8f;
+}
+
+.imu-form .suggested
+{
+	border-color: orange;
+}
+
+.imu-form .mandatory
+{
+	border-color: red;
+}
+
+.imu-form > table > tbody > tr > td.input > .wrapper
+{
+	display: block;
+}
+
+/* added for textarea height */
+.imu-form > table > tbody > tr > td.empty
+{
+	height: 100%;
+}
+.imu-form > table > tbody > tr > td.input > .wrapper.imu-box-control,
+.imu-form > table > tbody > tr > td.input > .wrapper.imu-selection-control,
+.imu-form > table > tbody > tr > td.input > .wrapper.imu-box-control > .holder,
+.imu-form > table > tbody > tr > td.input > .wrapper.imu-selection-control > .holder
+{
+	height: 100%;
+}
+
+.imu-form > table
+{
+	width: 100%;
+}
+
+/*
+.imu-form > table
+{
+	display: table;
+}
+.imu-form > table > tbody > tr
+{
+	display: table-row;
+}
+.imu-form > table > thead > th,
+.imu-form > table > tbody > tr > td
+{
+	display: table-cell;
+}
+*/

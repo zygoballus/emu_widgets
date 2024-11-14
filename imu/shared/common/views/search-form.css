@@ -1,0 +1,48 @@
+.imu-search-form.owner
+{
+	padding: 0.3em;
+}
+
+.imu-search-form .holder
+{
+	background-color: #eeeeee;
+}
+
+.imu-search-form .table
+{
+	color: #000000;
+/*	white-space: nowrap; */
+	width: 100%;
+}
+
+.imu-search-form .table .row
+{
+	height: auto;
+	overflow-y: auto;
+}	
+
+.imu-search-form .table .row .prompt 
+{
+	margin: 0 0.4em;
+	min-width: 5.0em;
+	width: auto;
+}
+
+.imu-search-form .table .row .input 
+{
+	min-width: 8.0em;
+	padding: 0.1em;
+	margin: 0.2em 0;
+}	
+
+.sidebar .images-label-advanced
+{
+	color: #000000;
+}
+
+/* jQuery UI class */
+.ui-menu-item
+{
+	background-color: #ffffff;
+}
+

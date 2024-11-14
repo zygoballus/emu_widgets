@@ -1,0 +1,77 @@
+.imu-page > .holder > .header
+{
+	height: 3em;
+}
+
+.imu-page > .holder > .header,
+.imu-page > .holder > .content
+{
+	width: 100%;
+}
+
+.imu-page > .holder > .header .controls .imu-button-control,
+.imu-page > .holder > .header .controls .imu-button-control .graphic
+{
+	height: 3em;
+	width: 3em;
+}
+
+.imu-page > .holder > .header .controls .logo > div
+{
+	height: 2.8em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 6.5em;
+}
+.imu-page > .holder > .header .controls .logo > div > img
+{
+	height: 100%;
+	width: 100%;
+}
+
+.imu-page > .holder > .menu
+{
+    bottom: 0;
+    height: 100%;
+    left: 100%;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+}
+
+.imu-page > .holder > .menu > table
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+.imu-page > .holder > .menu .menu-option
+{
+	height: 4em;
+    width: 100%;
+}
+.imu-page > .holder > .menu .menu-option > td
+{
+    height: 4em;
+    width: 1%;
+}
+.imu-page > .holder > .menu .menu-option > td.icon img.selected
+{
+	display: none;
+}
+.imu-page > .holder > .menu .menu-option > td.label
+{
+    width: 99%;
+}
+
+.imu-page > .holder > .menu .menu-option:active
+{
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.imu-page > .holder > .menu .menu-option:active td.icon img
+{
+	display: none;
+}
+.imu-page > .holder > .menu .menu-option:active td.icon img.selected
+{
+	display: inline;
+}

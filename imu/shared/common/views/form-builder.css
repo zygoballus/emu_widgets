@@ -1,0 +1,252 @@
+.imu-form-builder
+{
+	position: relative;
+}
+
+.imu-form-builder .section-search > .form > .results > table > tbody > tr > td 
+	> *
+{
+	min-height: 1.4em;
+}
+
+.imu-form-builder > .buttons td
+{
+	vertical-align: middle;
+}
+
+.imu-form-builder > .buttons .bwd
+.imu-form-builder > .buttons .fwd
+{
+	height: 1em;
+	width: 1em;
+}
+.imu-form-builder > .buttons .mesg
+{
+	font-size: 0.85em;
+}
+
+.imu-form-builder .section > .holder > .heading > table
+{
+	border-collapse: collapse;
+}
+.imu-form-builder .section > .holder > .heading > table > tbody > tr > td
+{
+	padding: 0;
+}
+.imu-form-builder .section > .holder > .heading .label
+{
+	padding: 0 0.25em;
+}
+
+.imu-form-builder .section > .holder > .heading > table
+
+/* Custom Form Layouts
+*/
+.imu-form-builder.custom-layout.table
+{
+/*	display: table;*/
+
+	bottom: 0; 
+	left: 0;
+	right: 0;
+	top: 0;
+	height: calc(100% - 3em); /* calc has been reproduced in js for IE8 */
+	width: 100%;
+
+	margin: 0;
+}
+
+.imu-form-builder.custom-layout > .buttons
+{
+/* TODO: is this needed?
+	height: 1%;*/
+	margin-top: 0.5em;
+}
+
+.imu-form-builder.custom-layout > .row
+{
+	height: calc(100% - 3em); /* calc has been reproduced in js for IE8 */
+}
+/* style if search section is shown */
+.imu-form-builder.custom-layout > .section.section-search
+{
+	height: auto;
+	height: initial;
+}
+.imu-form-builder.custom-layout > .section-search + .row
+{
+	height: calc(100% - 6.5em); /* calc has been reproduced in js for IE8 */
+}
+
+.imu-form-builder.custom-layout > .row > table
+{
+	border-collapse: collapse;
+
+	height: 100%;
+	width: 100%;
+}
+
+/*
+.imu-form-builder.custom-layout .row > table > tbody > tr
+{
+	width: 100%;
+}
+*/
+
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column
+{
+	vertical-align: top;
+	padding: 0 0.25em;
+	position: relative;
+
+	width: 1%; /* default value */
+}
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column > .holder
+{
+	height: 100%;
+	width: 100%;
+}
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column > .holder > table
+{
+	border-collapse: collapse;
+	height: 100%;
+	width: 100%;
+}
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column > .holder 
+	> table > tbody > tr > td
+{
+	padding:0;
+}
+
+/* padding general */
+.imu-form-builder.custom-layout .padding
+{
+	opacity: 0;
+	background: transparent;
+	border: none;
+}
+/* row padding */
+.imu-form-builder.custom-layout .row > table > tbody > tr.padding
+{
+	height: 0;
+}
+/* column padding */
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column > .holder 
+	> table > tbody > tr.padding > td
+{
+	height: auto;
+}
+
+
+
+.imu-form-builder.custom-layout .section
+{
+	height: 100%;
+	padding: 0;
+	padding-bottom: 0.5em;
+	position: relative;
+	width: 100%;
+	width: calc(100% - 2px);
+
+	-moz-border-radius: 0.2em;
+	-webkit-border-radius: 0.2em;
+	border-radius: 0.2em;
+}
+.imu-form-builder.custom-layout .section > .holder
+{
+	margin: 0 0.25em;
+	height: 100%;
+}
+.imu-form-builder.custom-layout tr.last-row > td > .section
+{
+	padding-bottom: 0;
+}
+.imu-form-builder.custom-layout .column:first-child .section > .holder
+{
+	margin-left: 0;
+}
+.imu-form-builder.custom-layout .column:last-child .section > .holder
+{
+	margin-right: 0;
+}
+
+
+
+/* column styles */
+.imu-form-builder.custom-layout .column.overflow-y-show > .holder,
+.imu-form-builder.custom-layout .column.overflow-y-hide > .holder,
+.imu-form-builder.custom-layout .column.overflow-y-scroll > .holder
+{
+	overflow: hidden;
+}
+.imu-form-builder.custom-layout .column.overflow-y-show > .holder,
+.imu-form-builder.custom-layout .column.overflow-y-hide > .holder
+{
+	float: right;
+}
+.imu-form-builder.custom-layout .column.overflow-y-hide > .holder,
+.imu-form-builder.custom-layout .column.overflow-y-scroll > .holder
+{
+	position: absolute;
+}
+.imu-form-builder.custom-layout .column.overflow-y-scroll > .holder
+{
+	overflow-y: auto;
+}
+
+/* cell / section styles 
+*/
+.imu-form-builder .section > .holder > .content > table > tbody > tr > .input
+	> .wrapper > table
+{
+	border-collapse: collapse;
+}
+.imu-form-builder .section > .holder > .content > table > tbody > tr > .input
+	> .wrapper > table > tbody > .row + .row > td
+{
+	padding-top: 0.7em;
+}
+
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column 
+	td.fixed-height
+{
+	height: 1%;
+}
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column 
+	td.dynamic-height
+{
+	height: auto;
+}
+.imu-form-builder .section > .holder > .heading
+{
+	height: 2em;
+}
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column 
+	td.dynamic-height .section 
+	> .holder > .content
+{
+	height: calc(100% - 2em);
+}
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column 
+	td.dynamic-height .input:only-child > .wrapper,
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column 
+	td.dynamic-height .input:only-child > .wrapper > .holder
+{
+	height: 100%;
+}
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column 
+	td.dynamic-height .input:only-child input
+{
+	word-break: break-word;
+}
+
+.imu-form-builder .row .column .input
+{
+	vertical-align: top;
+}
+
+.imu-form-builder.custom-layout > .section.section-search,
+.imu-form-builder > .section.section-search
+{
+	margin-bottom: 0.5em;
+}

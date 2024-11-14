@@ -1,0 +1,69 @@
+.imu-list-viewer .record
+{
+	position: absolute;
+	height: 4em;
+	width: 100%;
+}
+.imu-list-viewer .record .holder
+{
+	height: 100%;
+	padding: 0.25em;
+	padding: 0;
+	position: relative;
+	text-align: left;
+	width: calc(100% - 2em);
+}
+.imu-list-viewer .record:nth-child(odd)
+{
+	background-color: #e8e7d9;
+}
+
+.imu-list-viewer .record .image,
+.imu-list-viewer .record .details,
+.imu-list-viewer .record .favorite
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.imu-list-viewer .record .image
+{
+	background-color: #e8e7d9;
+	height: 4em;
+	margin-right: 0.5em;
+	padding: 0.25em;
+	width: 4em;
+}
+
+.imu-list-viewer .record .image > div
+{
+	background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 4em;
+    width: 4em;
+}
+
+.imu-list-viewer .record .details
+{
+	height: 4em;
+	max-width: calc(100% - 5em);
+	padding: 0.25em 0;
+	width: 100%;
+}
+
+.imu-list-viewer .record .details h3
+{
+	font-size: 0.75em;
+	margin: 0;
+	margin-bottom: 0.5em;
+	max-height: 2.5em;
+	text-align: left;
+}
+
+.imu-list-viewer .record .favorite
+{
+	width: 1.5em;
+}

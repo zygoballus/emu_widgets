@@ -1,0 +1,77 @@
+.imu-my-collections > .holder
+{
+	padding-top:1em;
+}
+
+.imu-my-collections .name,
+.imu-my-collections .controls,
+.imu-my-collections .controls button
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.imu-my-collections .name
+{
+	background-color: #ffffff;
+	border: solid 1px;
+}
+
+.imu-my-collections .controls button,
+.imu-my-collections .controls button .icon
+{
+	padding: 0;
+}
+
+.imu-my-collections .controls button:nth-child(1),
+.imu-my-collections .controls button:nth-last-child(1)
+{
+	margin-left: 0.5em;
+}
+
+.imu-my-collections .controls button
+{
+	height: 1.5em;
+	width: 1.5em;
+}
+
+.imu-my-collections .controls button .icon
+{
+	height: 100%;
+	width: 100%;
+}
+
+.imu-my-collections .controls button.restore
+{
+	background-color: #45301c;
+	border: none;
+	color: #eeeeee;
+	line-height: 1.5em;
+	padding: 0 0.25em;
+	width: auto;
+}
+
+.imu-my-collections .imu-collection-viewer
+{
+	position: relative;
+}
+
+.imu-my-collections .prev-icon
+{
+    background-image: url('../../../request.php?request=Image&name=my-collections-left');
+}
+
+.imu-my-collections .next-icon
+{
+    background-image: url('../../../request.php?request=Image&name=my-collections-right');
+}
+
+.imu-my-collections .remove-icon
+{
+    background-image: url('../../../request.php?request=Image&name=my-collections-remove');
+}
+
+.imu-my-collections .add-icon
+{
+    background-image: url('../../../request.php?request=Image&name=my-collections-add');
+}

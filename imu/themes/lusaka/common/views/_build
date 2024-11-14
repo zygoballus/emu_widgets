@@ -1,0 +1,13 @@
+include base
+include app
+include dialogue
+include header
+include login
+include manager
+include designer
+include form-designer
+include form-builder
+include editor-designer
+include editor-builder
+include capture-control
+include image-capture-control

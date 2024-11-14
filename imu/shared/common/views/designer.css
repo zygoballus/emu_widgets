@@ -1,0 +1,36 @@
+.imu-designer .filters > .holder > .filter > table
+{
+	width: 100%;
+}
+
+.imu-designer .collapsible-group
+{
+	margin-top: 0.5em;
+}
+.imu-designer .collapsible-group > .holder > .details > table
+{
+	width: 100%;
+}
+
+.imu-designer .add
+{
+	cursor: pointer;
+	display: table;
+}
+.imu-designer .add > .image
+{
+	display: table-cell;
+	height: 1.3em;
+	vertical-align: middle;
+}
+.imu-designer .add > .text
+{
+	display: table-cell;
+	font-size: 0.75em;
+	vertical-align: middle;
+}
+
+.imu-designer .sections .section .details .input > .wrapper.imu-checkbox-control
+{
+	border: none;
+}

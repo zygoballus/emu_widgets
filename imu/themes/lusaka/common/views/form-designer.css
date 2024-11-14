@@ -1,0 +1,64 @@
+/*
+.imu-form-designer .collapsible-group.field > .holder > .holder 
+{
+	margin: 0.25em;
+}
+*/
+
+.imu-form-designer .collapsible-group.field > .holder
+{
+	padding: 0.25em;
+}
+
+.imu-form-designer .layout-options .ui-sortable.rows
+{
+	width: 100%;
+}
+
+.imu-form-designer .ui-sortable.fields > .field > .holder > .form
+{
+	margin-bottom: 0.5em;
+}
+
+.imu-form-designer .ui-sortable.fields .filters
+{
+	border-top: solid 1px rgba(0, 0, 0, 0.15);
+}
+
+.imu-form-designer .collapsible-group.search > .holder > .columns,
+.imu-form-designer .collapsible-group.search > .holder > .filters,
+.imu-form-designer .collapsible-group.search > .holder > .results
+{
+	width: 95%;
+	margin-right: 0.25em;
+	margin-left: auto;
+}
+
+.imu-form-designer .collapsible-group.input .collapsible-group.field > .holder > .holder .add
+{
+	margin-left: 5%;
+}
+.imu-form-designer .collapsible-group.search > .holder > .holder > .add
+{
+	margin-bottom: 0.25em;
+	margin-left: 5%;
+	margin-top: 0.25em;
+}
+
+.imu-designer .collapsible-group .collapsible-group .row-layout.collapsible-group .collapsible-group .title
+{
+	padding-right: 0.25em;
+}
+.imu-designer .collapsible-group .collapsible-group .row-layout.collapsible-group .collapsible-group .collapsible-group .title
+{
+	padding-right: 0em;
+}
+
+/* Lusaka theme puts a boarder around input elements, though empty input elements
+** are needed for layout. This style counters a boarder for an empty input
+*/
+.imu-form-designer > .holder > .input .sections .imu-form .input.empty
+{
+    visibility: hidden;
+}
+

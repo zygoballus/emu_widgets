@@ -1,0 +1,121 @@
+/* Decorations
+*/
+.imu-highlights-banner ul
+{
+    list-style: none;
+    padding: 0;
+}
+
+.imu-highlights-banner a
+{
+    text-decoration: none;
+}
+
+.imu-highlights-banner.ltr a::after /* Note: Both LTR/RTL css files seem to be active */
+{
+    content: ' >';
+    content: ' \25B6';
+}
+.imu-highlights-banner.rtl a::before /* Note: Both LTR/RTL css files seem to be active */
+{
+    content: '< ';
+    content: ' \25C0';
+}
+.imu-highlights-banner a.image::after,
+.imu-highlights-banner a.image::before
+{
+	content: initial;
+	display: none;
+}
+
+
+/* Sizing/positioning
+*/
+.imu-highlights-banner > .holder > .stickyContent > .holder
+{
+    padding: 2.5rem;
+    padding-top: 1rem;
+}
+
+.imu-highlights-banner > .holder > .stickyContent h1
+{
+	font-size: 2em;
+}
+
+.imu-highlights-banner ul
+{
+	margin-top: -1em;
+}
+
+.imu-highlights-banner > .holder > .dynamicContent .content > *
+{
+    margin: 1rem;
+}
+
+
+/* Wedges
+*/
+.imu-highlights-banner > .holder > .stickyContent::before,
+.imu-highlights-banner > .holder > .stickyContent::after
+{
+    border: solid 1.5rem transparent;
+    bottom: 50%;
+    content: '';
+    display: none;
+    margin-bottom: -1.5rem;
+    position: absolute;
+}
+.imu-highlights-banner > .holder > .stickyContent::before
+{
+    right: 100%;
+}
+.imu-highlights-banner > .holder > .stickyContent::after
+{
+    left: 100%;
+}
+.imu-highlights-banner.rtl .stickyContent::before,
+.imu-highlights-banner.ltr .stickyContent::after
+{
+    display: block;
+}
+.imu-highlights-banner .stickyContent
+{
+    z-index: 1; /* position higher than banner image so it overlaps correctly */
+}
+
+.imu-highlights-banner .dynamicContent .slide .image img
+{
+	height: 100%;
+}
+
+
+/* Colour and background
+*/
+.imu-highlights-banner
+{
+	background: #eeeeee; 
+}
+.imu-highlights-banner > .holder > .stickyContent
+{
+    background: #000000; 
+}
+.imu-highlights-banner > .holder > .stickyContent *
+{
+    color: #ffffff; 
+}   
+.imu-highlights-banner > .holder > .stickyContent::before
+{ 
+    border-right-color: #000000; /* same as stickyContent BG colour */
+}
+.imu-highlights-banner > .holder > .stickyContent::after
+{ 
+    border-left-color: #000000; /* same as stickyContent BG colour */
+}
+.imu-highlights-banner > .holder > .dynamicContent .content a
+{ 
+    color: #000000; /* same as stickyContent BG colour */
+}
+.imu-highlights-banner > .holder > .dynamicContent .content
+{
+    color: #000000;
+}

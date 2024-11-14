@@ -1,0 +1,6 @@
+theme	vienna
+title	en Vienna
+title	fr Vienne
+include	common
+include	client
+include	local

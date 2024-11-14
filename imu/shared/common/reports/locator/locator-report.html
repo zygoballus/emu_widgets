@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<!--
+** Copyright (c) 2012-2014 KE Software Pty Ltd
+-->
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>IMu Locator Report</title>
+
+    <script type="text/javascript" src="../../../../imu.php"></script>
+    <script type="text/javascript" src="../../../../dist/common/jquery-ui-1.9.0.custom/js/jquery-ui-1.9.0.custom.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./css/locator-report.css">
+</head>
+<body>
+<div id="menu-bar"></div>
+
+<div id="map-panel">
+    <div id="locator-viewer"> </div>
+</div>
+
+<div id="legend-panel" class="dockable-panel"> </div>
+
+
+<div id="marker-info" class="dockable-panel"></div>
+
+<div id="feature-details" class="dockable-panel"></div>
+
+
+<ul id="menu-items">
+        <li id="menu-controls" class="menu-panel">
+            <fieldset>
+                <div id="site-selector">Select Site:</div>
+
+                <div id="layer-selector"></div>
+
+                <div class="control-group">
+                    <label for="collate-by">Show by</label>
+                    <div id="collate-by"><select></select></div>
+                    <label for="cluster-distance">Cluster Distance</label>
+                    <div id="cluster-distance"></div>
+                </div>
+            </fieldset>
+        </li>
+
+        <li id="menu-help" class="menu-panel">
+            <fieldset>
+                <div id="help-panel">
+                <h2>Locator Report Quick Help</h2>
+                <dl class="help-definitions">
+                    <dt>To access map controls to adjust the map display</dt>
+                    <dd>Click the 'Map Controls' Menu Item.  NB If wanted, this
+                    menu can be dragged away from the map.</dd>
+
+                    <dt>To minimise or minimise any controls</dt>
+                    <dd>Click the associated 'up' or 'down' icon at the top left of
+                    the control</dd>
+
+                    <dt>To pan the map display</dt>
+                    <dd>Click the map and drag</dd>
+
+                    <dt>To zoom in or out</dt>
+                    <dd>any of the following actions can be used to zoom the
+                        map display
+                        <ul>
+                            <li>Click the +/- button on the map</li>
+                            <li>Hold the Shift key down and click and drag a
+                                rectangle on the map</li>
+                            <li>Move the mouse scroll wheel up or down</li>
+                            <li>double clicking on the map will zoom in one
+                                level</li>
+                        </ul>
+                    </dd>
+
+                    <dt>To get information on items represented by a map
+                        marker</dt>
+                    <dd>Click the mouse on the marker.  This will display all
+                    items that contribute items to the selected
+                    marker.</dd>
+
+                    <dt>To get more details on a particular item</dt>
+                    <dd>Click on the item in the selected marker list
+                    link</dd>
+
+                    <dt>To merge all items within a certain distance into a
+                    single marker</dt>
+                    <dd>Open 'Map Controls' and adjust the 'cluster distance'
+                        setting</dd>
+
+                    <dt>To display items by a different property</dt> <dd>Open
+                    the Map Controls (or click on the configuration icon in the
+                    Legend) and adjust the display options</dd>
+
+                </dl>
+            </div>
+            </fieldset>
+    </li>
+
+</ul>
+
+            
+<script type="text/javascript" src="./js/search.js"></script>
+<script type="text/javascript" src="../map/js/map-utilities.js"></script>
+<script type="text/javascript" src="./js/locator-report.js"></script>
+
+</body>
+</html>

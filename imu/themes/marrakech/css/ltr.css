@@ -1,0 +1,166 @@
+/* THIS FILE IS BUILT AUTOMATICALLY.
+** DO NOT CHANGE IT DIRECTLY.
+**
+** Built at: 2024-11-14 04:43:49 UTC (2024-11-14 04:43:49 UTC)
+*/
+
+/* Source: ./themes/marrakech/common/views/combined-viewer.ltr.css
+*/
+.imu-combined-viewer .near
+{
+	float: left;
+}
+
+.imu-combined-viewer .far
+{
+	float: right;
+}
+
+/* Source: ./themes/marrakech/common/views/page.ltr.css
+*/
+/* header                                                                       
+*/
+.imu-page .header
+{
+	padding-right: 1.5em;
+}
+
+.imu-page .header .near .item                                                   
+{                                                                               
+    padding-left: 0.3em;                                                        
+}                                                                               
+                                                                                
+.imu-page > .holder > .header > .background1
+{
+	float: left;
+    left: -2.2em;
+}
+
+.imu-page > .holder > .header > .background1 > .background2
+{                                                                               
+	left: 0;
+}
+
+.imu-page > .holder > .header > .navigation
+{
+	float: right;
+}
+.imu-page > .holder > .header > .navigation > div
+{
+	float: right;
+}
+                                                                                
+/* background                                                                   
+*/
+.imu-page > .holder > .background .bg1
+{                                                                               
+    float: left;
+    left: 0;
+}                                                                               
+                                                                                
+.imu-page > .holder > .background .bg2
+{
+    left: 0;                                                                    
+}                                                                               
+                                                                                
+.imu-page > .holder > .background .bg3
+{                                                                               
+    float: left;                                                                
+    left: -25.5em;                                                              
+}                                                                               
+                                                                                
+.imu-page > .holder > .background .bg4
+{
+    float: left;                                                                
+    left: 0;                                                                    
+}                                                                               
+                                                                                
+.imu-page > .holder > .background .bg5
+{
+    float: left;
+    left: 0;
+
+	/* fallback image
+	*/
+	background-image:
+        url('../../../request.php?request=Image&name=stripe-ltr');
+}                                                                               
+                                                                                
+/* footer
+*/
+.imu-page > .holder > .footer > .logos
+{
+	right: 0;
+}
+
+.imu-page > .holder > .footer > .logos > img
+{
+	margin: 0;
+	margin-left: 0.5em;
+}
+
+/* Source: ./themes/marrakech/common/views/record-details.ltr.css
+*/
+.section-heading-text
+{
+	float: left;
+}
+
+.section-buttons
+{
+	float: right;
+}
+
+.objects .object
+{
+	float: left;
+}
+
+.children .child
+{
+	float: left;
+}
+
+.associations .association
+{
+	float: left;
+}
+
+.info .details td
+{
+	text-align: left;
+}
+
+.info .details th
+{
+	text-align: left;
+}
+
+/* Source: ./themes/marrakech/common/views/lightbox-viewer.ltr.css
+*/
+.imu-lightbox-viewer .title
+{
+	float: left;
+}
+
+.imu-lightbox-viewer .select
+{
+	float: right;
+}
+
+/* Source: ./themes/marrakech/common/views/record-browser.ltr.css
+*/
+.imu-record-browser .objects .object
+{
+	float: left;
+}
+
+.imu-record-browser .children .child
+{
+	float: left;
+}
+
+.imu-record-browser .associations .association
+{
+	float: left;
+}

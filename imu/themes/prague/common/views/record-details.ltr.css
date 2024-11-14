@@ -1,0 +1,46 @@
+.imu-record-details .section-buttons
+{
+  float: left;
+}
+
+.imu-record-details .multimedia .items
+{
+  padding-left: 2em;
+}
+
+.imu-record-details .multimedia .items th
+{
+  padding-right: 1em;
+  text-align: left;
+}
+
+.imu-record-details .multimedia .items tr td
+{
+  padding-right: 1em;
+}
+
+.imu-record-details .record.enarratives .section.subnarratives .items > .item,
+.imu-record-details .record.enarratives .section.related-narratives .items > .item,
+.imu-record-details .record.enarratives .section.objects .items > .item
+{
+  float: left;
+}
+
+.imu-record-details .info table tr td.prompt
+{                                                                               
+    padding-right: 0.5em;
+}
+
+/* Supplementary tab data
+*/
+.imu-record-details .info table thead tr th
+{
+	text-align: left;
+	padding-right: 1em;
+}
+
+.imu-record-details .info table tr td
+{
+	text-align: left;
+	padding-right: 1em;
+}	

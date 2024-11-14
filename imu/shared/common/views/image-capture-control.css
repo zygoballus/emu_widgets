@@ -1,0 +1,20 @@
+/* Image capture needs different styling to other control widgets otherwise it
+   breaks. 
+*/
+
+.imu-image-capture-control > .table,
+.imu-image-capture-control > .table > .table-row,
+.imu-image-capture-control > .table > .table-row > .table-cell
+{
+	display: block;
+	height: 100%;
+}
+.imu-image-capture-control > .table > .table-row > .table-cell.icon
+{
+	display: none;
+}
+
+.imu-image-capture-control > .holder > div > .content > button
+{
+	cursor: pointer;
+}

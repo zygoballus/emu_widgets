@@ -1,0 +1,333 @@
+@font-face
+{
+	font-family: 'Netto';
+	
+	src: url('../../../dist/common/fonts/Netto/netto-webfont.eot');                                   
+    src: url('../../../dist/common/fonts/Netto/netto-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../dist/common/fonts/Netto/netto-webfont.woff') format('woff'),                   
+         url('../../../dist/common/fonts/Netto/netto-webfont.ttf') format('truetype'),                
+         url('../../../dist/common/fonts/Netto/netto-webfont.svg#webfont') format('svg');
+
+}
+
+.imu-page
+{
+	background-color: #000000;
+	color: #ffffff;
+	height: 99.8%;
+	overflow: hidden;
+}
+
+body.imu-page
+{
+	background-color: #141414;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	position: absolute;
+}
+
+.imu-page > .holder
+{
+	overflow: hidden;
+}	
+
+/* header 
+*/
+.imu-page > .holder > .header 
+{
+	height: 7em;
+}
+
+.imu-page > .holder > .header > .background1,
+.imu-page > .holder > .header > .background1 > .background2
+{
+	/* fallback image
+	*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+
+}
+
+.imu-page > .holder > .header > .background1
+{
+	position: absolute;
+	height: 20em;
+	width: 20em;
+	top: -13.2em;
+
+	/* fallback image
+	*/
+	background-image: 
+		url('../../../request.php?request=Image&name=header-layer1');
+}
+
+.imu-page > .holder > .header > .background1 > .background2
+{
+	position: relative;
+	height: 14em;
+	width: 14em;
+	margin-left: auto;
+	margin-right: auto;
+	top: 5.6em;
+
+	/* fallback image
+	*/
+	background-image: 
+		url('../../../request.php?request=Image&name=header-layer2');
+}
+
+.imu-page > .holder > .header h1
+{
+	position: relative;
+
+	height: auto;
+	width: 4em;
+
+	top: 4em;
+
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+
+	text-align: center;
+	vertical-align: bottom;
+
+	color: black;
+	font-family: 'Netto', sans-serif;
+	font-weight: lighter;
+	font-size: 2em;
+}
+
+.imu-page > .holder > .header > .navigation
+{
+	padding-top: 2em;
+}
+
+/* background
+*/
+.imu-page > .holder > .background
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+.imu-page > .holder > .background .bg1
+{
+	position: relative;
+
+	height: 80em;
+	width: 80em;
+
+	margin: 0;
+	padding: 0;
+
+	top: -9em;
+
+	/* fallback image
+	*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: 
+		url('../../../request.php?request=Image&name=bg-layer1');
+}
+
+.imu-page > .holder > .background .bg2
+{
+	position: relative;
+
+	height: 70em;
+	width: 70em;
+
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+
+	top: 9.5em;
+
+	/* image fallback
+	*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	background-image: 
+		url('../../../request.php?request=Image&name=bg-layer2');
+}
+
+.imu-page > .holder > .background .bg3
+{
+	position: absolute;
+
+	height: 60em;
+	width: 60em;
+
+	margin: 0;
+	padding: 0;
+
+	top: 50em;
+	
+	/* fallback image
+	*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	background-image: 
+		url('../../../request.php?request=Image&name=bg-layer3');
+}
+
+.imu-page > .holder > .background .bg4
+{
+	position: absolute;
+
+	height: 100%;
+	width: 100%;
+
+	margin: 0;
+	padding: 0;
+
+	top: 0;
+	
+	background-color: #555555;
+}
+
+.imu-page > .holder > .background .bg5
+{
+	height: 100%;
+	width: 100%;
+
+	margin: 0;
+	padding: 0;
+
+	top: 0;
+
+	background-size: 1em 1em;
+}
+
+/* sidebar
+*/
+
+.imu-page > .holder > .sidebar .searches-label
+{
+	padding: 0.3em;
+
+	color: #000000;
+	font-weight: bold;
+}
+
+.imu-page > .holder > .sidebar .collections-label
+{
+	padding: 0.3em;
+
+	color: #000000;
+	font-weight: bold;
+}
+
+.imu-page > .holder > .sidebar .collections
+{
+	height: 400px;
+}
+
+/* content
+*/
+.imu-page > .holder > .content
+{
+	overflow-y: auto;
+
+	color: #ffffff;
+	font-family: Arial, sans-serif;
+}
+
+.imu-page > .holder > .content textarea,
+.imu-page > .holder button
+{
+	border-radius: 0.25em;
+	margin: 0.1em;
+}
+
+.imu-page > .holder > .content input
+{
+	background-color: #ffffff;
+}
+.imu-page .imu-box-control
+{
+	border-left: 2px inset rgba(100, 100, 100, 0.7);
+	border-top: 2px inset rgba(100, 100, 100, 0.7);
+	border-bottom: 2px inset rgba(255, 255, 255, 0.5);
+	border-right: 2px inset rgba(255, 255, 255, 0.5);
+	border-radius: 0.3em;
+}
+.imu-page .imu-box-control > .holder
+{
+	border: none;
+}
+.imu-page td.imu-box-control
+{
+	border: none;
+}
+.imu-page td.imu-box-control > .holder
+{
+	border-left: 2px inset rgba(100, 100, 100, 0.7);
+	border-top: 2px inset rgba(100, 100, 100, 0.7);
+	border-bottom: 2px inset rgba(255, 255, 255, 0.5);
+	border-right: 2px inset rgba(255, 255, 255, 0.5);
+	border-radius: 0.3em;
+}
+
+.imu-page > .holder button,
+.imu-page > .holder > .content .imu-selection-control button
+{
+	color: #ffffff;
+	background-color: #888888;
+	border-color: #888888;
+}
+
+.imu-page > .holder > .sidebar input[type=checkbox],
+.imu-page > .holder > .content input[type=checkbox]
+{
+	-moz-appearance: none;
+	border-radius: 0.25em;
+
+	height: 1.2em;
+	width: 1.2em;
+}
+
+.imu-page .content .list table > tbody > tr:nth-child(odd)
+{
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.imu-page .content .list table > tbody > tr:nth-child(even)
+{
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.imu-page .content .list > table > tbody > tr:hover
+{
+	opacity: 0.8;
+	cursor: pointer;
+	color: rgb(245, 130, 20);
+}	
+
+/* footer
+*/
+.imu-page > .holder > .footer
+{
+/*	border-top: thin solid rgba(245, 130, 20, 0.6);*/
+	background-color: #666666;
+}
+
+.imu-page > .holder > .footer > .logos
+{
+	position: absolute;
+	top: 0.15em;
+	margin-left: 0.2em;
+	margin-right: 0.2em;
+}
+
+.imu-page > .holder > .footer > .logos img
+{
+	border: none;
+}

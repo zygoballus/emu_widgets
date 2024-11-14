@@ -1,0 +1,27 @@
+.editor-builder > .title
+{
+	font-size: 1.5em;
+	padding-bottom: 0.5em;
+	text-align: center;
+}
+
+.imu-editor-builder .imu-box-control,
+.imu-editor-builder .imu-selection-control,
+.imu-editor-builder .imu-box-control > .holder > .table-row > .icon,
+.imu-editor-builder .imu-box-control > .holder > .table-row > .icon > img
+{
+	height: 1.7em;
+}
+
+.imu-editor-builder .imu-box-control > .holder,
+.imu-editor-builder .imu-selection-control > .holder
+{
+	height: 100%;
+}
+
+.imu-editor-builder .imu-source-owner > .input,
+.imu-editor-builder .imu-source-owner > .selection,
+.imu-editor-builder .imu-destination-owner > .input
+{
+	border: solid 1px #E0E0E0;
+}

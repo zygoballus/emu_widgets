@@ -1,0 +1,42 @@
+.imu-artist-search .artist-buttons
+{
+	clear: both;
+}
+
+.imu-artist-search .button
+{
+	border: 1px solid #5d5d5d;
+	color: #5d5d5d;
+	cursor: pointer;
+	float: left;
+	height: 1.5em;
+	line-height: 1.5em;
+	margin: 0.2em;
+	text-align: center;
+	width: 1.5em;
+}
+
+.imu-artist-search .button.active-button
+{
+	border: 1px solid #bababa;
+	color: #bababa;
+	text-decoration: underline; 
+}
+
+.imu-artist-search .artist-results
+{
+	clear: both;
+	color: #000000;
+	padding: 0.5em;
+}
+
+.imu-artist-search .artist-results .artist
+{
+	cursor: pointer;
+	padding-bottom: 0.5em;
+}
+
+.imu-artist-search .artist-results .artist.active-artist
+{
+	color: #bababa;
+}

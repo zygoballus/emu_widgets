@@ -1,0 +1,85 @@
+.imu-my-collections.owner
+{
+    padding: 0.3em;
+}
+
+.imu-my-collections .holder
+{
+    background-color: #eeeeee;
+    color: #000000;
+    overflow: hidden;
+}
+
+.imu-my-collections .label
+{
+    font-weight: bold;
+}
+
+.imu-my-collections .header input
+{
+	width: 100%;
+}
+.imu-my-collections .header button
+{
+    background-color: inherit;
+	height: 2em;
+	padding: 0.5em;
+	width: 2em;
+	border: solid 1px transparent;
+	cursor: pointer;
+}
+.imu-my-collections .header button:hover
+{
+	border: solid 1px rgba(0, 0, 0, 0.15);
+	background: rgba(255, 255, 255, 0.65);
+}
+.imu-my-collections .header button img
+{
+	height: auto;
+	max-height: 100%;
+	max-width: 100%;
+	width: auto;
+}
+
+.imu-my-collections .background
+{
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 99999;
+}
+
+.imu-my-collections .box
+{
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    padding: 1.0em;
+    width: 38.0em;
+}
+
+.imu-my-collections .button-container
+{
+    padding: 0.4em;
+}
+
+.imu-my-collections .box-button
+{
+    background-color: #5d5d5d;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 0.5em;
+    padding: 0.2em;
+    width: 8em;
+}
+
+.imu-my-collections .box-button:hover
+{
+    background-color: #bababa;
+}

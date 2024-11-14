@@ -1,0 +1,7 @@
+.imu-record-browser.enarratives .section.subnarratives .items > .item,
+.imu-record-browser.enarratives .section.related-narratives .items > .item,
+.imu-record-browser.enarratives .section.objects .items > .item
+{
+  min-height: 4.8em;
+  width: 23.0em;
+}

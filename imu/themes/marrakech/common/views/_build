@@ -1,0 +1,11 @@
+include base
+include collection-viewer
+include combined-viewer
+include page
+include default-page
+include record-details
+include details-viewer
+include lightbox-viewer
+include list-viewer
+include my-collections
+include record-browser

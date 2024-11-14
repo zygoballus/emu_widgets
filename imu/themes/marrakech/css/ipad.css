@@ -1,0 +1,22 @@
+/* THIS FILE IS BUILT AUTOMATICALLY.
+** DO NOT CHANGE IT DIRECTLY.
+**
+** Built at: 2024-11-14 04:43:49 UTC (2024-11-14 04:43:49 UTC)
+*/
+
+/* Source: ./themes/marrakech/common/views/record-browser.ipad.css
+*/
+.imu-record-browser .main .info
+{
+	-webkit-overflow-scrolling: touch;
+}
+
+.imu-record-browser .children
+{
+	-webkit-overflow-scrolling: touch;
+}
+
+.imu-record-browser .children .child
+{
+	width: 23.0em;
+}

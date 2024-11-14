@@ -1,0 +1,223 @@
+/* trails */
+.trail .item
+{
+	cursor: pointer;
+	font-weight: bold;
+}
+
+/* main */
+.main
+{
+	width: 100%;
+}
+
+/* main multimedia */
+.main .multimedia-cell
+{
+	vertical-align: top;
+	width: 1%;
+}
+
+.main .frame
+{
+	background-color: gray;
+	height: 28.4em;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	text-align: center;
+	width: 28.4em;
+}
+
+.main .multimedia-main
+{
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	max-height: 24.0em;
+	max-width: 24.0em;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/* thumbnail multimedia */
+.main .multimedia-thumbnail-scroll
+{
+	height: 10em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 28.4em;
+}
+
+.main .multimedia-thumbnail-scroll .thumbnail-frame
+{
+	height: 8.3em;
+	width: 8.3em;
+}
+
+.main .multimedia-thumbnail-scroll .multimedia-thumbnail
+{
+	max-height: 8.3em;
+	max-width: 8.3em;
+}
+
+/* main info */
+.main .info-cell
+{
+	vertical-align: top;
+	width: 99%;
+}
+
+.main .info
+{
+	/*height: 25.0em;*/
+	overflow: auto;
+}
+
+.main .title
+{
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.main .description
+{
+	padding-top: 0.5em;
+	font-size: 1.1em;
+}
+
+/* section heading */
+.section-heading
+{
+}
+
+.section-heading-text
+{
+	font-weight: bold;
+	padding: 0.5em 0;
+}
+
+.section-buttons
+{
+	margin: 0 1em;
+}
+
+.section-buttons button
+{
+	width: 2em;
+}
+
+/* objects */
+.objects
+{
+	/*background-color: #eeeeee;
+	max-height: 15.3em;
+	overflow: auto;*/
+}
+
+.objects .object
+{
+	cursor: pointer;
+	height: 5.5em;
+	background-color: #eeeeee;
+	margin: 0.2em;
+}
+
+.objects .object .frame
+{
+	background-color: gray;
+	height: 5.0em;
+	text-align: center;
+	width: 5.0em;
+}
+
+.objects .object .image
+{
+	max-height: 4.8em;
+	max-width: 4.8em;
+}
+
+/* children */
+.children
+{
+	/*background-color: #eeeeee;
+	max-height: 15.3em;
+	overflow: auto;*/
+}
+
+.children .child
+{
+	cursor: pointer;
+	height: 5.5em;
+	background-color: #eeeeee;
+	margin: 0.2em;
+}
+
+.children .child .frame
+{
+	background-color: gray;
+	height: 5.0em;
+	text-align: center;
+	width: 5.0em;
+}
+
+.children .child .image
+{
+	max-height: 4.8em;
+	max-width: 4.8em;
+}
+
+/* related narratives */
+.associations
+{
+	/*background-color: #eeeeee;
+	max-height: 15.3em;
+	overflow: auto;*/
+}
+
+.associations .association
+{
+	cursor: pointer;
+	height: 5.5em;
+	background-color: #eeeeee;
+	margin: 0.2em;
+}
+
+.associations .association .frame
+{
+	background-color: gray;
+	height: 5.0em;
+	text-align: center;
+	width: 5.0em;
+}
+
+.associations .association .image
+{
+	max-height: 4.8em;
+	max-width: 4.8em;
+}
+
+
+/* Table date */
+.info .details table
+{
+	border-collapse: collapse;
+}
+
+.info .details td
+{
+	vertical-align: top;
+}
+
+.supplementary .info .details td.prompt
+{
+	min-width: 20em;
+}
+
+.info #emultimedia-supplementary .image
+{
+	max-width: 4.8em;
+	max-height: 4.8em;
+}

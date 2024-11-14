@@ -1,0 +1,17 @@
+.imu-tabbed-display .tab
+{
+	cursor: pointer;
+	padding: 0 0.1em;
+	height: 33px;
+}
+
+.imu-tabbed-display .tab .title
+{
+	margin: 0;
+	padding: 0.3em;
+}
+
+.imu-tabbed-display .tab-selected .title
+{
+	font-weight: bold;
+}

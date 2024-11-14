@@ -1,0 +1,7 @@
+theme	prague
+title	ar براغ
+title	en Prague
+title	fr Prague
+include	common
+include	client
+include	local

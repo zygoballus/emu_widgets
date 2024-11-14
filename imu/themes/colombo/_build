@@ -1,0 +1,7 @@
+theme	colombo
+title	en Colombo
+title	fr Colombo
+title	ar كولومبو
+include	common
+include	client
+include	local

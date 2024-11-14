@@ -1,0 +1,254 @@
+/* THIS FILE IS BUILT AUTOMATICALLY.
+** DO NOT CHANGE IT DIRECTLY.
+**
+** Built at: 2024-11-14 04:43:49 UTC (2024-11-14 04:43:49 UTC)
+*/
+
+/* Source: ./themes/prague/common/views/combined-viewer.phone.css
+*/
+.imu-combined-viewer > .holder > .header .modules,
+.imu-combined-viewer > .holder > .header .icons
+{
+	width: auto;
+	white-space: normal;
+}
+.imu-combined-viewer > .holder > .header .icons
+{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+.imu-combined-viewer > .holder > .header .icons img
+{
+	height: 75%;
+	vertical-align: middle;
+}
+
+
+.imu-record-details .info table tr td {
+	display: block;
+	clear: both;
+	float: left;
+	width: 100%;
+}
+/* Source: ./themes/prague/common/views/page.phone.css
+*/
+body.imu-page
+{
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+}
+
+/* header
+*/
+.imu-page > .holder > .header
+{
+	height: 0.0em;
+}
+
+/* footer
+*/
+.imu-page > .holder > .footer
+{
+	height: 0.0em;
+}
+
+/* toggle
+*/
+.imu-page > .holder > .toggle
+{
+	font-weight: bold;
+	font-size: 42px;
+}
+
+/* Source: ./themes/prague/common/views/default-page.phone.css
+*/
+.imu-default-page > .holder > .header
+{
+	height: 3.5em;
+}
+.imu-default-page > .holder > .header > table,
+.imu-default-page > .holder > .header .logo > a
+{
+	height: 3.25em;
+}
+.imu-default-page > .holder > .sidebar
+{
+	z-index: 2;
+}
+.imu-default-page > .holder > .content
+{
+	left: 0;
+	right: 0;
+}
+
+/* Header styling
+*/
+.imu-default-page > .holder > .header .search
+{
+	width: auto;
+}
+
+.imu-default-page > .holder > .header .logo > a
+.imu-default-page > .holder > .header .imu-keyword-search
+{
+	display: block;
+}
+.imu-default-page > .holder > .header .logo > a
+{
+	width: 5em;
+}
+.imu-default-page > .holder > .header .imu-keyword-search,
+.imu-default-page > .holder > .header .search .toggle
+{
+	width: 100%;
+}
+.imu-default-page > .holder > .header .imu-keyword-search input
+{
+	width: calc(100% - 3.5em);
+}
+.imu-default-page > .holder > .header .imu-keyword-search .submit
+{
+	width: 3.5em;
+}
+
+.imu-default-page > .holder > .header .title,
+.imu-default-page > .holder > .header .language-selection,
+.imu-default-page > .holder > .header .search .label
+{
+	display: none;
+}
+
+.imu-default-page > .holder > .header .search .toggle
+{
+	font-size: small;
+}
+
+/* Sidebar styling
+*/
+.imu-default-page > .holder > .sidebar .search-forms .header
+{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+	flex-wrap: wrap;
+}
+.imu-default-page > .holder > .sidebar .search-forms .header .tab
+{
+	box-sizing: border-box;
+	text-align: center;
+	width: 25%;
+}
+
+/* Source: ./themes/prague/common/views/record-details.phone.css
+*/
+.imu-record-details
+{
+	box-sizing: border-box;
+	padding: 0.25em;
+}
+
+.imu-record-details .summary > table,
+.imu-record-details .summary > table > tbody,
+.imu-record-details .summary > table > tbody > tr,
+.imu-record-details .summary > table > tbody > tr > td
+{
+	display: block;
+}
+
+/* Title & select
+*/
+.imu-record-details .title,
+.imu-record-details .select-cell
+{
+	display: inline-block;
+	vertical-align: top;
+}
+.imu-record-details .title
+{
+	min-height: 4em;
+	width: calc(100% - 1.5em);
+}
+.imu-record-details .select-cell
+{
+	float: right;
+	width: 1.5em;
+}
+
+/* Details
+*/
+.imu-record-details .info table tr td.prompt
+{
+	padding-top: 0.5em;
+	width: 100%;
+}
+
+
+/* Multimedia
+*/
+.imu-record-details .multimedia-cell > .imu-multimedia-plugin
+{
+	height: auto;
+	line-height: normal;
+	min-height: 12em;
+}
+.imu-record-details .multimedia-cell > .imu-multimedia-plugin,
+.imu-record-details .multimedia-cell > .multimedia-scroller
+{
+	width: 100%;
+}
+.imu-record-details .multimedia-cell > .multimedia-scroller,
+.imu-record-details .multimedia-cell > .multimedia-scroller .imu-multimedia-plugin
+{
+	height: 6em;
+	line-height: 6em;
+}
+.imu-record-details .multimedia-cell > .multimedia-scroller .imu-multimedia-plugin
+{
+	width: 6em;
+}
+
+.imu-record-details .record .multimedia-scroller > .holder
+{
+	min-width: 100%;
+}
+.imu-record-details .record .multimedia-scroller > .holder > .view
+{
+	min-width: calc(100% - 2.4em);
+}
+
+.imu-record-details .section > .items > .item
+{
+	float: none;
+	margin: none;
+	margin-bottom: 0.25em;
+	width: 100%;
+}
+
+/* Source: ./themes/prague/common/views/record-details/enarratives.phone.css
+*/
+.imu-record-details.enarratives .section > .items > .item
+{
+	float: none;
+	margin: none;
+	margin-bottom: 0.25em;
+	width: 100%;
+}
+
+
+/* Source: ./themes/prague/common/views/list-viewer.phone.css
+*/
+.imu-list-viewer .record
+{
+	height: 6em;
+}
+
+.imu-list-viewer .description
+{
+	height: 3.5em;
+}

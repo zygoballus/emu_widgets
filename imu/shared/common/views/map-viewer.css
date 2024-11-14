@@ -1,0 +1,364 @@
+/* collator */
+
+div.imu-collator-owner
+{
+	border-style: double;
+	border-width: 1px 2px 2px 1px;
+	border-color: #a0a0a0 #606060 #606060 #a0a0a0;
+	background: #c0c0c0;
+	z-index: 1010;
+	padding: 1em;
+}
+
+.imu-map-collate-ok
+{
+	margin: 0% 50%;
+}
+
+.imu-collator-owner fieldset 
+{
+    padding: 1em;
+    font:80%/1 sans-serif;
+}
+.imu-collator-owner label
+{
+	width:35%;
+	padding: 0.2em;
+	margin-right:0.5em;
+	text-align:right;
+	font-weight:bold;
+	display: inline-block;
+	clear: left;
+	float: left;
+}
+
+.imu-collator-owner input
+{
+	font-weight:normal;
+	float: left;
+	padding: 0.2em;
+}
+
+.imu-collator-owner select
+{
+	font-weight:normal;
+	float: left;
+	padding: 0.2em;
+}
+
+/* legend */
+
+div.imu-legend-owner
+{
+	border: 1px solid #a0a0a0;
+	padding: 0.5em;
+	margin: 2em;
+	width: 20%;
+	display: table; 
+	background: #e0e0e0;
+	z-index: 1001;
+
+	opacity:0.8;
+	filter:alpha(opacity=80);
+}
+
+.imu-legend-data-item
+{
+	float: left;
+	width: 100%;
+	/*padding: 0 0.5em;*/
+	font-size: smaller;
+	clear: left;
+}
+
+
+.imu-legend-data-item-icon
+{
+	/*height: 4em;
+	width: 4em;*/
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+.imu-legend-data-item-icon img
+{
+	height: 1.2em;
+	width: 1.2em;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+.imu-legend-data-item-text
+{
+	float: left;
+	width: 90%;
+}
+
+.imu-legend-data-item-name
+{
+	/*padding: 0 0.5em;*/
+	float: left;
+}
+.imu-legend-data-item-count
+{
+	/*padding: 0 0.5em;*/
+	float: left;
+}
+
+.imu-legend-configure-category
+{
+	width: 24px;
+	height: 22px;
+	vertical-align: middle;
+	margin-left: 5px;
+	float: right;
+}
+
+.imu-legend-subtitle
+{
+	float: left;
+	font-size: smaller;
+	font-weight: bold;
+	padding: 1px;
+	clear: both;
+}
+
+.imu-legend-title
+{
+	float: left;
+	font-weight: bold;
+	padding: 2px;
+	clear: both;
+}
+
+
+/* map-view */
+
+.imu-map-closeX
+{
+	float: right;
+	width: 17px;
+	height: 17px;
+	background: url("./mapicons/close.gif") no-repeat;
+	cursor: pointer;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.imu-map-details-header
+{
+	background-color: #e0e0e0;
+	text-align: center;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.imu-map-detail-owner
+{
+	width: 33%;
+	border: 1px solid grey;
+	background-color: white;
+	z-index: 1009;
+	position: absolute;
+	margin-top: 2em;
+	padding: 0.3em;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background-color: #f0f0f0;
+}
+
+.imu-map-detail-displayer
+{
+	clear: both;
+	overflow: auto;
+	height: 80%;
+	margin-top: 10%;
+	background-color: #f7f7f7;
+}
+
+.imu-map-simpledetails-details
+{
+	border-width: 1px 0 1px 0;
+	border-style: solid;
+	border-color: #7f7f7f;
+	background-color: #f7f7f7;
+}
+
+.imu-map-detail-displayer tr:nth-child(2n+1)
+{
+	background-color: #f0f7f7;
+}
+
+.imu-map-details-emu-field-value
+{
+	font-weight: bolder;
+}
+
+.map-view-popup-description
+{
+	width: 25em;
+}
+
+
+.map-view-popup-specimenLink
+{
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+}
+
+.imu-map-statusHolder
+{
+	position: relative;
+	bottom : 50%;
+	left: 50%;
+	z-index: 1001;
+	color: black;
+	background-color: white;
+	border: 1px solid grey;
+	height: 2em;
+	padding: 0.3em;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.imu-map-statusHolder span
+{
+}
+
+.imu-map-toolTip
+{
+	border:	1px solid grey;
+	background: white;
+	position: absolute;
+	display: block;
+	z-index: 10000000;
+	padding: 1em;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+/* map-view OpenLayers*/
+
+.olControlPanel
+{
+	width: 50%;
+	left: 50%;
+}
+
+.olControlPanel .olControlZoomToShowAllItemActive
+{
+	width: 22px;	
+	height: 22px;
+}
+
+.olControlPanel .olControlZoomToShowAllItemInactive
+{
+	width: 22px;	
+	height: 22px;
+}
+
+.olControlPanel .olControlClearFoundPointsItemActive
+{
+	width: 24px;	
+	height: 24px;
+}
+.olControlPanel .olControlClearFoundPointsItemInactive
+{
+	width: 24px;	
+	height: 24px;
+}
+
+.olControlPanel div
+{
+	width: 24px;
+	height: 24px;
+	margin: 0px 5px 5px 5px;
+	background-color: red;
+	float: right;
+}
+
+
+/* scale bar */
+.olControlScaleBar
+{
+	color: black;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	margin-left: 40%;
+	margin-right: 40%;
+	bottom: 1em;
+	z-index: 1010;
+	height: 3em;
+}
+
+.olControlScaleBarBar
+{
+	height: 1px;
+	top: 14px;
+	background: #333333;
+}
+
+.olControlScaleBarBarAlt
+{
+	height: 1px;
+	top: 14px;
+	background: #a0a0a0;
+}
+
+.olControlScaleBarMarkerMajor
+{
+	height: 7px;
+	width: 1px;
+	top: 11px;
+	background: #ff7fff;
+}
+
+.olControlScaleBarMarkerMinor
+{
+	height: 5px;
+	width: 1px;
+	top: 12px;
+	background: #000000;
+}
+
+.olControlScaleBarNumbersBox
+{
+	height: 13px;
+	top: 21px;
+	font-size: 0.7em;
+}
+
+.olControlScaleBarLabelBox
+{
+	top: -2px;
+	height: 15px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	font-size: 0.8em;
+	font-variant: small-caps;
+}
+
+.olControlScaleBarLabelBoxSingleLine
+{
+	height: 15px;
+	width: 35px;
+	top: 5px;
+	font-size: 0.8em;
+	font-variant: small-caps;
+}
+
+.olControlScaleBarWrapper
+{
+	background-color: #a0ffa0;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+}
+
+.olControlScaleBarWrapper:hover
+{
+	opacity:1.0;
+	background-color: #ffffa0;
+	filter:alpha(opacity=100);
+}

@@ -1,0 +1,752 @@
+/* THIS FILE IS BUILT AUTOMATICALLY.
+** DO NOT CHANGE IT DIRECTLY.
+**
+** Built at: 2024-11-14 04:43:49 UTC (2024-11-14 04:43:49 UTC)
+*/
+
+/* Source: ./themes/marrakech/common/views/base.css
+*/
+.imu-widget
+{
+	font-family: "Arial";
+}
+
+/* Source: ./themes/marrakech/common/views/collection-viewer.css
+*/
+.imu-collection-viewer .record
+{
+	height: 4.5em;
+	overflow: hidden;
+	width: 18.0em;	/* minimum */
+}
+
+.imu-collection-viewer .record table
+{
+	width: 100%;
+}
+
+.imu-collection-viewer .record td
+{
+	vertical-align: top;
+}
+
+.imu-collection-viewer .image .frame
+{
+	background-color: gray;
+	height: 4.4em;
+	text-align: center;
+	width: 4.4em;
+}
+
+.imu-collection-viewer .image img
+{
+	max-height: 4.3em;
+	max-width: 4.3em;
+}
+
+.imu-collection-viewer .title
+{
+	font-weight: bold;
+}
+
+/* Source: ./themes/marrakech/common/views/combined-viewer.css
+*/
+.imu-combined-viewer .module
+{
+	cursor: pointer;
+}
+
+.imu-combined-viewer .icon
+{
+	cursor: pointer;
+}
+
+/* Source: ./themes/marrakech/common/views/page.css
+*/
+@font-face
+{
+	font-family: 'Netto';
+	
+	src: url('../../../dist/common/fonts/Netto/netto-webfont.eot');                                   
+    src: url('../../../dist/common/fonts/Netto/netto-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../dist/common/fonts/Netto/netto-webfont.woff') format('woff'),                   
+         url('../../../dist/common/fonts/Netto/netto-webfont.ttf') format('truetype'),                
+         url('../../../dist/common/fonts/Netto/netto-webfont.svg#webfont') format('svg');
+
+}
+
+.imu-page
+{
+	background-color: #000000;
+	color: #ffffff;
+	height: 99.8%;
+	overflow: hidden;
+}
+
+body.imu-page
+{
+	background-color: #141414;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	position: absolute;
+}
+
+.imu-page > .holder
+{
+	overflow: hidden;
+}	
+
+/* header 
+*/
+.imu-page > .holder > .header 
+{
+	height: 7em;
+}
+
+.imu-page > .holder > .header > .background1,
+.imu-page > .holder > .header > .background1 > .background2
+{
+	/* fallback image
+	*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+
+}
+
+.imu-page > .holder > .header > .background1
+{
+	position: absolute;
+	height: 20em;
+	width: 20em;
+	top: -13.2em;
+
+	/* fallback image
+	*/
+	background-image: 
+		url('../../../request.php?request=Image&name=header-layer1');
+}
+
+.imu-page > .holder > .header > .background1 > .background2
+{
+	position: relative;
+	height: 14em;
+	width: 14em;
+	margin-left: auto;
+	margin-right: auto;
+	top: 5.6em;
+
+	/* fallback image
+	*/
+	background-image: 
+		url('../../../request.php?request=Image&name=header-layer2');
+}
+
+.imu-page > .holder > .header h1
+{
+	position: relative;
+
+	height: auto;
+	width: 4em;
+
+	top: 4em;
+
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+
+	text-align: center;
+	vertical-align: bottom;
+
+	color: black;
+	font-family: 'Netto', sans-serif;
+	font-weight: lighter;
+	font-size: 2em;
+}
+
+.imu-page > .holder > .header > .navigation
+{
+	padding-top: 2em;
+}
+
+/* background
+*/
+.imu-page > .holder > .background
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+.imu-page > .holder > .background .bg1
+{
+	position: relative;
+
+	height: 80em;
+	width: 80em;
+
+	margin: 0;
+	padding: 0;
+
+	top: -9em;
+
+	/* fallback image
+	*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: 
+		url('../../../request.php?request=Image&name=bg-layer1');
+}
+
+.imu-page > .holder > .background .bg2
+{
+	position: relative;
+
+	height: 70em;
+	width: 70em;
+
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+
+	top: 9.5em;
+
+	/* image fallback
+	*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	background-image: 
+		url('../../../request.php?request=Image&name=bg-layer2');
+}
+
+.imu-page > .holder > .background .bg3
+{
+	position: absolute;
+
+	height: 60em;
+	width: 60em;
+
+	margin: 0;
+	padding: 0;
+
+	top: 50em;
+	
+	/* fallback image
+	*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	background-image: 
+		url('../../../request.php?request=Image&name=bg-layer3');
+}
+
+.imu-page > .holder > .background .bg4
+{
+	position: absolute;
+
+	height: 100%;
+	width: 100%;
+
+	margin: 0;
+	padding: 0;
+
+	top: 0;
+	
+	background-color: #555555;
+}
+
+.imu-page > .holder > .background .bg5
+{
+	height: 100%;
+	width: 100%;
+
+	margin: 0;
+	padding: 0;
+
+	top: 0;
+
+	background-size: 1em 1em;
+}
+
+/* sidebar
+*/
+
+.imu-page > .holder > .sidebar .searches-label
+{
+	padding: 0.3em;
+
+	color: #000000;
+	font-weight: bold;
+}
+
+.imu-page > .holder > .sidebar .collections-label
+{
+	padding: 0.3em;
+
+	color: #000000;
+	font-weight: bold;
+}
+
+.imu-page > .holder > .sidebar .collections
+{
+	height: 400px;
+}
+
+/* content
+*/
+.imu-page > .holder > .content
+{
+	overflow-y: auto;
+
+	color: #ffffff;
+	font-family: Arial, sans-serif;
+}
+
+.imu-page > .holder > .content textarea,
+.imu-page > .holder button
+{
+	border-radius: 0.25em;
+	margin: 0.1em;
+}
+
+.imu-page > .holder > .content input
+{
+	background-color: #ffffff;
+}
+.imu-page .imu-box-control
+{
+	border-left: 2px inset rgba(100, 100, 100, 0.7);
+	border-top: 2px inset rgba(100, 100, 100, 0.7);
+	border-bottom: 2px inset rgba(255, 255, 255, 0.5);
+	border-right: 2px inset rgba(255, 255, 255, 0.5);
+	border-radius: 0.3em;
+}
+.imu-page .imu-box-control > .holder
+{
+	border: none;
+}
+.imu-page td.imu-box-control
+{
+	border: none;
+}
+.imu-page td.imu-box-control > .holder
+{
+	border-left: 2px inset rgba(100, 100, 100, 0.7);
+	border-top: 2px inset rgba(100, 100, 100, 0.7);
+	border-bottom: 2px inset rgba(255, 255, 255, 0.5);
+	border-right: 2px inset rgba(255, 255, 255, 0.5);
+	border-radius: 0.3em;
+}
+
+.imu-page > .holder button,
+.imu-page > .holder > .content .imu-selection-control button
+{
+	color: #ffffff;
+	background-color: #888888;
+	border-color: #888888;
+}
+
+.imu-page > .holder > .sidebar input[type=checkbox],
+.imu-page > .holder > .content input[type=checkbox]
+{
+	-moz-appearance: none;
+	border-radius: 0.25em;
+
+	height: 1.2em;
+	width: 1.2em;
+}
+
+.imu-page .content .list table > tbody > tr:nth-child(odd)
+{
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.imu-page .content .list table > tbody > tr:nth-child(even)
+{
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.imu-page .content .list > table > tbody > tr:hover
+{
+	opacity: 0.8;
+	cursor: pointer;
+	color: rgb(245, 130, 20);
+}	
+
+/* footer
+*/
+.imu-page > .holder > .footer
+{
+/*	border-top: thin solid rgba(245, 130, 20, 0.6);*/
+	background-color: #666666;
+}
+
+.imu-page > .holder > .footer > .logos
+{
+	position: absolute;
+	top: 0.15em;
+	margin-left: 0.2em;
+	margin-right: 0.2em;
+}
+
+.imu-page > .holder > .footer > .logos img
+{
+	border: none;
+}
+
+/* Source: ./themes/marrakech/common/views/record-details.css
+*/
+/* trails */
+.trail .item
+{
+	cursor: pointer;
+	font-weight: bold;
+}
+
+/* main */
+.main
+{
+	width: 100%;
+}
+
+/* main multimedia */
+.main .multimedia-cell
+{
+	vertical-align: top;
+	width: 1%;
+}
+
+.main .frame
+{
+	background-color: gray;
+	height: 28.4em;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	text-align: center;
+	width: 28.4em;
+}
+
+.main .multimedia-main
+{
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	max-height: 24.0em;
+	max-width: 24.0em;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/* thumbnail multimedia */
+.main .multimedia-thumbnail-scroll
+{
+	height: 10em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 28.4em;
+}
+
+.main .multimedia-thumbnail-scroll .thumbnail-frame
+{
+	height: 8.3em;
+	width: 8.3em;
+}
+
+.main .multimedia-thumbnail-scroll .multimedia-thumbnail
+{
+	max-height: 8.3em;
+	max-width: 8.3em;
+}
+
+/* main info */
+.main .info-cell
+{
+	vertical-align: top;
+	width: 99%;
+}
+
+.main .info
+{
+	/*height: 25.0em;*/
+	overflow: auto;
+}
+
+.main .title
+{
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.main .description
+{
+	padding-top: 0.5em;
+	font-size: 1.1em;
+}
+
+/* section heading */
+.section-heading
+{
+}
+
+.section-heading-text
+{
+	font-weight: bold;
+	padding: 0.5em 0;
+}
+
+.section-buttons
+{
+	margin: 0 1em;
+}
+
+.section-buttons button
+{
+	width: 2em;
+}
+
+/* objects */
+.objects
+{
+	/*background-color: #eeeeee;
+	max-height: 15.3em;
+	overflow: auto;*/
+}
+
+.objects .object
+{
+	cursor: pointer;
+	height: 5.5em;
+	background-color: #eeeeee;
+	margin: 0.2em;
+}
+
+.objects .object .frame
+{
+	background-color: gray;
+	height: 5.0em;
+	text-align: center;
+	width: 5.0em;
+}
+
+.objects .object .image
+{
+	max-height: 4.8em;
+	max-width: 4.8em;
+}
+
+/* children */
+.children
+{
+	/*background-color: #eeeeee;
+	max-height: 15.3em;
+	overflow: auto;*/
+}
+
+.children .child
+{
+	cursor: pointer;
+	height: 5.5em;
+	background-color: #eeeeee;
+	margin: 0.2em;
+}
+
+.children .child .frame
+{
+	background-color: gray;
+	height: 5.0em;
+	text-align: center;
+	width: 5.0em;
+}
+
+.children .child .image
+{
+	max-height: 4.8em;
+	max-width: 4.8em;
+}
+
+/* related narratives */
+.associations
+{
+	/*background-color: #eeeeee;
+	max-height: 15.3em;
+	overflow: auto;*/
+}
+
+.associations .association
+{
+	cursor: pointer;
+	height: 5.5em;
+	background-color: #eeeeee;
+	margin: 0.2em;
+}
+
+.associations .association .frame
+{
+	background-color: gray;
+	height: 5.0em;
+	text-align: center;
+	width: 5.0em;
+}
+
+.associations .association .image
+{
+	max-height: 4.8em;
+	max-width: 4.8em;
+}
+
+
+/* Table date */
+.info .details table
+{
+	border-collapse: collapse;
+}
+
+.info .details td
+{
+	vertical-align: top;
+}
+
+.supplementary .info .details td.prompt
+{
+	min-width: 20em;
+}
+
+.info #emultimedia-supplementary .image
+{
+	max-width: 4.8em;
+	max-height: 4.8em;
+}
+
+/* Source: ./themes/marrakech/common/views/details-viewer.css
+*/
+.imu-details-viewer .record
+{
+	background-color: #ffffff;
+	color: #000000;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 0.5em;
+}
+
+/* Source: ./themes/marrakech/common/views/lightbox-viewer.css
+*/
+.imu-lightbox-viewer .record
+{
+	height: 20.0em;
+	overflow: hidden;
+	padding: 0.5em;
+	width: 20.0em;		/* minimum */
+}
+
+.imu-lightbox-viewer .frame
+{
+	background-color: gray;
+	height: 18.0em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 18.0em;
+}
+
+.imu-lightbox-viewer .frame .image
+{
+	max-height: 17.0em;
+	max-width: 17.0em;
+}
+
+.imu-lightbox-viewer .info
+{
+	height: 1.5em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 18.0em;
+}
+
+.imu-lightbox-viewer .title
+{
+	cursor: pointer;
+	font-weight: bold;
+	width: 15.5em;
+}
+
+.imu-lightbox-viewer .select
+{
+	width: 1.5em;
+}
+
+/* Source: ./themes/marrakech/common/views/list-viewer.css
+*/
+.imu-list-viewer .record
+{
+	height: 10.0em;
+	overflow: hidden;
+	width: 30.0em;	/* minimum */
+}
+.imu-list-viewer .record td
+{
+	vertical-align: top;
+}
+.imu-list-viewer .image-frame
+{
+	background-color: gray;
+	height: 100px;
+	text-align: center;
+	width: 100px;
+}
+.imu-list-viewer .frame .item-image
+{
+	max-height: 90px;
+	max-width: 90px;
+}
+.imu-list-viewer .title
+{
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.imu-list-viewer .description
+{
+	overflow: hidden;
+	height: 7.0em;
+}
+
+/* Source: ./themes/marrakech/common/views/my-collections.css
+*/
+.imu-my-collections.owner
+{
+	padding: 0.3em;
+}
+
+.imu-my-collections .holder
+{
+	background-color: #eeeeee;
+	color: #000000;
+}
+
+.imu-my-collections .label
+{
+	font-weight: bold;
+}
+
+.imu-my-collections .header button
+{
+	background-color: inherit;
+	border: 0px;
+	margin: 0;
+}
+
+/* Source: ./themes/marrakech/common/views/record-browser.css
+*/
+.imu-record-browser
+{
+	background-color: #ffffff;
+	color: #000000;
+	overflow-x: hidden;
+	overflow-y: auto;
+}

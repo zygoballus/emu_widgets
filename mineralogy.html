@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" 
+        content="width=device-width, height=device-height, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+    </style>
+    <script type="text/javascript" src="imu/imu.php"></script>
+    <script type="text/javascript">
+        IMu.Importer.add('OpenLayers');
+        IMu.URL.Hash.complete = true;
+        function loadPage()
+        {
+            IMu.log('reloading page');
+
+            var page = $('.imu-mineralogy-page').IMu();
+            page.processURLSearch();
+        }
+        IMu.ready(function()
+        {
+			$('body').IMu('mineralogy-page');
+
+			IMu.Events.bind('imu-show', loadPage);
+			IMu.Events.bind('hash-loaded', loadPage);
+
+			IMu.Events.bind('record-browser-load', function(name, rid)
+			{
+				if (!IMu.URL.Hash.values.view && IMu.URL.Hash.values.browse != rid)
+				{
+					IMu.URL.Hash.values = {};
+					IMu.URL.Hash.set('browse', rid);
+				}
+			});
+
+			IMu.Events.bind('details-viewer-load', function(name, rid)
+			{
+				if (IMu.URL.Hash.values.details != rid)
+				{
+					IMu.URL.Hash.values = {};
+					IMu.URL.Hash.set('details', rid);
+				}
+			});
+        });
+    </script>
+</head>
+<body>
+<table>
+</body>
+</html>

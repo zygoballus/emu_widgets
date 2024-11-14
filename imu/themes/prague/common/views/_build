@@ -1,0 +1,15 @@
+include base
+include collection-viewer
+include combined-viewer
+include page
+include default-page
+include paged-display
+include record-details
+include details-viewer
+include lightbox-viewer
+include list-viewer
+include tree-viewer
+include my-collections
+include sort-control
+include record-browser
+include highlights-banner.css

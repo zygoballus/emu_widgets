@@ -1,0 +1,317 @@
+body {
+	font-family: sans-serif;
+}
+
+#map-collator {
+	top: 0;
+	left: 0;
+}
+
+.collapse-icon {
+	width: 1em;
+	height: 1em;
+	float: left;
+	padding-right: 2em;
+}
+
+.menu-header-bar {
+	float: left;
+	background-color: aliceblue;
+	color: darkgray;
+}
+
+.menu-header-bar span {
+	float: left;
+	padding: 0 3em 0 3em;
+}
+
+.header-bar {
+	background-color: #d6dfe2;
+	font-weight: bold;
+	padding: 0.2em;
+	cursor: pointer;
+}
+
+#cluster-distance {
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+#map-panel {
+	float: left;
+	display: inline-block;
+	margin-left: 1em;
+	border: 1px solid #d6dfe2;
+	background: beige;
+	position: absolute;
+	left: 0;
+}
+
+#legend-panel {
+	background-color: #ffffff;;
+	position: absolute;
+	z-index: 2000;
+	width: 75%;
+	border: 1px solid #d6dfe2;
+}
+
+#legend {
+}
+
+.legend-item-group {
+	font-style: italic;
+}
+
+.legend-icon {
+	width: 2em;
+	height: 2em;
+	float: left;
+	padding: 0 0.2em 0 0.2em;
+}
+.legend-item {
+	display: inline-block;
+	padding-right: 1em;
+}
+
+.legend-item-group {
+		margin: 0.2em 0.2em 0.2em 0;
+}
+
+img.legend-settings {
+	width: 32px;
+}
+
+.legend-text {
+	float: left;
+	padding-left: 0.2em;
+	width: 10em;
+	display: block;
+}
+
+.roller {
+	height: 1em;
+	width: 1em;
+	float: left;
+	padding-right: 1em;
+}
+
+div.imu-legend-holder {
+	font-weight: inherit;
+	border: inherit;
+}
+
+div.imu-legend-data-item {
+	font-size: inherit;
+}
+
+dl {
+	float: left;
+}
+
+dl.sub-field dt {
+	color: gray;
+	padding-left: 1em;
+}
+
+dt {
+	float: left;
+	clear: left;
+	padding: 0.1em 1em 0.1em 0;
+	width: 100px;
+	text-align: right;
+	font-weight: bold;
+}
+dt:after {
+	content: ":";
+}
+dd {
+	padding: 0.1em 0 0.1em 0;
+}
+
+.dockable-panel {
+	font-size: smaller;
+}
+
+.panel-footer {
+	height: 1em;
+	width: 100%;
+	display: inline-block;
+}
+
+#menu-bar {
+	width: 100%;
+	background: #d6dfe2;
+	height: 1.2em;
+}
+
+.menu-heading {
+	float: left;
+	clear: none;
+	padding-right: 3em;
+	padding-left: 3em;
+}
+
+#menu-controls {
+	width: 20em;
+}
+
+#expander-menu-controls {
+}
+
+.expander.disabled span {
+	background: aliceblue;
+}
+
+.expander.disabled img {
+	background: aliceblue;
+}
+
+.help-definitions dt {
+	width: inherit;
+	text-align: left;
+}
+
+.help-definitions dd {
+	float: left;
+	clear: both;
+}
+
+
+fieldset {
+	float: left;
+	border: none;
+}
+
+
+#map-viewer {
+	float: left;
+/*	padding-left: 20%;*/
+}
+
+.menu-panel {
+	position: absolute;
+	z-index: 2000;
+	background: #d6dfe2;
+	opacity: 0.9;
+	border-right: 3px solid white;
+	border-bottom: 3px solid white;
+}
+
+#menu-items {
+	list-style: none;
+}
+
+
+#OpenLayers_Control_MaximizeDiv, #OpenLayers_Control_MinimizeDiv {
+	visibility: hidden;
+	height: 0;
+}
+
+.ui-widget-content {
+}
+
+.ui-slider-handle {
+	background: gray !important;
+}
+
+#feature-details, #marker-info, #legend-panel {
+	float: left;
+	z-index: 2000;
+	border: 1px solid #d6dfe2;
+	background-color: #ffffff;
+	width: inherit;
+	visibility: hidden;
+	height: inherit !important;
+	font-size: small;
+}
+
+.field-icon {
+	width: 2em;
+	padding-right: 1em;
+	vertical-align: middle;
+}
+
+.definition-item {
+	float: left;
+	clear: left;
+}
+
+.definition-item .term {
+	float: left;
+	font-weight: bold;
+	padding-right: 1em;
+}
+
+.definition .definition-item {
+	float: left;
+	clear: none;
+	padding-left: 1em;
+}
+
+#feature-details table ,#marker-info table {
+	padding-left: 1em;
+}
+
+#feature-details .legend-icon ,#marker-info .legend-icon {
+}
+
+
+.rollable-body {
+	overflow: auto !important;
+	height: 25em;
+	width: 97%;
+	padding-left: 1em;
+}
+
+#feature-details .legend-icon , #marker-info .legend-icon {
+	padding: 1em;
+}
+
+#legend-panel .rollable-body,
+#feature-details .rollable-body,
+#marker-info .rollable-body {
+	float: left;
+}
+
+.panel-footer {
+	height: 1em;
+	width: 100%;
+	display: inline-block;
+}
+
+div.simple-item-details {
+	float: left;
+	background: #ffffff;;
+	border: 0.2em solid #ffffff;
+	height: 5em;
+	cursor: pointer;
+	font-size: small;
+	width: 100%;
+}
+
+div.simple-item-details :hover {
+	border: 0.2em solid #d6dfe2;
+}
+
+.item-image {
+	float: left;
+	clear: both;
+	width: 4em;
+}
+
+.item-thumb {
+	max-height: 4em;
+	max-width: 4em;
+}
+
+.item-thumb-details {
+	float: left;
+	clear: both;
+}
+
+.item-summary {
+	float: left;
+	/*display: inline-block;*/
+	width: 70%;
+}
+

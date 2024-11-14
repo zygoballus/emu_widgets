@@ -1,0 +1,127 @@
+.imu-button-control
+{
+	background-color: rgb(200, 200, 200);
+	height: 2em;
+	overflow: hidden;
+	position: relative;
+	width: 4em;
+}
+
+.imu-button-control > button
+{
+	background: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.imu-button-control > button > .table
+{
+	border-color: transparent;
+	border-spacing: 0;
+	display: table;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+}
+
+.imu-button-control > button > .table > .table-row
+{
+	display: table-row;
+}
+.imu-button-control > button > .table > .table-row > .table-cell
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* Image elements
+*/
+.imu-button-control .image-element 
+{
+	height: 100%;
+}
+.imu-button-control .image-element > div > table
+{
+	height: 100%;
+	width: 100%;
+}
+.imu-button-control .image-element > div > table td.padding
+{
+	height: 1%;
+}
+.imu-button-control table td
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+
+.imu-button-control .image-element .graphic
+{
+	margin: 0 auto;
+}
+
+.imu-button-control .image-element .graphic img
+{
+	height: 100%;
+	width: 100%;
+}
+
+/*
+.imu-button-control.on img.on,
+.imu-button-control.off img.off
+{
+	display: inline;
+	visibility: visible;
+}
+
+.imu-button-control:hover img.off,
+.imu-button-control:hover img.pressed
+{
+	display: none;
+	visibility: hidden;
+}
+.imu-button-control:hover img.on
+{
+	display: inline;
+	visibility: visible;
+}
+*/
+
+
+/*TODO: mouse pressed */
+/*
+.imu-button-control:active img.on
+{
+	display: inline;
+	visiblity: visible;
+	opacity: 0.5;
+}
+*/
+
+/* Text elements
+*/
+.imu-button-control .text-element 
+{
+	text-align: center;
+}
+.imu-button-control .text-element div
+{
+	vertical-align: middle;
+}
+
+
+.imu-button.control
+{
+	cursor: default;
+}
+.imu-button-control:hover:not(.disabled)
+{
+	cursor: pointer;
+	opacity: 0.6;
+}

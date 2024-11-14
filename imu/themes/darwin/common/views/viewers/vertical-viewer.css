@@ -1,0 +1,35 @@
+.imu-vertical-viewer > .imu-scroller-plugin,
+.imu-vertical-viewer > .imu-scroller-plugin > .holder
+{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.imu-vertical-viewer > .imu-scroller-plugin > .holder > .view,
+.imu-vertical-viewer > .imu-scroller-plugin > .holder > .scrollbar
+{
+    height: 100%;
+    position: absolute;
+}
+.imu-vertical-viewer > .imu-scroller-plugin > .holder > .view
+{
+    width: 100%;
+}
+.imu-vertical-viewer > .imu-scroller-plugin > .holder > .scrollbar
+{
+    bottom: 0;
+    height: auto;
+    right: 0;
+    top: 0;
+}
+
+.imu-vertical-viewer > .imu-scroller-plugin > .holder > .view > .content
+{
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+

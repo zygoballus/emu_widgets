@@ -1,0 +1,9 @@
+include globalize.culture.ar
+
+include globalize.culture.en
+include globalize.culture.en-US
+
+include globalize.culture.fi
+
+include globalize.culture.fr
+include globalize.culture.fr-CA

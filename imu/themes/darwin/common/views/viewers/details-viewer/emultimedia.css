@@ -1,0 +1,61 @@
+.imu-details-viewer .emultimedia-record a.placeholder.document-placeholder
+{
+	cursor: pointer;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.imu-details-viewer .emultimedia-record .imu-multimedia-plugin audio.item
+{
+	background-image: url('../../../request.php?request=Image&name=placeholder-audio');
+}
+
+.imu-details-viewer .emultimedia-record .imu-multimedia-plugin video.item
+{
+	background-image: url('../../../request.php?request=Image&name=placeholder-video');
+}
+
+.imu-details-viewer .emultimedia-record a.placeholder.document-placeholder,
+.imu-details-viewer .emultimedia-record .imu-multimedia-plugin audio.item,
+.imu-details-viewer .emultimedia-record .imu-multimedia-plugin video.item
+{
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.imu-details-viewer .emultimedia-record section.resolutions > div > .value,
+.imu-details-viewer .emultimedia-record section.resolutions .value > table,
+.imu-details-viewer .emultimedia-record section.supplementary > div > .value,
+.imu-details-viewer .emultimedia-record section.supplementary .value > table,
+.imu-details-viewer .emultimedia-record section.exif > div > .value,
+.imu-details-viewer .emultimedia-record section.exif .value > table,
+.imu-details-viewer .emultimedia-record section.ipt > div > .value,
+.imu-details-viewer .emultimedia-record section.ipt .value > table
+{
+	width: 100%;
+}
+
+.imu-details-viewer .emultimedia-record section.resolutions .value > table,
+.imu-details-viewer .emultimedia-record section.supplementary .value > table,
+.imu-details-viewer .emultimedia-record section.exif .value > table,
+.imu-details-viewer .emultimedia-record section.ipt .value > table
+{
+	border-collapse: collapse;
+	text-align: left;
+}
+
+.imu-details-viewer .emultimedia-record section.resolutions .value > table th,
+.imu-details-viewer .emultimedia-record section.resolutions .value > table td,
+.imu-details-viewer .emultimedia-record section.supplementary .value > table th,
+.imu-details-viewer .emultimedia-record section.supplementary .value > table td,
+.imu-details-viewer .emultimedia-record section.exif .value > table th,
+.imu-details-viewer .emultimedia-record section.exif .value > table td,
+.imu-details-viewer .emultimedia-record section.ipt .value > table th,
+.imu-details-viewer .emultimedia-record section.ipt .value > table td
+{
+	border: solid 1px;
+	padding: 0.25em;
+	vertical-align: top;
+}

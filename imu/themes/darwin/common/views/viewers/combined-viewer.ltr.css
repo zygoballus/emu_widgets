@@ -1,0 +1,20 @@
+.imu-combined-viewer > .holder > .header > .results
+{
+	float: left;
+}
+.imu-combined-viewer > .holder > .header > .icons
+{
+	float: right;
+}
+
+/* Commented out due to Firefox issues.
+
+@supports (display: flex)
+{
+	.imu-combined-viewer > .holder > .header > .results,
+	.imu-combined-viewer > .holder > .header > .icons
+	{
+		float: none;
+	}
+}
+*/

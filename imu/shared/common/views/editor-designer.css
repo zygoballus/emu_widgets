@@ -1,0 +1,28 @@
+.imu-editor-designer> .holder > .permissions > .holder > .add,
+.imu-editor-designer > .holder > .sections > .section > .holder > .add
+{
+	cursor: pointer;
+	display: table;
+}
+
+.imu-editor-designer > .holder > .permissions > .holder > .add > .image,
+.imu-editor-designer > .holder > .sections > .section > .holder > .add > .image
+{
+	display: table-cell;
+	height: 1.3em;
+	vertical-align: middle;
+}
+
+.imu-editor-designer> .holder > .permissions > .holder > .add > .text,
+.imu-editor-designer > .holder > .sections > .section > .holder > .add > .text
+{
+	display: table-cell;
+	font-size: 0.75em;
+	vertical-align: middle;
+}
+
+.imu-editor-designer > .holder > .details > table
+{
+	table-layout: fixed;
+	width: 100%;
+}

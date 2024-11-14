@@ -1,0 +1,28 @@
+body.imu-page
+{
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+}
+
+/* header
+*/
+.imu-page > .holder > .header
+{
+	height: 0.0em;
+}
+
+/* footer
+*/
+.imu-page > .holder > .footer
+{
+	height: 0.0em;
+}
+
+/* toggle
+*/
+.imu-page > .holder > .toggle
+{
+	font-weight: bold;
+	font-size: 42px;
+}

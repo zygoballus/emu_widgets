@@ -1,0 +1,28 @@
+.imu-faceted-search-control
+{
+	color: #333333;
+}
+
+.facet-count
+{
+	font-weight: bold;
+}
+
+.facet-title
+{	
+	font-size: 14px;
+	line-height: 25px;
+	color: #76607e;
+	border-bottom: 1.5px solid #eeeeee;
+}
+
+.facet-text
+{
+	cursor: pointer;
+}
+
+.facet-text:hover
+{
+	text-decoration: underline;
+	font-weight: bold;
+}

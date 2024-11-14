@@ -1,0 +1,23 @@
+.imu-statistics-designer> .holder > .permissions > .holder > .add,
+.imu-statistics-designer > .holder > .sections > .section > .holder > .add
+{
+	cursor: pointer;
+	display: table;
+}
+
+.imu-statistics-designer > .holder > .permissions > .holder > .add > .image,
+.imu-statistics-designer > .holder > .sections > .section > .holder > .add > .image
+{
+	display: table-cell;
+	height: 1.3em;
+	vertical-align: middle;
+}
+
+.imu-statistics-designer> .holder > .permissions > .holder > .add > .text,
+.imu-statistics-designer > .holder > .sections > .section > .holder > .add > .text
+{
+	display: table-cell;
+	font-size: 0.75em;
+	vertical-align: middle;
+}
+

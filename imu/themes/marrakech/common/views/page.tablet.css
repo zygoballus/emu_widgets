@@ -1,0 +1,55 @@
+body.imu-page
+{
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+}
+
+/* header
+*/
+.imu-page > .holder > .header
+{
+	height: 7em;
+}
+
+.imu-page > .holder > .header .image
+{
+	height: 2.5em;
+}
+
+.imu-page > .holder > .header .title
+{
+	font-family: Arial, Helvetica, Tahoma, sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	padding-left: 0.3em;
+}
+
+
+/* footer
+*/
+.imu-page > .holder > .footer
+{
+	height: 0.0em;
+}
+
+/* toggle
+*/
+.imu-page > .holder > .toggle
+{
+	font-weight: bold;
+	font-size: 26px;
+}
+
+/* content
+*/
+button,
+input,
+select
+{
+/*	height: 2em;*/
+}
+.imu-page > .holder > .content input[type=checkbox]
+{
+
+}

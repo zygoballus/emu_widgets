@@ -1,0 +1,2467 @@
+/* THIS FILE IS BUILT AUTOMATICALLY.
+** DO NOT CHANGE IT DIRECTLY.
+**
+** Built at: 2024-11-14 04:43:49 UTC (2024-11-14 04:43:49 UTC)
+*/
+
+/* Source: ./plugins/common/Multimedia.css
+*/
+.imu-multimedia-plugin
+{
+	overflow: hidden;
+	text-align: center;
+}
+.imu-multimedia-plugin *
+{
+	height: auto;
+	max-height: 100%;
+	max-width: 100%;
+	width: auto;
+}
+
+.imu-multimedia-plugin .table
+{
+	border-collapse: collapse;
+	display: table;
+	height: 100%;
+	table-layout: fixed;
+	width: 100%;
+}
+
+.imu-multimedia-plugin .table-row
+{
+	display: table-row;
+}
+
+.imu-multimedia-plugin .table-cell
+{
+	display: table-cell;
+	max-height: 100%;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+.imu-multimedia-plugin .item
+{
+	display: block;
+	margin: 0 auto;
+}
+
+/* Source: ./plugins/common/Scroller.css
+*/
+.imu-scroller-plugin .pager
+{
+	cursor: pointer;
+}
+.imu-scroller-plugin .pager:hover
+{
+	background-color: #afafaf;
+}
+.imu-scroller-plugin .pager-horizontal
+{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 1.2em;
+}
+.imu-scroller-plugin .pager-horizontal img
+{
+	width: 1.2em;
+}
+.imu-scroller-plugin .pager-vertical
+{
+	text-align: center;
+	height: 1.2em;
+}
+.imu-scroller-plugin .pager-vertical img
+{
+	height: 1.2em;
+}
+.imu-scroller-plugin .scrollbar
+{
+	background-color: #eaeaea;
+	opacity: 0.7;
+}
+.imu-scroller-plugin .scrollbar-horizontal
+{
+	height: 0.5em;
+}
+.imu-scroller-plugin .scrollbar-vertical
+{
+	width: 0.5em;
+}
+.imu-scroller-plugin .thumb
+{
+	background-color: #aaaaaa;
+
+	border-radius: 0.2em;
+	-moz-border-radius: 0.2em;
+	-webkit-border-radius: 0.2em;
+}
+.imu-scroller-plugin .multimedia-scroller .pager-horizontal img
+{
+	margin: 4.4em 0;
+}
+
+/* Source: ./shared/common/views/base.css
+*/
+/* Some css reset */
+/*
+*
+{
+	-webkit-margin-after: 0px;
+	-webkit-margin-before: 0px;
+}
+*/
+
+/* Source: ./shared/common/views/form-builder.css
+*/
+.imu-form-builder
+{
+	position: relative;
+}
+
+.imu-form-builder .section-search > .form > .results > table > tbody > tr > td 
+	> *
+{
+	min-height: 1.4em;
+}
+
+.imu-form-builder > .buttons td
+{
+	vertical-align: middle;
+}
+
+.imu-form-builder > .buttons .bwd
+.imu-form-builder > .buttons .fwd
+{
+	height: 1em;
+	width: 1em;
+}
+.imu-form-builder > .buttons .mesg
+{
+	font-size: 0.85em;
+}
+
+.imu-form-builder .section > .holder > .heading > table
+{
+	border-collapse: collapse;
+}
+.imu-form-builder .section > .holder > .heading > table > tbody > tr > td
+{
+	padding: 0;
+}
+.imu-form-builder .section > .holder > .heading .label
+{
+	padding: 0 0.25em;
+}
+
+.imu-form-builder .section > .holder > .heading > table
+
+/* Custom Form Layouts
+*/
+.imu-form-builder.custom-layout.table
+{
+/*	display: table;*/
+
+	bottom: 0; 
+	left: 0;
+	right: 0;
+	top: 0;
+	height: calc(100% - 3em); /* calc has been reproduced in js for IE8 */
+	width: 100%;
+
+	margin: 0;
+}
+
+.imu-form-builder.custom-layout > .buttons
+{
+/* TODO: is this needed?
+	height: 1%;*/
+	margin-top: 0.5em;
+}
+
+.imu-form-builder.custom-layout > .row
+{
+	height: calc(100% - 3em); /* calc has been reproduced in js for IE8 */
+}
+/* style if search section is shown */
+.imu-form-builder.custom-layout > .section.section-search
+{
+	height: auto;
+	height: initial;
+}
+.imu-form-builder.custom-layout > .section-search + .row
+{
+	height: calc(100% - 6.5em); /* calc has been reproduced in js for IE8 */
+}
+
+.imu-form-builder.custom-layout > .row > table
+{
+	border-collapse: collapse;
+
+	height: 100%;
+	width: 100%;
+}
+
+/*
+.imu-form-builder.custom-layout .row > table > tbody > tr
+{
+	width: 100%;
+}
+*/
+
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column
+{
+	vertical-align: top;
+	padding: 0 0.25em;
+	position: relative;
+
+	width: 1%; /* default value */
+}
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column > .holder
+{
+	height: 100%;
+	width: 100%;
+}
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column > .holder > table
+{
+	border-collapse: collapse;
+	height: 100%;
+	width: 100%;
+}
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column > .holder 
+	> table > tbody > tr > td
+{
+	padding:0;
+}
+
+/* padding general */
+.imu-form-builder.custom-layout .padding
+{
+	opacity: 0;
+	background: transparent;
+	border: none;
+}
+/* row padding */
+.imu-form-builder.custom-layout .row > table > tbody > tr.padding
+{
+	height: 0;
+}
+/* column padding */
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column > .holder 
+	> table > tbody > tr.padding > td
+{
+	height: auto;
+}
+
+
+
+.imu-form-builder.custom-layout .section
+{
+	height: 100%;
+	padding: 0;
+	padding-bottom: 0.5em;
+	position: relative;
+	width: 100%;
+	width: calc(100% - 2px);
+
+	-moz-border-radius: 0.2em;
+	-webkit-border-radius: 0.2em;
+	border-radius: 0.2em;
+}
+.imu-form-builder.custom-layout .section > .holder
+{
+	margin: 0 0.25em;
+	height: 100%;
+}
+.imu-form-builder.custom-layout tr.last-row > td > .section
+{
+	padding-bottom: 0;
+}
+.imu-form-builder.custom-layout .column:first-child .section > .holder
+{
+	margin-left: 0;
+}
+.imu-form-builder.custom-layout .column:last-child .section > .holder
+{
+	margin-right: 0;
+}
+
+
+
+/* column styles */
+.imu-form-builder.custom-layout .column.overflow-y-show > .holder,
+.imu-form-builder.custom-layout .column.overflow-y-hide > .holder,
+.imu-form-builder.custom-layout .column.overflow-y-scroll > .holder
+{
+	overflow: hidden;
+}
+.imu-form-builder.custom-layout .column.overflow-y-show > .holder,
+.imu-form-builder.custom-layout .column.overflow-y-hide > .holder
+{
+	float: right;
+}
+.imu-form-builder.custom-layout .column.overflow-y-hide > .holder,
+.imu-form-builder.custom-layout .column.overflow-y-scroll > .holder
+{
+	position: absolute;
+}
+.imu-form-builder.custom-layout .column.overflow-y-scroll > .holder
+{
+	overflow-y: auto;
+}
+
+/* cell / section styles 
+*/
+.imu-form-builder .section > .holder > .content > table > tbody > tr > .input
+	> .wrapper > table
+{
+	border-collapse: collapse;
+}
+.imu-form-builder .section > .holder > .content > table > tbody > tr > .input
+	> .wrapper > table > tbody > .row + .row > td
+{
+	padding-top: 0.7em;
+}
+
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column 
+	td.fixed-height
+{
+	height: 1%;
+}
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column 
+	td.dynamic-height
+{
+	height: auto;
+}
+.imu-form-builder .section > .holder > .heading
+{
+	height: 2em;
+}
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column 
+	td.dynamic-height .section 
+	> .holder > .content
+{
+	height: calc(100% - 2em);
+}
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column 
+	td.dynamic-height .input:only-child > .wrapper,
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column 
+	td.dynamic-height .input:only-child > .wrapper > .holder
+{
+	height: 100%;
+}
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column 
+	td.dynamic-height .input:only-child input
+{
+	word-break: break-word;
+}
+
+.imu-form-builder .row .column .input
+{
+	vertical-align: top;
+}
+
+.imu-form-builder.custom-layout > .section.section-search,
+.imu-form-builder > .section.section-search
+{
+	margin-bottom: 0.5em;
+}
+
+/* Source: ./shared/common/views/form-designer.css
+*/
+/* TODO: this style should be removed/altered
+** if/when further layout design functionality 
+** is added.
+*/
+.imu-form-designer .layout-options .layout > .holder > .details .row-1,
+.imu-form-designer .layout-options .section-layout .details .row-3
+{
+	display: none;
+}
+.imu-form-designer .layout-options .layout .row-layout > .holder > .details
+{
+	display: none;
+	height: 0px;
+	padding: 0;
+}
+
+/* Source: ./shared/common/views/form-list.css
+*/
+
+/* Source: ./shared/common/views/form.css
+*/
+.imu-form .hint
+{
+	color: #8f8f8f;
+}
+
+.imu-form .suggested
+{
+	border-color: orange;
+}
+
+.imu-form .mandatory
+{
+	border-color: red;
+}
+
+.imu-form > table > tbody > tr > td.input > .wrapper
+{
+	display: block;
+}
+
+/* added for textarea height */
+.imu-form > table > tbody > tr > td.empty
+{
+	height: 100%;
+}
+.imu-form > table > tbody > tr > td.input > .wrapper.imu-box-control,
+.imu-form > table > tbody > tr > td.input > .wrapper.imu-selection-control,
+.imu-form > table > tbody > tr > td.input > .wrapper.imu-box-control > .holder,
+.imu-form > table > tbody > tr > td.input > .wrapper.imu-selection-control > .holder
+{
+	height: 100%;
+}
+
+.imu-form > table
+{
+	width: 100%;
+}
+
+/*
+.imu-form > table
+{
+	display: table;
+}
+.imu-form > table > tbody > tr
+{
+	display: table-row;
+}
+.imu-form > table > thead > th,
+.imu-form > table > tbody > tr > td
+{
+	display: table-cell;
+}
+*/
+
+/* Source: ./shared/common/views/artist-search.css
+*/
+.imu-artist-search .artist-buttons
+{
+	clear: both;
+}
+
+.imu-artist-search .button
+{
+	border: 1px solid #5d5d5d;
+	color: #5d5d5d;
+	cursor: pointer;
+	float: left;
+	height: 1.5em;
+	line-height: 1.5em;
+	margin: 0.2em;
+	text-align: center;
+	width: 1.5em;
+}
+
+.imu-artist-search .button.active-button
+{
+	border: 1px solid #bababa;
+	color: #bababa;
+	text-decoration: underline; 
+}
+
+.imu-artist-search .artist-results
+{
+	clear: both;
+	color: #000000;
+	padding: 0.5em;
+}
+
+.imu-artist-search .artist-results .artist
+{
+	cursor: pointer;
+	padding-bottom: 0.5em;
+}
+
+.imu-artist-search .artist-results .artist.active-artist
+{
+	color: #bababa;
+}
+
+/* Source: ./shared/common/views/login.css
+*/
+.imu-login select
+{
+	width: 15em;
+}
+
+/* Source: ./shared/common/views/map-viewer.css
+*/
+/* collator */
+
+div.imu-collator-owner
+{
+	border-style: double;
+	border-width: 1px 2px 2px 1px;
+	border-color: #a0a0a0 #606060 #606060 #a0a0a0;
+	background: #c0c0c0;
+	z-index: 1010;
+	padding: 1em;
+}
+
+.imu-map-collate-ok
+{
+	margin: 0% 50%;
+}
+
+.imu-collator-owner fieldset 
+{
+    padding: 1em;
+    font:80%/1 sans-serif;
+}
+.imu-collator-owner label
+{
+	width:35%;
+	padding: 0.2em;
+	margin-right:0.5em;
+	text-align:right;
+	font-weight:bold;
+	display: inline-block;
+	clear: left;
+	float: left;
+}
+
+.imu-collator-owner input
+{
+	font-weight:normal;
+	float: left;
+	padding: 0.2em;
+}
+
+.imu-collator-owner select
+{
+	font-weight:normal;
+	float: left;
+	padding: 0.2em;
+}
+
+/* legend */
+
+div.imu-legend-owner
+{
+	border: 1px solid #a0a0a0;
+	padding: 0.5em;
+	margin: 2em;
+	width: 20%;
+	display: table; 
+	background: #e0e0e0;
+	z-index: 1001;
+
+	opacity:0.8;
+	filter:alpha(opacity=80);
+}
+
+.imu-legend-data-item
+{
+	float: left;
+	width: 100%;
+	/*padding: 0 0.5em;*/
+	font-size: smaller;
+	clear: left;
+}
+
+
+.imu-legend-data-item-icon
+{
+	/*height: 4em;
+	width: 4em;*/
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+.imu-legend-data-item-icon img
+{
+	height: 1.2em;
+	width: 1.2em;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+
+.imu-legend-data-item-text
+{
+	float: left;
+	width: 90%;
+}
+
+.imu-legend-data-item-name
+{
+	/*padding: 0 0.5em;*/
+	float: left;
+}
+.imu-legend-data-item-count
+{
+	/*padding: 0 0.5em;*/
+	float: left;
+}
+
+.imu-legend-configure-category
+{
+	width: 24px;
+	height: 22px;
+	vertical-align: middle;
+	margin-left: 5px;
+	float: right;
+}
+
+.imu-legend-subtitle
+{
+	float: left;
+	font-size: smaller;
+	font-weight: bold;
+	padding: 1px;
+	clear: both;
+}
+
+.imu-legend-title
+{
+	float: left;
+	font-weight: bold;
+	padding: 2px;
+	clear: both;
+}
+
+
+/* map-view */
+
+.imu-map-closeX
+{
+	float: right;
+	width: 17px;
+	height: 17px;
+	background: url("./mapicons/close.gif") no-repeat;
+	cursor: pointer;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.imu-map-details-header
+{
+	background-color: #e0e0e0;
+	text-align: center;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.imu-map-detail-owner
+{
+	width: 33%;
+	border: 1px solid grey;
+	background-color: white;
+	z-index: 1009;
+	position: absolute;
+	margin-top: 2em;
+	padding: 0.3em;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	background-color: #f0f0f0;
+}
+
+.imu-map-detail-displayer
+{
+	clear: both;
+	overflow: auto;
+	height: 80%;
+	margin-top: 10%;
+	background-color: #f7f7f7;
+}
+
+.imu-map-simpledetails-details
+{
+	border-width: 1px 0 1px 0;
+	border-style: solid;
+	border-color: #7f7f7f;
+	background-color: #f7f7f7;
+}
+
+.imu-map-detail-displayer tr:nth-child(2n+1)
+{
+	background-color: #f0f7f7;
+}
+
+.imu-map-details-emu-field-value
+{
+	font-weight: bolder;
+}
+
+.map-view-popup-description
+{
+	width: 25em;
+}
+
+
+.map-view-popup-specimenLink
+{
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+}
+
+.imu-map-statusHolder
+{
+	position: relative;
+	bottom : 50%;
+	left: 50%;
+	z-index: 1001;
+	color: black;
+	background-color: white;
+	border: 1px solid grey;
+	height: 2em;
+	padding: 0.3em;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.imu-map-statusHolder span
+{
+}
+
+.imu-map-toolTip
+{
+	border:	1px solid grey;
+	background: white;
+	position: absolute;
+	display: block;
+	z-index: 10000000;
+	padding: 1em;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+/* map-view OpenLayers*/
+
+.olControlPanel
+{
+	width: 50%;
+	left: 50%;
+}
+
+.olControlPanel .olControlZoomToShowAllItemActive
+{
+	width: 22px;	
+	height: 22px;
+}
+
+.olControlPanel .olControlZoomToShowAllItemInactive
+{
+	width: 22px;	
+	height: 22px;
+}
+
+.olControlPanel .olControlClearFoundPointsItemActive
+{
+	width: 24px;	
+	height: 24px;
+}
+.olControlPanel .olControlClearFoundPointsItemInactive
+{
+	width: 24px;	
+	height: 24px;
+}
+
+.olControlPanel div
+{
+	width: 24px;
+	height: 24px;
+	margin: 0px 5px 5px 5px;
+	background-color: red;
+	float: right;
+}
+
+
+/* scale bar */
+.olControlScaleBar
+{
+	color: black;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	margin-left: 40%;
+	margin-right: 40%;
+	bottom: 1em;
+	z-index: 1010;
+	height: 3em;
+}
+
+.olControlScaleBarBar
+{
+	height: 1px;
+	top: 14px;
+	background: #333333;
+}
+
+.olControlScaleBarBarAlt
+{
+	height: 1px;
+	top: 14px;
+	background: #a0a0a0;
+}
+
+.olControlScaleBarMarkerMajor
+{
+	height: 7px;
+	width: 1px;
+	top: 11px;
+	background: #ff7fff;
+}
+
+.olControlScaleBarMarkerMinor
+{
+	height: 5px;
+	width: 1px;
+	top: 12px;
+	background: #000000;
+}
+
+.olControlScaleBarNumbersBox
+{
+	height: 13px;
+	top: 21px;
+	font-size: 0.7em;
+}
+
+.olControlScaleBarLabelBox
+{
+	top: -2px;
+	height: 15px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	font-size: 0.8em;
+	font-variant: small-caps;
+}
+
+.olControlScaleBarLabelBoxSingleLine
+{
+	height: 15px;
+	width: 35px;
+	top: 5px;
+	font-size: 0.8em;
+	font-variant: small-caps;
+}
+
+.olControlScaleBarWrapper
+{
+	background-color: #a0ffa0;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+}
+
+.olControlScaleBarWrapper:hover
+{
+	opacity:1.0;
+	background-color: #ffffa0;
+	filter:alpha(opacity=100);
+}
+
+/* Source: ./shared/common/views/search-form.css
+*/
+.imu-search-form.owner
+{
+	padding: 0.3em;
+}
+
+.imu-search-form .holder
+{
+	background-color: #eeeeee;
+}
+
+.imu-search-form .table
+{
+	color: #000000;
+/*	white-space: nowrap; */
+	width: 100%;
+}
+
+.imu-search-form .table .row
+{
+	height: auto;
+	overflow-y: auto;
+}	
+
+.imu-search-form .table .row .prompt 
+{
+	margin: 0 0.4em;
+	min-width: 5.0em;
+	width: auto;
+}
+
+.imu-search-form .table .row .input 
+{
+	min-width: 8.0em;
+	padding: 0.1em;
+	margin: 0.2em 0;
+}	
+
+.sidebar .images-label-advanced
+{
+	color: #000000;
+}
+
+/* jQuery UI class */
+.ui-menu-item
+{
+	background-color: #ffffff;
+}
+
+
+/* Source: ./shared/common/views/tabbed-display.css
+*/
+.imu-tabbed-display .tab
+{
+	cursor: pointer;
+	padding: 0 0.1em;
+	height: 33px;
+}
+
+.imu-tabbed-display .tab .title
+{
+	margin: 0;
+	padding: 0.3em;
+}
+
+.imu-tabbed-display .tab-selected .title
+{
+	font-weight: bold;
+}
+
+/* Source: ./shared/common/views/tree-browser.css
+*/
+.imu-tree-browser li span:hover
+{
+	background: #E1E1E1;
+}
+
+.imu-tree-browser a:hover
+{
+	background: #E1E1E1;
+}
+
+.imu-tree-browser ul, .imu-tree-browser li
+{
+	list-style: none outside none;
+	margin: 0;
+	padding-left: 20px;
+}
+
+.imu-tree-browser ul
+{
+	margin: 0;
+}
+
+.imu-tree-browser .tree-view-notExpanded 
+{
+    background-image: url("../shared/common/images/arrow_right.png");
+    background-repeat: no-repeat;
+    background-size: 16px auto;
+}
+
+.node-not-expanded
+{
+    background-image: url("../shared/common/images/arrow_right.png");
+    background-repeat: no-repeat;
+    background-size: 16px auto;
+}
+
+
+.imu-tree-browser .tree-view-expanded 
+{
+    background-image: url("../shared/common/images/arrow_down.png");
+    background-repeat: no-repeat;
+    background-size: 16px auto;
+}
+
+.node-expanded
+{
+    background-image: url("../shared/common/images/arrow_down.png");
+    background-repeat: no-repeat;
+    background-size: 16px auto;
+}
+
+.imu-tree-browser .tree-text
+{
+	cursor: pointer;
+}
+
+.node-text
+{
+	cursor: pointer;
+}
+
+.imu-tree-browser .no-children .tree-text
+{
+	display: block;
+}
+
+.imu-tree-browser .no-children
+{
+	background-image: url("");
+	cursor: default;
+	/*list-style-type: disc;*/
+}
+
+.no-children
+{
+	background-image: url("");
+	cursor: default;
+	/*list-style-type: disc;*/
+}
+
+.imu-tree-browser a.tree-text
+{
+	background-image: url("../shared/common/images/result1.png");
+	background-repeat: no-repeat;
+	background-size: 16px auto;
+	padding-left: 20px;
+}
+
+.imu-tree-browser .selected
+{
+	background-color: #E1E1E1;
+}
+
+.selected
+{
+	background-color: #E1E1E1;
+}
+
+
+/* Source: ./shared/common/views/highlights-banner.css
+*/
+/* Functional requirements.
+** Do not change.
+*/
+.imu-highlights-banner .dynamicContent .slide
+{
+	width: 100%;
+}
+
+.imu-highlights-banner > .holder,
+.imu-highlights-banner > .holder > .stickyContent,
+.imu-highlights-banner > .holder > .dynamicContent,
+.imu-highlights-banner > .holder > .dynamicContent .slide,
+.imu-highlights-banner > .holder > .dynamicContent .image,
+.imu-highlights-banner > .holder > .dynamicContent .content
+{
+	height: 100%;
+}
+
+.imu-highlights-banner > .holder,
+.imu-highlights-banner .dynamicContent .slide
+{
+	position: relative;
+}
+.imu-highlights-banner > .holder > .stickyContent,
+.imu-highlights-banner > .holder > .dynamicContent
+{
+	position: absolute;
+}
+
+/* While widget is loading
+** Toggling classes method was used over show/hide to prevent
+** conflicts caused by inline styling.
+*/
+.imu-highlights-banner.delay .stickyContent,
+.imu-highlights-banner.delay .dynamicContent
+{
+	display: none;
+}
+
+
+/* If no sticky content
+*/
+.imu-highlights-banner > .holder > .stickyContent:empty
+{
+	display: none;
+	width: 0;
+}
+.imu-highlights-banner > .holder > .stickyContent:empty + .dynamicContent
+{
+	left: 0;
+}
+
+.imu-highlights-banner > .holder > .dynamicContent,
+.imu-highlights-banner > .holder > .dynamicContent .image
+{
+	overflow: hidden;
+}
+
+.imu-highlights-banner > .holder > .dynamicContent .image img
+{
+	display: block;
+	height: auto;
+	max-height: 100%;
+	width: auto;
+
+	margin-left: auto;
+}
+
+.imu-highlights-banner > .holder > .dynamicContent .image,
+.imu-highlights-banner > .holder > .dynamicContent .content
+{
+	position: absolute;
+}
+.imu-highlights-banner > .holder > .dynamicContent .content
+{
+	vertical-align: top;
+}
+
+/* Errors */
+.imu-highlights-banner .error-message
+{
+	padding: 3em;
+	text-align: center;
+}
+
+/* Some arbitrary settings.
+** Obviously this can be customized in css files elsewhere.
+*/
+
+/* :link means only a elements with href attr are styled */
+.imu-highlights-banner a.view-all:hover,
+.imu-highlights-banner a:link:hover
+{
+	cursor: pointer;
+}
+
+.imu-highlights-banner
+{
+	height: 15rem;
+}
+
+.imu-highlights-banner > .holder > .stickyContent
+{
+	width: 15rem;
+}
+.imu-highlights-banner > .holder > .dynamicContent
+{
+	left: 15rem;	/* Same value as stickyContent content width */
+	right: 0;
+}
+
+.imu-highlights-banner .dynamicContent .image
+{
+	left: 0;
+	right: 11.5rem; /* same as content width */
+}
+.imu-highlights-banner .dynamicContent .content
+{
+	right: 0;
+	width: 11.5rem;
+}
+
+/* Ideas for theme or client style.
+.imu-highlights-banner > .holder > .dynamicContent .image
+{
+	/* Set if client wants text to overlap image.
+	**
+	right: 0;
+	*/
+
+	/* Set if padding between image and other elements is to be different
+	** than text area.
+	** For example, the client might create supplementary images that 
+	** fade to white, in which case setting the background to white would be 
+	** ideal.
+	**
+	** background: #ffffff;
+	*/
+
+	/* Set if client wants image to sit to left, but not let text overflow.
+	** (where 11.5rem is size of text area)
+	**
+	left: 0;
+	right: auto;
+	max-width: calc(100% - 11.5rem); 
+	*/
+
+	/* Set a value if the image shouldn't be shrunk beyond a set point.
+	**
+	min-width: auto;
+	*/
+/*	
+}
+*/
+
+/* Source: ./shared/common/views/control.css
+*/
+.imu-control,
+.imu-control *
+{
+	border-spacing: 0;
+	padding: 0;
+}
+
+.imu-control
+{
+	display: inline-block; /* this removes hidden spacing between owner and holder */
+}
+.imu-control .table
+{
+	display: table;
+}
+.imu-control .table > .table-row
+{
+	display: table-row;
+}
+.imu-control .table > .table-row > .table-cell
+{
+	display: table-cell;
+	height: 100%;
+}
+
+.imu-control .table > .table-row *
+{
+	vertical-align: top;
+}
+
+.imu-control .table .icon
+{
+	height: 0.9em;
+}
+.imu-control .table .icon > img
+{
+	height: 100%;
+	width: auto;
+}
+.imu-control .table .icon:empty
+{
+	display: none;
+}
+.imu-control .table .icon > img
+{
+	border: none;
+}
+
+/* Source: ./shared/common/views/box-control.css
+*/
+.imu-box-control
+{
+    padding: 0;
+}
+
+.imu-box-control textarea,
+.imu-box-control input
+{
+	text-indent: 0.25em;
+}
+
+.imu-box-control > .holder
+{
+    background: white;
+    border: solid 1px #aaa;
+    border-spacing: 0;
+    width: 100%;
+}
+
+/* styling needed to stop a jquery-ui element overflowing and
+** creating issues */
+.imu-box-control > .holder .content
+{
+	position: relative;
+}
+
+.imu-box-control > .holder .content > *
+{
+	border: none;
+	background: transparent;
+	display: block;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+	width: 100%;
+}
+.imu-box-control > .holder > .table-row > .icon,
+.imu-box-control > .holder > .table-row > .icon > img
+{
+	cursor: pointer;
+
+	/* There are allsorts of weird styling issues if these dimensions are not
+	** set to exact values.
+	*/
+	height: 1em;
+    width: auto;
+
+	vertical-align: middle;
+}
+.imu-box-control > .holder > .table-row > .icon > img
+{
+    display: block;
+}
+
+/* Source: ./shared/common/views/date-control.css
+*/
+.imu-date-control .hint
+{
+	color: #8f8f8f;
+}
+
+/* Source: ./shared/common/views/selection-control.css
+*/
+.imu-selection-control .table-cell.icon img
+{
+	vertical-align: middle; /* puts image in centre */
+}
+.imu-selection-control .content.table-cell > select
+{
+	height: 100%;
+}
+.imu-selection-control select
+{
+	display: block;
+	margin: 0;
+}
+
+/* Source: ./shared/common/views/text-control.css
+*/
+.imu-text-control > .holder .content > textarea
+{
+	height: auto;
+	resize: none;
+	font-family: inherit;
+	color: inherit;
+}
+.imu-text-control textarea,
+.imu-text-control input
+{
+	width: 100%;
+}
+
+.imu-text-control .hint,
+.imu-text-control > .holder .content > textarea.hint
+{
+	color: #8f8f8f;
+}
+
+.imu-text-control .suggested
+{
+	border-color: orange;
+}
+
+.imu-text-control .mandatory
+{
+	border-color: red;
+}
+
+/* Source: ./shared/common/views/attachment-control.css
+*/
+.imu-attachment-control .popout img
+{
+	height:1.3em; 
+}
+.imu-attachment-control .popout
+{
+	height:1.3em;
+	float: right;
+	cursor: pointer;
+}
+
+/* Source: ./shared/common/views/tag-control.css
+*/
+.imu-tag-control .tag-holder
+{
+	border: 1px solid #999;
+	cursor: text;
+	background-color: White;
+	position: relative;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.imu-tag-control .holder
+{
+	border: none;
+}
+
+.imu-tag-control button
+{
+	padding: 4px 12px;
+	margin-left: 1em;
+}
+
+.imu-tag-control button.tag-control-disabled-update
+{
+	visibility: hidden;
+}
+
+.imu-tag-control input#tag-update-input
+{
+	border: 1px solid #aaa;
+}
+
+.imu-tag-control .delete-tag:hover
+{
+	color: red;
+	cursor: pointer;
+}
+
+.imu-tag-control .post-tag
+{
+	color: #3E6D8E;
+	background-color: #E0EAF1;
+	border-bottom: 1px solid #b3cee1;
+	border-right: 1px solid #b3cee1;
+	padding: 3px 4px 3px 4px;
+	margin: 2px 2px 2px 0;
+	text-decoration: none;
+	font-size: 90%;
+	line-height: 2.4;
+	white-space: nowrap;
+	float: left;
+}
+
+.imu-tag-control .unauthorised-tag
+{
+	background-color: #F1E0E4;
+	color: #8E3E47;
+	border-bottom: 1px solid #E1B3BB;
+	border-right: 1px solid #E1B3BB;
+}
+
+/* Source: ./shared/common/views/capture-control.css
+*/
+.imu-capture-control
+{
+	position: relative;
+	height: 8rem;
+	min-width: 20rem;
+}
+.imu-capture-control-resources
+{
+	cursor: default;
+}
+.imu-capture-control .resource.selectable:hover
+{
+	background: rgba(0,0,0,0.025);
+}
+
+.imu-capture-control-resources button:hover
+{
+	cursor: pointer;
+}
+
+.imu-capture-control > .holder
+{
+	position: absolute;
+	width: 100%;
+} 
+
+.imu-capture-control > .holder > .content
+{
+	overflow: auto;
+	height: 6rem;
+	width: 20rem;
+}
+.imu-capture-control > .holder > .content:only-child
+{
+	/* If no buttons are displayed, take full height */
+	height: 8rem;
+}
+
+.imu-capture-control .prompt-area,
+.imu-capture-control .prompt-area > div
+{
+	box-sizing: border-box;
+}
+
+.imu-capture-control .prompt-area,
+.imu-capture-control .prompt-area > div,
+.imu-capture-control-dropzone
+{
+	height: 100%;
+	width: 100%;
+}
+
+.imu-capture-control .prompt-area,
+.imu-capture-control .prompt-area > div,
+.imu-capture-control-resources:empty,
+.imu-capture-control-dropzone.drag-over .imu-capture-control-resources,
+.imu-capture-control-dropzone.drag-over .imu-capture-control-resources:empty 
+	~ .prompt-area .no-items-text 
+{
+	display: none;
+}
+
+.imu-capture-control-dropzone.drag-over .prompt-area,
+.imu-capture-control-resources:empty ~ .prompt-area
+{
+	display: block;
+}
+
+.imu-capture-control-dropzone.drag-over .prompt-area .hover-text,
+.imu-capture-control-resources:empty ~ .prompt-area .no-items-text
+{
+	display: table;
+}
+.imu-capture-control-dropzone.drag-over .prompt-area .hover-text div,
+.imu-capture-control-resources:empty ~ .prompt-area .no-items-text div
+{
+    display: table-cell;
+    text-align: center;
+	vertical-align: middle;
+}
+
+/* Resources
+*/
+.imu-capture-control-resources
+{
+	display: table;
+	width: 100%;
+}
+.imu-capture-control-resources .resource
+{
+	display: table-row;
+	height: 2rem;
+}
+.imu-capture-control-resources .resource > *
+{
+	display: table-cell;
+
+	overflow: hidden;
+	position: relative;
+}
+
+.imu-capture-control-resources .resource .text-cell > *
+{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	padding: inherit;
+	position: absolute;
+	left: 0;
+	top: 0;
+	white-space: nowrap;
+	width: 100%;
+}
+
+.imu-capture-control-resources .resource .button-cell
+{
+	width: 1rem;
+}
+.imu-capture-control-resources .resource .button-cell button
+{
+	background: none;
+	border: none;
+	height: 1.25em;
+	width: 1.25em;
+}
+.imu-capture-control-resources .resource .button-cell img
+{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/* Source: ./shared/common/views/image-capture-control.css
+*/
+/* Image capture needs different styling to other control widgets otherwise it
+   breaks. 
+*/
+
+.imu-image-capture-control > .table,
+.imu-image-capture-control > .table > .table-row,
+.imu-image-capture-control > .table > .table-row > .table-cell
+{
+	display: block;
+	height: 100%;
+}
+.imu-image-capture-control > .table > .table-row > .table-cell.icon
+{
+	display: none;
+}
+
+.imu-image-capture-control > .holder > div > .content > button
+{
+	cursor: pointer;
+}
+
+/* Source: ./shared/common/views/image-control.css
+*/
+/* Image capture needs different styling to other control widgets otherwise it
+   breaks. 
+*/
+
+.imu-image-control > .table,
+.imu-image-control > .table > .table-row,
+.imu-image-control > .table > .table-row > .table-cell
+{
+	display: block;
+	height: 100%;
+}
+.imu-image-control > .table > .table-row > .table-cell.icon
+{
+	display: none;
+}
+
+.olControlNavToolbar div,
+.olControlEditingToolbar div 
+{
+	background-image: url('../shared/common/images/rde_polgygon_icons.png')!important;
+
+}
+
+.olControlRemoveCurrentLayerItemActive
+{
+	background-position: -130px -1px;
+}
+
+.olControlRemovePolygonItemInactive
+{
+	background-position: -52px 1px;
+}
+
+div.olControlZoom a 
+{
+	background: #006BA8; /* fallback for IE */
+	background: rgba(0, 100, 165, 1)!important;
+}
+
+div.olControlZoom a:hover 
+{
+	background: #8bb9d6; /* fallback for IE */
+	background: rgba(0, 100, 165, 0.5)!important;
+}
+
+.imu-image-control svg
+{
+	height: auto;
+	width: auto;
+}
+
+.imu-image-control .olControlNoSelect > .layersDiv > .baseLayersDiv > input
+{
+	vertical-align: inherit;
+	width: auto;
+}
+
+.imu-image-control .olControlLayerSwitcher
+{
+	display: none;
+}
+
+/* Source: ./shared/common/views/button-control.css
+*/
+.imu-button-control
+{
+	background-color: rgb(200, 200, 200);
+	height: 2em;
+	overflow: hidden;
+	position: relative;
+	width: 4em;
+}
+
+.imu-button-control > button
+{
+	background: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.imu-button-control > button > .table
+{
+	border-color: transparent;
+	border-spacing: 0;
+	display: table;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+}
+
+.imu-button-control > button > .table > .table-row
+{
+	display: table-row;
+}
+.imu-button-control > button > .table > .table-row > .table-cell
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* Image elements
+*/
+.imu-button-control .image-element 
+{
+	height: 100%;
+}
+.imu-button-control .image-element > div > table
+{
+	height: 100%;
+	width: 100%;
+}
+.imu-button-control .image-element > div > table td.padding
+{
+	height: 1%;
+}
+.imu-button-control table td
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+
+.imu-button-control .image-element .graphic
+{
+	margin: 0 auto;
+}
+
+.imu-button-control .image-element .graphic img
+{
+	height: 100%;
+	width: 100%;
+}
+
+/*
+.imu-button-control.on img.on,
+.imu-button-control.off img.off
+{
+	display: inline;
+	visibility: visible;
+}
+
+.imu-button-control:hover img.off,
+.imu-button-control:hover img.pressed
+{
+	display: none;
+	visibility: hidden;
+}
+.imu-button-control:hover img.on
+{
+	display: inline;
+	visibility: visible;
+}
+*/
+
+
+/*TODO: mouse pressed */
+/*
+.imu-button-control:active img.on
+{
+	display: inline;
+	visiblity: visible;
+	opacity: 0.5;
+}
+*/
+
+/* Text elements
+*/
+.imu-button-control .text-element 
+{
+	text-align: center;
+}
+.imu-button-control .text-element div
+{
+	vertical-align: middle;
+}
+
+
+.imu-button.control
+{
+	cursor: default;
+}
+.imu-button-control:hover:not(.disabled)
+{
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+/* Source: ./shared/common/views/grid.css
+*/
+/* This might seem silly, but apparently it is needed due to some div styling
+** where display is table, table-row or table-cell
+*/
+.imu-grid table
+{
+	display: table;
+	width: 100%;
+}
+.imu-grid table tr
+{
+	display: table-row;
+}
+.imu-grid table th,
+.imu-grid table td
+{
+	display: table-cell;
+}
+
+.imu-grid .heading
+{
+	cursor: pointer;
+}
+
+.imu-grid table tr .add,
+.imu-grid table tr .cross
+{
+	width: 1.3em;
+	cursor: pointer;
+}
+.imu-grid table tr .add > img,
+.imu-grid table tr .cross > img
+{
+	height: 1.3em;
+}
+
+/* Source: ./shared/common/views/manager.css
+*/
+.imu-manager
+{
+	background-color: #dce9f1;
+	overflow-y: auto;
+	padding: 0.4em;
+}
+
+.imu-manager > .heading
+{
+	color: gray;	/* TODO */
+}
+
+.imu-manager > .list > .item
+{
+	background-color: #ffffff;
+	color: #006ba8;
+	cursor: pointer;
+/*
+	display: table-row;
+*/
+	padding: 0 0.25em;
+}
+
+.imu-manager > .list > .item:hover
+{
+	background-color: #edfaf2;
+}
+
+.imu-manager > .list > .item > .title
+{
+	display: table-cell;
+	width: 98%;
+}
+
+.imu-manager > .list > .item > .edit
+{
+	display: table-cell;
+	width: 1%;
+}
+
+.imu-manager > .list > .item > .edit > img
+{
+	height: 1.3em;
+}
+
+.imu-manager > .list > .item > .remove
+{
+	display: table-cell;
+	width: 1%;
+}
+
+.imu-manager > .list > .item > .remove > img
+{
+	height: 1.3em;
+}
+
+.imu-manager > .add
+{
+	color: #006ba8;
+	cursor: pointer;
+	display: table;
+	margin-top: 0.4em;
+}
+
+.imu-manager > .add > .image
+{
+	display: table-cell;
+	height: 1.3em;
+	vertical-align: middle;
+}
+
+.imu-manager > .add > .text
+{
+	display: table-cell;
+	font-size: 0.75em;
+	vertical-align: middle;
+}
+
+/* Source: ./shared/common/views/designer.css
+*/
+.imu-designer .filters > .holder > .filter > table
+{
+	width: 100%;
+}
+
+.imu-designer .collapsible-group
+{
+	margin-top: 0.5em;
+}
+.imu-designer .collapsible-group > .holder > .details > table
+{
+	width: 100%;
+}
+
+.imu-designer .add
+{
+	cursor: pointer;
+	display: table;
+}
+.imu-designer .add > .image
+{
+	display: table-cell;
+	height: 1.3em;
+	vertical-align: middle;
+}
+.imu-designer .add > .text
+{
+	display: table-cell;
+	font-size: 0.75em;
+	vertical-align: middle;
+}
+
+.imu-designer .sections .section .details .input > .wrapper.imu-checkbox-control
+{
+	border: none;
+}
+
+/* Source: ./shared/common/views/editor-builder.css
+*/
+/*#editor-builder
+{
+	display: table;
+	width: 100%;
+	height: 50%;
+}
+
+#editor-builder > .section
+{
+	display: table-cell;
+	width: 50%
+}
+
+#editor-builder > .section input
+{
+	width: 98%
+}
+
+#editor-builder > .section select
+{
+	width: 100%;
+}
+
+#editor-builder > .buttons
+{
+	display: table-row;
+}
+
+*/
+/* Source: ./shared/common/views/editor-designer.css
+*/
+.imu-editor-designer> .holder > .permissions > .holder > .add,
+.imu-editor-designer > .holder > .sections > .section > .holder > .add
+{
+	cursor: pointer;
+	display: table;
+}
+
+.imu-editor-designer > .holder > .permissions > .holder > .add > .image,
+.imu-editor-designer > .holder > .sections > .section > .holder > .add > .image
+{
+	display: table-cell;
+	height: 1.3em;
+	vertical-align: middle;
+}
+
+.imu-editor-designer> .holder > .permissions > .holder > .add > .text,
+.imu-editor-designer > .holder > .sections > .section > .holder > .add > .text
+{
+	display: table-cell;
+	font-size: 0.75em;
+	vertical-align: middle;
+}
+
+.imu-editor-designer > .holder > .details > table
+{
+	table-layout: fixed;
+	width: 100%;
+}
+
+/* Source: ./shared/common/views/form-builder.css
+*/
+.imu-form-builder
+{
+	position: relative;
+}
+
+.imu-form-builder .section-search > .form > .results > table > tbody > tr > td 
+	> *
+{
+	min-height: 1.4em;
+}
+
+.imu-form-builder > .buttons td
+{
+	vertical-align: middle;
+}
+
+.imu-form-builder > .buttons .bwd
+.imu-form-builder > .buttons .fwd
+{
+	height: 1em;
+	width: 1em;
+}
+.imu-form-builder > .buttons .mesg
+{
+	font-size: 0.85em;
+}
+
+.imu-form-builder .section > .holder > .heading > table
+{
+	border-collapse: collapse;
+}
+.imu-form-builder .section > .holder > .heading > table > tbody > tr > td
+{
+	padding: 0;
+}
+.imu-form-builder .section > .holder > .heading .label
+{
+	padding: 0 0.25em;
+}
+
+.imu-form-builder .section > .holder > .heading > table
+
+/* Custom Form Layouts
+*/
+.imu-form-builder.custom-layout.table
+{
+/*	display: table;*/
+
+	bottom: 0; 
+	left: 0;
+	right: 0;
+	top: 0;
+	height: calc(100% - 3em); /* calc has been reproduced in js for IE8 */
+	width: 100%;
+
+	margin: 0;
+}
+
+.imu-form-builder.custom-layout > .buttons
+{
+/* TODO: is this needed?
+	height: 1%;*/
+	margin-top: 0.5em;
+}
+
+.imu-form-builder.custom-layout > .row
+{
+	height: calc(100% - 3em); /* calc has been reproduced in js for IE8 */
+}
+/* style if search section is shown */
+.imu-form-builder.custom-layout > .section.section-search
+{
+	height: auto;
+	height: initial;
+}
+.imu-form-builder.custom-layout > .section-search + .row
+{
+	height: calc(100% - 6.5em); /* calc has been reproduced in js for IE8 */
+}
+
+.imu-form-builder.custom-layout > .row > table
+{
+	border-collapse: collapse;
+
+	height: 100%;
+	width: 100%;
+}
+
+/*
+.imu-form-builder.custom-layout .row > table > tbody > tr
+{
+	width: 100%;
+}
+*/
+
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column
+{
+	vertical-align: top;
+	padding: 0 0.25em;
+	position: relative;
+
+	width: 1%; /* default value */
+}
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column > .holder
+{
+	height: 100%;
+	width: 100%;
+}
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column > .holder > table
+{
+	border-collapse: collapse;
+	height: 100%;
+	width: 100%;
+}
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column > .holder 
+	> table > tbody > tr > td
+{
+	padding:0;
+}
+
+/* padding general */
+.imu-form-builder.custom-layout .padding
+{
+	opacity: 0;
+	background: transparent;
+	border: none;
+}
+/* row padding */
+.imu-form-builder.custom-layout .row > table > tbody > tr.padding
+{
+	height: 0;
+}
+/* column padding */
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column > .holder 
+	> table > tbody > tr.padding > td
+{
+	height: auto;
+}
+
+
+
+.imu-form-builder.custom-layout .section
+{
+	height: 100%;
+	padding: 0;
+	padding-bottom: 0.5em;
+	position: relative;
+	width: 100%;
+	width: calc(100% - 2px);
+
+	-moz-border-radius: 0.2em;
+	-webkit-border-radius: 0.2em;
+	border-radius: 0.2em;
+}
+.imu-form-builder.custom-layout .section > .holder
+{
+	margin: 0 0.25em;
+	height: 100%;
+}
+.imu-form-builder.custom-layout tr.last-row > td > .section
+{
+	padding-bottom: 0;
+}
+.imu-form-builder.custom-layout .column:first-child .section > .holder
+{
+	margin-left: 0;
+}
+.imu-form-builder.custom-layout .column:last-child .section > .holder
+{
+	margin-right: 0;
+}
+
+
+
+/* column styles */
+.imu-form-builder.custom-layout .column.overflow-y-show > .holder,
+.imu-form-builder.custom-layout .column.overflow-y-hide > .holder,
+.imu-form-builder.custom-layout .column.overflow-y-scroll > .holder
+{
+	overflow: hidden;
+}
+.imu-form-builder.custom-layout .column.overflow-y-show > .holder,
+.imu-form-builder.custom-layout .column.overflow-y-hide > .holder
+{
+	float: right;
+}
+.imu-form-builder.custom-layout .column.overflow-y-hide > .holder,
+.imu-form-builder.custom-layout .column.overflow-y-scroll > .holder
+{
+	position: absolute;
+}
+.imu-form-builder.custom-layout .column.overflow-y-scroll > .holder
+{
+	overflow-y: auto;
+}
+
+/* cell / section styles 
+*/
+.imu-form-builder .section > .holder > .content > table > tbody > tr > .input
+	> .wrapper > table
+{
+	border-collapse: collapse;
+}
+.imu-form-builder .section > .holder > .content > table > tbody > tr > .input
+	> .wrapper > table > tbody > .row + .row > td
+{
+	padding-top: 0.7em;
+}
+
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column 
+	td.fixed-height
+{
+	height: 1%;
+}
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column 
+	td.dynamic-height
+{
+	height: auto;
+}
+.imu-form-builder .section > .holder > .heading
+{
+	height: 2em;
+}
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column 
+	td.dynamic-height .section 
+	> .holder > .content
+{
+	height: calc(100% - 2em);
+}
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column 
+	td.dynamic-height .input:only-child > .wrapper,
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column 
+	td.dynamic-height .input:only-child > .wrapper > .holder
+{
+	height: 100%;
+}
+.imu-form-builder.custom-layout .row > table > tbody > tr > .column 
+	td.dynamic-height .input:only-child input
+{
+	word-break: break-word;
+}
+
+.imu-form-builder .row .column .input
+{
+	vertical-align: top;
+}
+
+.imu-form-builder.custom-layout > .section.section-search,
+.imu-form-builder > .section.section-search
+{
+	margin-bottom: 0.5em;
+}
+
+/* Source: ./shared/common/views/form-designer.css
+*/
+/* TODO: this style should be removed/altered
+** if/when further layout design functionality 
+** is added.
+*/
+.imu-form-designer .layout-options .layout > .holder > .details .row-1,
+.imu-form-designer .layout-options .section-layout .details .row-3
+{
+	display: none;
+}
+.imu-form-designer .layout-options .layout .row-layout > .holder > .details
+{
+	display: none;
+	height: 0px;
+	padding: 0;
+}
+
+/* Source: ./shared/common/views/form-list.css
+*/
+
+/* Source: ./shared/common/views/statistics-designer.css
+*/
+.imu-statistics-designer> .holder > .permissions > .holder > .add,
+.imu-statistics-designer > .holder > .sections > .section > .holder > .add
+{
+	cursor: pointer;
+	display: table;
+}
+
+.imu-statistics-designer > .holder > .permissions > .holder > .add > .image,
+.imu-statistics-designer > .holder > .sections > .section > .holder > .add > .image
+{
+	display: table-cell;
+	height: 1.3em;
+	vertical-align: middle;
+}
+
+.imu-statistics-designer> .holder > .permissions > .holder > .add > .text,
+.imu-statistics-designer > .holder > .sections > .section > .holder > .add > .text
+{
+	display: table-cell;
+	font-size: 0.75em;
+	vertical-align: middle;
+}
+
+
+/* Source: ./shared/common/views/project-list.css
+*/
+
+/* Source: ./app/common/App.css
+*/
+.imu-app .loading
+{
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.imu-app .loading > .holder
+{
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40%;
+}
+
+/* Source: ./app/common/Dialogue.css
+*/
+.imu-dialogue
+{
+	background: rgba(0, 0, 0, 0.5);
+/*
+	background-color: #000000;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=50);
+	opacity: 0.3;
+*/
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 99999;
+}
+
+.imu-dialogue > .box
+{
+	background-color: #dce9f1;
+/*
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	opacity: 1.0;
+*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20%;
+	padding: 1.0em;
+	width: 38.0em;
+}
+
+.imu-dialogue > .box > .message
+{
+	color: #006ba8;
+}
+
+.imu-dialogue > .box > .details
+{
+	color: #006ba8;
+}
+
+.imu-dialogue > .box > .show-details
+{
+	cursor: pointer;
+	font-size: 0.8em;
+}
+
+.imu-dialogue > .box > .buttons
+{
+	display: table;
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.imu-dialogue > .box > .buttons > .button
+{
+	background-color: #006ba8;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: bold;
+	margin-left: 0.5em;
+	padding: 0.2em;
+}
+
+.imu-dialogue > .box > .buttons > .button:hover
+{
+	background-color: #228dca;
+}
+
+/* Source: ./app/common/Page.css
+*/
+
+/* Source: ./app/common/Session.css
+*/
+.imu-app > .login
+{
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imu-app > .login > .holder
+{
+	background-color: #dce9f1;
+	color: #006ba8;
+	margin-top: 3.0em;
+	padding: 0.5em;
+
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+}
+
+.imu-app > .login > .holder > .heading
+{
+	font-weight: bold;
+	margin-bottom: 1.0em;
+	text-align: center;
+}
+
+.imu-app > .login > .holder > .row
+{
+	display: table-row;
+}
+
+.imu-app > .login > .holder > .row > .label
+{
+	display: table-cell;
+	text-align: right;
+	padding-right: 0.5em;
+}
+
+.imu-app > .login > .holder > .row > .input
+{
+	display: table-cell;
+}
+
+.imu-app > .login > .holder > .buttons
+{
+	display: table;
+	margin-top: 1.0em;
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.imu-app > .login > .holder > .buttons > .button
+{
+	background-color: #006ba8;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: bold;
+	margin-left: 0.5em;
+	padding: 0.2em;
+}
+
+.imu-app > .login > .holder > .buttons > .button:hover
+{
+	background-color: #228dca;
+}

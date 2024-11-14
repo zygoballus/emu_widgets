@@ -1,0 +1,6 @@
+.imu-record-details.enarratives .section.subnarratives .items > .item,
+.imu-record-details.enarratives .section.related-narratives .items > .item,
+.imu-record-details.enarratives .section.objects .items > .item
+{
+  float: left;
+}

@@ -1,0 +1,143 @@
+.imu-details-viewer
+{
+	margin-bottom: -0.5em;
+}
+
+.imu-details-viewer > .imu-scroller-plugin,
+.imu-details-viewer > .imu-scroller-plugin > .holder
+{
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.imu-details-viewer > .imu-scroller-plugin > .holder > .view > .content
+{
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+
+.imu-details-viewer .record
+{
+	overflow: auto;
+}
+
+
+.imu-details-viewer .record > .holder > .image,
+.imu-details-viewer .record > .holder > .image > div
+{
+	height: 12em;
+	width: 12em;
+}
+
+.imu-details-viewer .record > .holder > .image
+{
+	background-color: #e8e7d9;
+	padding: 0.5em;
+}
+
+.imu-details-viewer .record > .holder > .image > div
+{
+	background-color: #ffffff;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.imu-details-viewer .record > .holder > .details
+{
+	width: 100%;
+}
+
+.imu-details-viewer .record > .holder > .image,
+.imu-details-viewer .record > .holder > .details,
+.imu-details-viewer .record > .holder > .details > section > div > .label,
+.imu-details-viewer .record > .holder > .details > section > div > .value
+{
+	vertical-align: top;
+}
+
+.imu-details-viewer .record > .holder > .image,
+.imu-details-viewer .record > .holder > .details
+{
+	display: block;
+}
+
+.imu-details-viewer .record > .holder > .details > section > div > .label
+{
+	color: #000000;
+	font-weight: bold;
+	min-width: 18em;
+}
+
+.imu-details-viewer .record > .holder > .details > section > div > .label:empty
+{
+	display: none;
+}
+
+
+.imu-details-viewer .record > .holder > .details > section > div > .value a
+{
+	color: #dac48f;
+	cursor: pointer;
+}
+.imu-details-viewer .record > .holder > .details > section > div > .value > a + a:before
+{
+	content: ', ';
+	display: inline-block;
+	width: 1em;
+}
+	
+@media screen and (min-width: 600px)
+{
+	.imu-details-viewer .record > .holder > .image,
+	.imu-details-viewer .record > .holder > .details
+	{
+		display: inline-block;
+	}
+
+	.imu-details-viewer .record > .holder > div,
+	.imu-details-viewer .record > .holder > section
+	{
+		margin: 0 0.5em;
+	}
+
+	.imu-details-viewer .record > .holder > .image + .details
+	{
+		width: calc(100% - 15em);
+	}
+
+	.imu-details-viewer .record .holder > .details
+	{
+		min-width: 30em;
+	}
+
+
+	.imu-details-viewer .record > .holder > .details > section > div
+	{
+		display: table;
+	}
+	.imu-details-viewer .record > .holder > .details > section > div > .label,
+	.imu-details-viewer .record > .holder > .details > section > div > .value
+	{
+		display: table-cell;
+	}
+}
+@media screen and (min-width: 1200px)
+{
+	.imu-details-viewer .record > .holder > .image,
+	.imu-details-viewer .record > .holder > .image > div
+	{
+		height: 25em;
+		width: 25em;
+	}
+	
+	.imu-details-viewer .record > .holder > .image + .details
+	{
+		width: calc(100% - 28em);
+	}
+}

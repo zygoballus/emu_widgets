@@ -1,0 +1,29 @@
+/*#editor-builder
+{
+	display: table;
+	width: 100%;
+	height: 50%;
+}
+
+#editor-builder > .section
+{
+	display: table-cell;
+	width: 50%
+}
+
+#editor-builder > .section input
+{
+	width: 98%
+}
+
+#editor-builder > .section select
+{
+	width: 100%;
+}
+
+#editor-builder > .buttons
+{
+	display: table-row;
+}
+
+*/

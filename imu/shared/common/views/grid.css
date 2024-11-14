@@ -1,0 +1,34 @@
+/* This might seem silly, but apparently it is needed due to some div styling
+** where display is table, table-row or table-cell
+*/
+.imu-grid table
+{
+	display: table;
+	width: 100%;
+}
+.imu-grid table tr
+{
+	display: table-row;
+}
+.imu-grid table th,
+.imu-grid table td
+{
+	display: table-cell;
+}
+
+.imu-grid .heading
+{
+	cursor: pointer;
+}
+
+.imu-grid table tr .add,
+.imu-grid table tr .cross
+{
+	width: 1.3em;
+	cursor: pointer;
+}
+.imu-grid table tr .add > img,
+.imu-grid table tr .cross > img
+{
+	height: 1.3em;
+}

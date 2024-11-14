@@ -1,0 +1,53 @@
+.imu-scroller-plugin .pager
+{
+	cursor: pointer;
+}
+.imu-scroller-plugin .pager:hover
+{
+	background-color: #afafaf;
+}
+.imu-scroller-plugin .pager-horizontal
+{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 1.2em;
+}
+.imu-scroller-plugin .pager-horizontal img
+{
+	width: 1.2em;
+}
+.imu-scroller-plugin .pager-vertical
+{
+	text-align: center;
+	height: 1.2em;
+}
+.imu-scroller-plugin .pager-vertical img
+{
+	height: 1.2em;
+}
+.imu-scroller-plugin .scrollbar
+{
+	background-color: #eaeaea;
+	opacity: 0.7;
+}
+.imu-scroller-plugin .scrollbar-horizontal
+{
+	height: 0.5em;
+}
+.imu-scroller-plugin .scrollbar-vertical
+{
+	width: 0.5em;
+}
+.imu-scroller-plugin .thumb
+{
+	background-color: #aaaaaa;
+
+	border-radius: 0.2em;
+	-moz-border-radius: 0.2em;
+	-webkit-border-radius: 0.2em;
+}
+.imu-scroller-plugin .multimedia-scroller .pager-horizontal img
+{
+	margin: 4.4em 0;
+}

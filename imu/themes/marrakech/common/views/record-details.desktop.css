@@ -1,0 +1,14 @@
+.objects .object
+{
+	width: 23.0em;
+}
+
+.children .child
+{
+	width: 23.0em;
+}
+
+.associations .association
+{
+	width: 23.0em;
+}

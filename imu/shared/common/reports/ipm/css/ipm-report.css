@@ -1,0 +1,412 @@
+body {
+	font-family: sans-serif;
+}
+
+#map-collator {
+	top: 0;
+	left: 0;
+}
+
+.collapse-icon {
+	width: 1em;
+	height: 1em;
+	float: left;
+	padding-right: 2em;
+}
+
+.menu-header-bar {
+	float: left;
+	background-color: aliceblue;
+	color: darkgray;
+}
+.menu-header-bar span {
+	float: left;
+	padding: 0 3em 0 3em;
+}
+.header-bar {
+	background-color: #d6dfe2;
+	font-weight: bold;
+	padding: 0.2em;
+	cursor: pointer;
+}
+
+#ipm-viewer {
+	float: left;
+	width: 100%
+	height: 100%;
+	left: 0;
+}
+
+#map-panel {
+	float: left;
+	display: inline-block;
+	margin-left: 1em;
+	border: 1px solid #d6dfe2;
+	background: beige;
+	position: absolute;
+	left: 0;
+}
+
+#legend-panel {
+	background-color: #ffffff;;
+	position: absolute;
+	z-index: 2000;
+	width: 75%;
+	border: 1px solid #d6dfe2;
+}
+
+#legend {
+}
+
+.legend-item-group {
+	font-style: italic;
+}
+
+.legend-icon {
+	width: 2em;
+	height: 2em;
+	float: left;
+}
+.legend-item {
+	display: inline-block;
+	padding-right: 1em;
+}
+
+.legend-item-group {
+		margin: 0.2em 0 0.2em;
+}
+
+img.legend-settings {
+	width: 32px;
+}
+
+.legend-text {
+	float: left;
+	padding-left: 0.2em;
+	width: 10em;
+	display: block;
+}
+
+.roller {
+	height: 1em;
+	width: 1em;
+	float: left;
+	padding-right: 1em;
+}
+
+div.imu-legend-holder {
+	font-weight: inherit;
+	border: inherit;
+}
+
+div.imu-legend-data-item {
+}
+
+dl {
+	float: left;
+}
+
+dl.sub-field dt {
+	color: gray;
+	padding-left: 1em;
+}
+
+dt {
+	float: left;
+	clear: left;
+	padding: 0.1em 1em 0.1em 0;
+	width: 100px;
+	text-align: right;
+	font-weight: bold;
+}
+dt:after {
+	content: ":";
+}
+dd {
+	padding: 0.1em 0 0.1em 0;
+}
+
+.dockable-panel {
+	font-size: smaller;
+}
+
+.panel-footer {
+	height: 1em;
+	width: 100%;
+	display: inline-block;
+}
+
+#menu-bar {
+	width: 100%;
+	background: #d6dfe2;
+	height: 1.2em;
+}
+
+.menu-heading {
+	float: left;
+	clear: none;
+	padding-right: 3em;
+	padding-left: 3em;
+}
+
+#menu-controls {
+	width: 20em;
+}
+
+.expander img {
+	cursor: pointer;
+}
+
+#expander-menu-controls {
+}
+
+.expander.disabled span {
+	background: aliceblue;
+}
+
+.expander.disabled img {
+	background: aliceblue;
+}
+
+.help-definitions dt {
+	width: inherit;
+	text-align: left;
+}
+
+.help-definitions dd {
+	float: left;
+	clear: both;
+}
+
+
+fieldset {
+	float: left;
+	border: none;
+}
+
+
+#map-viewer {
+	float: left;
+/*	padding-left: 20%;*/
+}
+
+.menu-panel {
+	position: absolute;
+	z-index: 2000;
+	background: #d6dfe2;
+	opacity: 0.9;
+	border-right: 3px solid white;
+	border-bottom: 3px solid white;
+}
+
+#menu-items {
+	list-style: none;
+}
+
+
+#OpenLayers_Control_MaximizeDiv, #OpenLayers_Control_MinimizeDiv {
+	visibility: hidden;
+	height: 0;
+}
+
+.ui-widget-content {
+}
+
+.ui-slider-handle {
+	background: gray !important;
+}
+
+#marker-size, #cluster-distance {
+	margin-bottom: 1em;
+	width: 90%;
+}
+
+#container-marker-sizes fieldset {
+	overflow: auto;
+	width: 95%;
+}
+
+#feature-details, #marker-info, #filter-panel, #legend-panel {
+	float: left;
+	z-index: 2000;
+	border: 1px solid #d6dfe2;
+	background-color: #ffffff;
+	width: inherit;
+	visibility: hidden;
+	height: inherit !important;
+}
+
+.field-icon {
+	width: 2em;
+	padding-right: 1em;
+	vertical-align: middle;
+}
+
+.definition-item {
+	float: left;
+	clear: left;
+}
+
+.definition-item .term {
+	float: left;
+	font-weight: bold;
+	padding-right: 1em;
+}
+
+.definition .definition-item {
+	float: left;
+	clear: none;
+	padding-left: 1em;
+}
+
+#feature-details table ,#marker-info table {
+	padding-left: 1em;
+}
+
+#feature-details .legend-icon ,#marker-info .legend-icon {
+}
+
+.rollable-body {
+	overflow: auto !important;
+	height: 18em;
+	width: 97%;
+	padding-left: 1em;
+}
+
+#legend-panel .rollable-body,
+#feature-details .rollable-body,
+#marker-info .rollable-body,
+#filter-panel .rollable-body {
+	float: left;
+}
+
+div.simple-item-details {
+	float: left;
+	background: #ffffff;;
+	border: 0.2em solid #ffffff;
+	height: 5em;
+	cursor: pointer;
+}
+
+div.simple-item-details :hover {
+	border: 0.2em solid #d6dfe2;
+}
+
+.item-thumb {
+	float: left;
+	clear: both;
+}
+
+.item-summary {
+	float: left;
+	/*display: inline-block;*/
+	width: 70%;
+}
+
+/* new ipm stuff */
+
+.selector-control {
+	border: 1px solid black;
+	list-style-type: none;
+	width: inherit;
+	height: 7em;
+	overflow: scroll;
+	padding: 2px;
+	font-size: smaller;
+	width: 12em;
+	cursor: pointer;
+}
+
+#category-selector 
+{
+	float: left;
+	clear: left;
+}
+
+#category-selector span
+{
+	float: left;
+	clear: left;
+}
+
+#filter-panel {
+/*	height: inherit !important;*/
+}
+
+#filter-panel fieldset span {
+	float: left;
+	padding-right: 1em;
+}
+
+.not-in-filter {
+	background-color: #f0f0f0;
+}
+.in-filter {
+	background-color: #e0ffe0;
+}
+
+.value-selected {
+	color: blue;
+	font-style: italic;
+}
+
+.filter-matches-true div {
+	padding-left: inherit;
+}
+.filter-matches-true span {
+	text-decoration: none;
+}
+
+.filter-matches-false div {
+	color: grey;
+	text-decoration: line-through;
+}
+
+.filter-matches-false img {
+	height: 0.8em;
+	width: 0.8em;
+	padding-left: 0.5em;
+}
+
+.button-group {
+	float: left;
+	clear: both;
+	margin-top: 1em;
+}
+
+.trapevent-link {
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+}
+.trapevent-link:hover {
+	color: red;
+}
+
+dl {
+	float: left;
+	clear: left;
+}
+
+dl dt {
+	font-weight:bold; 
+	clear: left;
+}
+
+dl dd {
+	float:none; 
+	font-size: 90%;
+}
+
+dd  dt {
+}
+
+dd dl {
+	float: left;
+	clear: none;
+}
+
+dd dl dt {
+	float: left;
+	clear: none;
+}

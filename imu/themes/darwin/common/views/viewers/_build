@@ -1,0 +1,7 @@
+include combined-viewer
+include vertical-viewer
+include list-viewer
+include lightbox-viewer
+include record-details
+include details-viewer
+include collection-viewer

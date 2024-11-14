@@ -1,0 +1,70 @@
+.imu-dialogue
+{
+	background: rgba(0, 0, 0, 0.5);
+/*
+	background-color: #000000;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=50);
+	opacity: 0.3;
+*/
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 99999;
+}
+
+.imu-dialogue > .box
+{
+	background-color: #dce9f1;
+/*
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	opacity: 1.0;
+*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20%;
+	padding: 1.0em;
+	width: 38.0em;
+}
+
+.imu-dialogue > .box > .message
+{
+	color: #006ba8;
+}
+
+.imu-dialogue > .box > .details
+{
+	color: #006ba8;
+}
+
+.imu-dialogue > .box > .show-details
+{
+	cursor: pointer;
+	font-size: 0.8em;
+}
+
+.imu-dialogue > .box > .buttons
+{
+	display: table;
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.imu-dialogue > .box > .buttons > .button
+{
+	background-color: #006ba8;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: bold;
+	margin-left: 0.5em;
+	padding: 0.2em;
+}
+
+.imu-dialogue > .box > .buttons > .button:hover
+{
+	background-color: #228dca;
+}

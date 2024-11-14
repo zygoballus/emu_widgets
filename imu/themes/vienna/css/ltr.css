@@ -1,0 +1,71 @@
+/* THIS FILE IS BUILT AUTOMATICALLY.
+** DO NOT CHANGE IT DIRECTLY.
+**
+** Built at: 2024-11-14 04:43:49 UTC (2024-11-14 04:43:49 UTC)
+*/
+
+/* Source: ./themes/vienna/common/views/page.ltr.css
+*/
+.imu-page .header .near .item
+{
+	padding-left: 0.3em;
+}
+
+/* Source: ./themes/vienna/common/views/record-details.ltr.css
+*/
+.imu-record-details .section-buttons
+{
+  float: left;
+}
+
+.imu-record-details .multimedia .items
+{
+  padding-left: 2em;
+}
+
+.imu-record-details .multimedia .items th
+{
+  padding-right: 1em;
+  text-align: left;
+}
+
+.imu-record-details .multimedia .items tr td
+{
+  padding-right: 1em;
+}
+
+.imu-record-details .narrative .secondary .items > .item
+{
+  float: left;
+}
+
+.imu-record-details .info table tr td.prompt
+{                                                                               
+    padding-right: 0.5em;
+}
+
+/* Supplementary tab data
+*/
+.imu-record-details .info table thead tr th
+{
+	text-align: left;
+	padding-right: 1em;
+}
+
+.imu-record-details .info table tr td
+{
+	text-align: left;
+	padding-right: 1em;
+}	
+
+/* Source: ./themes/vienna/common/views/lightbox-viewer.ltr.css
+*/
+.imu-lightbox-viewer .title
+{
+	float: left;
+}
+
+.imu-lightbox-viewer .select
+{
+	float: right;
+}

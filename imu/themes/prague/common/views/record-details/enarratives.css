@@ -1,0 +1,49 @@
+.imu-record-details .record.enarratives .trail
+{
+	padding-bottom: 0.5em;
+}
+
+.imu-record-details .record.enarratives .trail .item
+{
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.imu-record-details .record.enarratives .objects .items,
+.imu-record-details .record.enarratives .subnarratives .items,
+.imu-record-details .record.enarratives .related-narratives .items
+{
+	clear: both;
+}
+
+.imu-record-details .record.enarratives .objects .items td,
+.imu-record-details .record.enarratives .subnarratives .items td,
+.imu-record-details .record.enarratives .related-narratives .items td
+{
+	vertical-align: middle;
+}
+
+.imu-record-details .record.enarratives .objects .items > .item,
+.imu-record-details .record.enarratives .subnarratives .items > .item,
+.imu-record-details .record.enarratives .related-narratives .items > .item
+{
+	cursor: pointer;
+	background-color: #eeeeee;
+	margin: 0.2em;
+}
+
+.imu-record-details .record.enarratives .objects .imu-multimedia-plugin,
+.imu-record-details .record.enarratives .subnarratives .imu-multimedia-plugin,
+.imu-record-details .record.enarratives .related-narratives .imu-multimedia-plugin
+{
+	background-color: #eeeeee;
+	height: 4.8em;
+	width: 4.8em;
+}
+.imu-record-details .record.enarratives .objects .imu-multimedia-plugin .item,
+.imu-record-details .record.enarratives .subnarratives .imu-multimedia-plugin .item,
+.imu-record-details .record.enarratives .related-narratives .imu-multimedia-plugin .item
+{
+	max-height: 4.8em;
+	max-width: 4.8em;
+}

@@ -1,0 +1,77 @@
+.imu-manager
+{
+	background-color: #dce9f1;
+	overflow-y: auto;
+	padding: 0.4em;
+}
+
+.imu-manager > .heading
+{
+	color: gray;	/* TODO */
+}
+
+.imu-manager > .list > .item
+{
+	background-color: #ffffff;
+	color: #006ba8;
+	cursor: pointer;
+/*
+	display: table-row;
+*/
+	padding: 0 0.25em;
+}
+
+.imu-manager > .list > .item:hover
+{
+	background-color: #edfaf2;
+}
+
+.imu-manager > .list > .item > .title
+{
+	display: table-cell;
+	width: 98%;
+}
+
+.imu-manager > .list > .item > .edit
+{
+	display: table-cell;
+	width: 1%;
+}
+
+.imu-manager > .list > .item > .edit > img
+{
+	height: 1.3em;
+}
+
+.imu-manager > .list > .item > .remove
+{
+	display: table-cell;
+	width: 1%;
+}
+
+.imu-manager > .list > .item > .remove > img
+{
+	height: 1.3em;
+}
+
+.imu-manager > .add
+{
+	color: #006ba8;
+	cursor: pointer;
+	display: table;
+	margin-top: 0.4em;
+}
+
+.imu-manager > .add > .image
+{
+	display: table-cell;
+	height: 1.3em;
+	vertical-align: middle;
+}
+
+.imu-manager > .add > .text
+{
+	display: table-cell;
+	font-size: 0.75em;
+	vertical-align: middle;
+}

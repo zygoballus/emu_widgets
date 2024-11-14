@@ -1,0 +1,34 @@
+.section-heading-text
+{
+	float: left;
+}
+
+.section-buttons
+{
+	float: right;
+}
+
+.objects .object
+{
+	float: left;
+}
+
+.children .child
+{
+	float: left;
+}
+
+.associations .association
+{
+	float: left;
+}
+
+.info .details td
+{
+	text-align: left;
+}
+
+.info .details th
+{
+	text-align: left;
+}

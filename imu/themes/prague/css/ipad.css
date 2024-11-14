@@ -1,0 +1,22 @@
+/* THIS FILE IS BUILT AUTOMATICALLY.
+** DO NOT CHANGE IT DIRECTLY.
+**
+** Built at: 2024-11-14 04:43:49 UTC (2024-11-14 04:43:49 UTC)
+*/
+
+/* Source: ./themes/prague/common/views/record-details.ipad.css
+*/
+.imu-record-details .primary .details
+{
+	-webkit-overflow-scrolling: touch;
+}
+
+.imu-record-details.enarratives .subnarratives .items .item
+{
+	-webkit-overflow-scrolling: touch;
+}
+
+.imu-record-details.enarratives .subnarratives .items > .item
+{
+	width: 23.0em;
+}

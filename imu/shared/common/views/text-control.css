@@ -1,0 +1,28 @@
+.imu-text-control > .holder .content > textarea
+{
+	height: auto;
+	resize: none;
+	font-family: inherit;
+	color: inherit;
+}
+.imu-text-control textarea,
+.imu-text-control input
+{
+	width: 100%;
+}
+
+.imu-text-control .hint,
+.imu-text-control > .holder .content > textarea.hint
+{
+	color: #8f8f8f;
+}
+
+.imu-text-control .suggested
+{
+	border-color: orange;
+}
+
+.imu-text-control .mandatory
+{
+	border-color: red;
+}

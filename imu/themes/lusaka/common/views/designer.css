@@ -1,0 +1,115 @@
+/* Control styling
+*/
+
+.imu-designer .imu-box-control > .holder,
+.imu-designer .imu-selection-control > .holder
+{
+	height: 100%;
+}
+
+.imu-designer .filter-remove,
+.imu-designer .section-remove,
+.imu-designer .section-toggle
+{
+	opacity: 1;
+	margin: 0 0.125em;
+	height: 1em;
+	width: 1em;
+}
+.imu-designer .filter-remove:hover,
+.imu-designer .section-remove:hover,
+.imu-designer .section-toggle:hover
+{
+	opacity: 0.6;
+}
+
+/* Designer layout
+*/
+.imu-designer .imu-form .label
+{
+	font-size: 0.8em;
+	line-height: 1em;
+	text-align: right;
+	width: 20%;
+}
+
+.imu-designer > .buttons
+{
+	padding-top: 0.5em;
+	text-align: right;
+}
+.imu-designer > .buttons > .imu-button-control
+{
+	display: inline-block;
+	padding-right: 0.5em;
+}
+.imu-designer > .buttons > .imu-button-control:last-child
+{
+	padding-right: 0;
+}
+
+.imu-designer > .buttons > .imu-button-control.disabled > .state
+{
+	background-color: #dddddd;
+	color: #bababa;
+}
+
+.imu-designer td.input
+{
+	height: 1.7em;
+	line-height: 1.7em;
+}
+
+.imu-designer .input.column-remove > .wrapper,
+.imu-designer .imu-grid .column-remove > .wrapper,
+.imu-designer .imu-grid .column-remove > .holder
+{
+	border: none;
+}
+
+.imu-designer > .holder > .details
+{
+	padding: 0.25em;
+}
+
+.imu-designer .collapsible-group > .title .icon,
+.imu-designer .collapsible-group > .title .icon img
+{
+	height: 1.5em;
+	line-height: 1.5em;
+	vertical-align: top;
+	width: 1.5em;
+}
+
+.imu-designer .collapsible-group > .holder > .details
+{
+	padding: 0.25em;
+}
+.imu-designer .collapsible-group > .holder > .details,
+.imu-designer .collapsible-group > .holder > .ui-sortable,
+.imu-designer .collapsible-group.permissions > .holder > .everyone,
+.imu-designer .collapsible-group.permissions > .holder > .additional
+{
+	margin-left: auto;
+	margin-right: 0.25em;
+	width: 95%;
+}
+.imu-designer .collapsible-group > .holder > .add
+{
+	margin-bottom: 0.25em;
+	margin-left: 5%;
+	margin-top: 0.25em;
+}
+
+.imu-designer .collapsible-group .title
+{
+	padding-right: 1.0em;
+}
+.imu-designer .collapsible-group .collapsible-group  .title
+{
+	padding-right: 0.6em;
+}
+.imu-designer .collapsible-group .collapsible-group .collapsible-group .title
+{
+	padding-right: 0.5em;
+}

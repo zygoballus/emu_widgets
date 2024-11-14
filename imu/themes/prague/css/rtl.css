@@ -1,0 +1,85 @@
+/* THIS FILE IS BUILT AUTOMATICALLY.
+** DO NOT CHANGE IT DIRECTLY.
+**
+** Built at: 2024-11-14 04:43:49 UTC (2024-11-14 04:43:49 UTC)
+*/
+
+/* Source: ./themes/prague/common/views/page.rtl.css
+*/
+/* header
+*/
+.imu-page .header .near .item
+{
+	padding-right: 0.3em;
+}
+
+/* Source: ./themes/prague/common/views/record-details.rtl.css
+*/
+.imu-record-details .section-buttons
+{
+  float: right;
+}
+
+.imu-record-details .multimedia .items
+{
+  padding-right: 2em;
+}
+
+.imu-record-details .multimedia .items th
+{
+  padding-left: 1em;
+  text-align: right;
+}
+
+.imu-record-details .multimedia .items tr td
+{
+  padding-left: 1em;
+}
+
+.imu-record-details .record.enarratives .section.subnarratives .items > .item,
+.imu-record-details .record.enarratives .section.related-narratives .items > .item,
+.imu-record-details .record.enarratives .section.objects .items > .item
+{
+  float: right;
+}
+
+.imu-record-details .info table tr td.prompt                                    
+{
+    padding-left: 0.5em;
+}
+
+/* Supplementary tab data                                                       
+*/
+.imu-record-details .info table tr td
+{
+    text-align: right;
+/*    padding-left: 0.8em;*/
+}
+
+/* Source: ./themes/prague/common/views/lightbox-viewer.rtl.css
+*/
+.imu-lightbox-viewer .title
+{
+	float: right;
+}
+
+.imu-lightbox-viewer .select
+{
+	float: left;
+}
+
+/* Source: ./themes/prague/common/views/my-collections.rtl.css
+*/
+mu-my-collections > .holder > .header
+{
+    margin-left: 0.5em;
+}
+
+/* Source: ./themes/prague/common/views/record-browser.rtl.css
+*/
+.imu-record-details.enarratives .section.subnarratives .items > .item,
+.imu-record-details.enarratives .section.related-narratives .items > .item,
+.imu-record-details.enarratives .section.objects .items > .item
+{
+  float: right;
+}

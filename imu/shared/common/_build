@@ -1,0 +1,3 @@
+include register.js
+include strings.js
+include views

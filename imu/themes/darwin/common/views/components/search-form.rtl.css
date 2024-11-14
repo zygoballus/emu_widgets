@@ -1,0 +1,20 @@
+.imu-search-form form > .input > .prompt
+{
+    float: right;
+}
+
+.imu-search-form form > .input > .input
+{
+    float: left;
+}
+
+/* Commented out due to Firefox issues.
+
+@supports (display: flex)
+{
+	.imu-search-form form > .input
+    {
+        float: none;
+    }
+}
+*/

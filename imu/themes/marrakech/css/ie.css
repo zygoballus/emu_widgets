@@ -1,0 +1,62 @@
+/* THIS FILE IS BUILT AUTOMATICALLY.
+** DO NOT CHANGE IT DIRECTLY.
+**
+** Built at: 2024-11-14 04:43:49 UTC (2024-11-14 04:43:49 UTC)
+*/
+
+/* Source: ./themes/marrakech/common/views/page.ie.css
+*/
+/* header
+*/
+.imu-page > .holder > .header > .background1
+{
+    background-image: -ms-radial-gradient(
+		50% 50%,
+		circle,
+		rgba(245, 130, 20, 1) 0%,
+		rgba(245, 130, 20, 1) 70.4%,
+		rgba(245, 130, 20, 0) 70.5%);
+}
+
+.imu-page > .holder > .header > .background1 > .background2
+{
+    background-image: -ms-radial-gradient(
+	    50% 50%,
+		circle,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(255, 255, 255, 1) 70.4%,
+		rgba(255, 255, 255, 0) 70.5%);
+}
+
+/* background
+*/
+.imu-page > .holder > .background .bg1
+{
+    background-image: -ms-radial-gradient(
+	    50% 50%,
+		circle,
+		rgba(0, 0, 0, 0.9) 0%,
+		rgba(0, 0, 0, 0.6) 70.4%,
+		rgba(0, 0, 0, 0.0) 70.5%);
+}
+
+.imu-page > .holder > .background .bg2
+{
+	background-image: -ms-radial-gradient(
+		50% 50%,
+		circle,
+		rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 70.4%,
+		rgba(0, 0, 0, 0.0) 70.5%);
+}
+
+.imu-page > .holder > .background .bg3
+{
+	background-image: -ms-radial-gradient(
+		50% 50%,
+		circle,
+		rgba(0, 0, 0, 0.0) 0%,
+		rgba(0, 0, 0, 0.5) 65%,
+		rgba(0, 0, 0, 0.65) 70.4%,
+		rgba(0, 0, 0, 0.0) 70.5%);
+}

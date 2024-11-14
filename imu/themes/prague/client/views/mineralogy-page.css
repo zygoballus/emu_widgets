@@ -1,0 +1,188 @@
+.imu-default-page .sidebar .search-forms > .holder > .page
+{
+	bottom: 0;
+	left: 0;
+	overflow-y: auto;
+	position: inherit;
+	right: 0;
+	top: 3.1em;
+}
+
+.searches:before {
+content: ' ';
+background: url('https://carnegiemnh.wpengine.com/wp-content/uploads/2017/08/CMNH_Logo.png') no-repeat top center !important;
+padding: 60px 160px;
+}
+
+.searches {
+    margin-top: 30px !important;
+}
+
+.imu-search-form .table .row .input {
+    float: right;
+}
+
+.imu-page > .holder > .content {
+    padding: 10px;
+}
+
+.imu-combined-viewer .header .navigate {
+    display: none !important;
+}
+
+.imu-combined-viewer .header .module {
+    padding-left: 10px;
+}
+
+.record {
+    background: #EDEAE6;
+    margin: 10px 10px;
+    padding: 0px 0px 40px 0px !important;
+}
+
+.record .info {
+    padding: 0px;
+}
+
+.imu-lightbox-viewer .frame, .imu-lightbox-viewer .imu-multimedia-plugin {
+    background-color: #EDEAE6;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.imu-lightbox-viewer .title, .imu-widget {
+	color: #333 !important;
+    font-family: "franklin-gothic-urw",sans-serif !important;
+    font-size: 1.3rem !important;
+    font-size: 13px !important;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 1.35;
+}
+
+.imu-lightbox-viewer .title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.imu-search-form .holder {
+    background-color: #EDEAE6;
+    padding: 7%;
+}
+
+.imu-page > .holder > .sidebar {
+    padding-top: 50px;
+    border-right: 2px solid #808285;
+    background: #EDEAE6 !important;
+}
+
+.searches-label {
+	text-align: center;
+	font-size: 16px;
+}
+
+.imu-search-form .table .row .prompt {
+    margin: 0 0em !important;
+    min-width: 5em;
+    width: auto;
+}
+
+.imu-search-form .table .row {
+    padding: 3px 0px;
+}
+
+.images-label-advanced, .on-display-label-advanced {
+    padding-top: 10px;
+}
+
+.imu-page button {
+    background: #6D7646 !important;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-width: 0px !important;
+    color: #fff !important;
+    font-size: 15px !important;
+}
+
+.imu-page button:hover {
+    background: #7D3656 !important;
+    color: #fff !important;
+}
+
+.imu-scroller-plugin .pager-horizontal {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 3em !important;
+    padding-top: 15px;
+    margin-top: 200px !important;
+    height: 90px !important;
+}
+
+.imu-scroller-plugin .pager-horizontal .pager:hover {
+    background: #EDEAE6 !important;
+}
+
+.multimedia-scroller .imu-plugin .imu-scroller-plugin .pager-horizontal {
+    display: none;
+}
+
+.imu-record-details .multimedia.imu-multimedia-plugin .item {
+    max-width: 60% !important;
+    max-height: 60% !important;
+}
+
+.imu-record-details .multimedia.imu-multimedia-plugin {
+    background-color: #EDEAE6;
+    height: auto !important;
+    padding: 1em;
+    width: 100% !important;
+}
+
+.imu-record-details .multimedia.imu-multimedia-plugin img {
+    height: auto !important;
+    padding: 1em;
+    width: 100% !important;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    width: 100%;
+    word-break: break-word;
+}
+
+.supplementary tbody {
+    border-bottom: 0px solid #EDEAE6;
+}
+
+.supplementary tr {
+    border-bottom: 1px solid #EDEAE6;
+}
+
+.supplementary tr tr {
+    border-bottom: 0px !important;
+}
+
+td,
+th {
+    text-align: left;
+}
+
+td {
+    padding: 3px;
+}
+
+th {
+    font-weight: 400;
+    padding: 0 6px;
+}
+
+td:first-child,
+th:first-child {
+    padding-left: 0;
+}

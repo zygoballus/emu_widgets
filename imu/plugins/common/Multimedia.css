@@ -1,0 +1,40 @@
+.imu-multimedia-plugin
+{
+	overflow: hidden;
+	text-align: center;
+}
+.imu-multimedia-plugin *
+{
+	height: auto;
+	max-height: 100%;
+	max-width: 100%;
+	width: auto;
+}
+
+.imu-multimedia-plugin .table
+{
+	border-collapse: collapse;
+	display: table;
+	height: 100%;
+	table-layout: fixed;
+	width: 100%;
+}
+
+.imu-multimedia-plugin .table-row
+{
+	display: table-row;
+}
+
+.imu-multimedia-plugin .table-cell
+{
+	display: table-cell;
+	max-height: 100%;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+.imu-multimedia-plugin .item
+{
+	display: block;
+	margin: 0 auto;
+}

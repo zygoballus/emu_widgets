@@ -1,0 +1,13 @@
+.imu-selection-control .table-cell.icon img
+{
+	vertical-align: middle; /* puts image in centre */
+}
+.imu-selection-control .content.table-cell > select
+{
+	height: 100%;
+}
+.imu-selection-control select
+{
+	display: block;
+	margin: 0;
+}

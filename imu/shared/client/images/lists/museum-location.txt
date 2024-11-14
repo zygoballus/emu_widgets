@@ -1,0 +1,14 @@
+ID|Display for search result
+HH|Hillman Hall of Minerals and Gems
+HF|Foyer in front of Hillman Hall
+WG|Wertz Gallery: Gems and Jewelry
+RR|Collection Storage 
+ML|Collection Storage
+MR|Collection Storage
+DH|Dinosaurs in Their Time
+BH|Benedum Hall of Geology
+LL|Discovery Basecamp 
+DO|Collection Storage
+EO|Collection Storage
+GS|Collection Storage
+DN|Collection Storage

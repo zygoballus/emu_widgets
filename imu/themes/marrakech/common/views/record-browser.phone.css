@@ -1,0 +1,126 @@
+.imu-record-browser
+{
+	background-color: #ffffff;
+	color: #000000;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+/* trails */
+.imu-record-browser .trail .item
+{
+	cursor: pointer;
+	font-weight: bold;
+}
+
+/* main */
+.imu-record-browser .main
+{
+	width: 100%;
+}
+
+/* main multimedia */
+.imu-record-browser .main .multimedia-cell
+{
+	vertical-align: top;
+	width: 1%;
+}
+
+.imu-record-browser .main .frame
+{
+	background-color: gray;
+	height: 15.0em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 15.0em;
+}
+
+.imu-record-browser .main .image
+{
+	max-height: 14.0em;
+	max-width: 14.0em;
+}
+
+/* main info */
+.imu-record-browser .main .info-cell
+{
+	vertical-align: top;
+	width: 99%;
+}
+
+.imu-record-browser .main .info
+{
+	height: 25.0em;
+	overflow: auto;
+}
+
+.imu-record-browser .main .title
+{
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.imu-record-browser .main .description
+{
+	padding-top: 0.5em;
+	font-size: 1.1em;
+}
+
+/* objects */
+.imu-record-browser .objects
+{
+	background-color: #eeeeee;
+	max-height: 15.3em;
+	overflow: auto;
+}
+
+.imu-record-browser .objects .object
+{
+	cursor: pointer;
+	height: 5.1em;
+	margin: 0.3em;
+	width: 20.0em;
+}
+
+.imu-record-browser .objects .object .frame
+{
+	background-color: gray;
+	height: 5.0em;
+	text-align: center;
+	width: 5.0em;
+}
+
+.imu-record-browser .objects .object .image
+{
+	max-height: 4.8em;
+	max-width: 4.8em;
+}
+
+/* children */
+.imu-record-browser .children
+{
+	background-color: #eeeeee;
+	max-height: 15.3em;
+	overflow: auto;
+}
+
+.imu-record-browser .children .child
+{
+	cursor: pointer;
+	height: 5.1em;
+}
+
+.imu-record-browser .children .child .frame
+{
+	background-color: gray;
+	height: 5.0em;
+	text-align: center;
+	width: 5.0em;
+}
+
+.imu-record-browser .children .child .image
+{
+	max-height: 4.8em;
+	max-width: 4.8em;
+}

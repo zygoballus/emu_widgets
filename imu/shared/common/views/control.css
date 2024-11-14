@@ -1,0 +1,47 @@
+.imu-control,
+.imu-control *
+{
+	border-spacing: 0;
+	padding: 0;
+}
+
+.imu-control
+{
+	display: inline-block; /* this removes hidden spacing between owner and holder */
+}
+.imu-control .table
+{
+	display: table;
+}
+.imu-control .table > .table-row
+{
+	display: table-row;
+}
+.imu-control .table > .table-row > .table-cell
+{
+	display: table-cell;
+	height: 100%;
+}
+
+.imu-control .table > .table-row *
+{
+	vertical-align: top;
+}
+
+.imu-control .table .icon
+{
+	height: 0.9em;
+}
+.imu-control .table .icon > img
+{
+	height: 100%;
+	width: auto;
+}
+.imu-control .table .icon:empty
+{
+	display: none;
+}
+.imu-control .table .icon > img
+{
+	border: none;
+}

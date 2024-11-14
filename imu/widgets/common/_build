@@ -1,0 +1,74 @@
+include base
+include viewer
+include paged-viewer
+include collection-viewer
+include combined-viewer
+include page
+include default-page
+include details-viewer
+include form
+include artist-search
+include keyword-search
+include language-selector
+include lightbox-viewer
+include list-viewer
+include login
+include map-viewer
+include locator-viewer
+include ipm-viewer
+include my-collections
+include paged-display
+include record-browser
+include search-form
+include selector-display
+include tabbed-display
+include theme-selector
+include threed-viewer
+include tree-browser
+include tree-viewer
+include explore
+include widget-browser
+
+# Controls
+#
+include control
+include box-control
+include checkbox-control
+include date-control
+include icon-control
+include integer-control
+include number-control
+include selection-control
+include sort-control
+include static-control
+include text-control
+include attachment-control
+include time-control
+include tag-control
+include image-control
+include capture-control
+include image-capture-control
+include button-control
+include geolocate-control
+
+include grid
+include graph
+
+include manager
+include designer
+
+include editor-builder
+include editor-designer
+include editor-list
+
+include form-builder
+include form-designer
+include form-list
+
+include statistics-list
+include statistics-designer
+
+include project-list
+
+include geolocate
+include highlights-banner

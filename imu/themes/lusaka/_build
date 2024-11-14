@@ -1,0 +1,6 @@
+theme	lusaka
+title	en Lusaka
+title	fr Lusaka
+include	common
+include	client
+include	local

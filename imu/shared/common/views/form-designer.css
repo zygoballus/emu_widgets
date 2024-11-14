@@ -1,0 +1,15 @@
+/* TODO: this style should be removed/altered
+** if/when further layout design functionality 
+** is added.
+*/
+.imu-form-designer .layout-options .layout > .holder > .details .row-1,
+.imu-form-designer .layout-options .section-layout .details .row-3
+{
+	display: none;
+}
+.imu-form-designer .layout-options .layout .row-layout > .holder > .details
+{
+	display: none;
+	height: 0px;
+	padding: 0;
+}

@@ -1,0 +1,121 @@
+.imu-combined-viewer > .holder
+{
+	bottom: 0;
+	left: 0;
+	padding: 0.5em 0.5em 0 0.5em;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.imu-combined-viewer > .holder > .header
+{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+.imu-combined-viewer > .holder > .header,
+.imu-combined-viewer > .holder > .header > .results,
+.imu-combined-viewer > .holder > .header > .icons,
+.imu-combined-viewer > .holder > .header > .icons > .icon
+{
+	height: 2em;
+}
+.imu-combined-viewer > .holder > .header > .results,
+.imu-combined-viewer > .holder > .header > .icons,
+.imu-combined-viewer > .holder > .header > .icons > .icon
+{
+	display: inline-block;
+}
+.imu-combined-viewer > .holder > .header > .icons > .icon
+{
+	width: 2em;
+}
+
+.imu-combined-viewer > .holder > .overlay
+{
+	background: #ffffff;
+	bottom: 0;
+	left: 0;
+	padding: 0.5em;
+	position: absolute;
+	right: 0;
+	top: 3em;
+}
+.imu-combined-viewer > .holder > .overlay:empty
+{
+	display: none;
+}
+
+.imu-combined-viewer > .holder > .overlay .error
+{
+	font-weight: bold;
+}
+
+.imu-combined-viewer > .holder > .results
+{
+	display: none;
+}
+.imu-combined-viewer > .holder > .overlay:empty + .results
+{
+	display: block;
+}
+
+.imu-combined-viewer .header .results > span
+{
+	line-height: 2em;
+}
+.imu-combined-viewer .header .results > .hits:empty:before
+{
+	content: '0';
+}
+
+.imu-combined-viewer .header .results > .spinner,
+.imu-combined-viewer .header .results > .spinner img
+{
+	height: 1em;
+	width: 1em;
+}
+
+
+.imu-combined-viewer > .holder > .item
+{
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 3em;
+}
+
+
+.imu-combined-viewer .details-viewer-icon
+{
+	background-image: 
+		url('../../../request.php?request=Image&name=details-viewer-icon');
+}
+.imu-combined-viewer .details-viewer-icon.selected
+{
+	background-image: 
+		url('../../../request.php?request=Image&name=details-viewer-selected-icon');
+}
+.imu-combined-viewer .lightbox-viewer-icon
+{
+	background-image: 
+		url('../../../request.php?request=Image&name=lightbox-viewer-icon');
+}
+.imu-combined-viewer .lightbox-viewer-icon.selected
+{
+	background-image: 
+		url('../../../request.php?request=Image&name=lightbox-viewer-selected-icon');
+}
+.imu-combined-viewer .list-viewer-icon
+{
+	background-image: 
+		url('../../../request.php?request=Image&name=list-viewer-icon');
+}
+.imu-combined-viewer .list-viewer-icon.selected
+{
+	background-image: 
+		url('../../../request.php?request=Image&name=list-viewer-selected-icon');
+}
