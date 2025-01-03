@@ -13,10 +13,18 @@ if ( isset( $_GET['control'] ) ) {
 	$config['server-port'] = 80;
 }
 
-$socket = @fsockopen($config['server-host'], $config['server-port'], $errno, $errstr, 20);
+if ( isset( $_GET['host'] ) ) {
+	$config['server-host'] = $_GET['host'];
+}
+if ( isset( $_GET['port'] ) ) {
+	$config['server-host'] = $_GET['port'];
+}
+
+$socket = @fsockopen($config['server-host'], $config['server-port'], $errno, $errstr, 15);
 if ($socket === false) {
 	print('ErrorNo: ' . $errno . "<br>");
 	print('Error: ' . $errstr . "<br>");
 } else {
 	print('Connected OK');
+	fclose( $socket );
 }
