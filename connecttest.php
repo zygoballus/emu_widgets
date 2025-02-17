@@ -3,10 +3,10 @@ error_reporting( E_ALL );
 ini_set( 'display_errors', 1 );
 ini_set( 'max_execution_time', 120 );
 
-<?php
 require_once './imu/lib/IMu.php';
 require_once IMu::$lib . '/Session.php';
- 
+
+//$session = new IMuSession('208.103.112.159', 40233);
 $session = new IMuSession('208.103.112.150', 40233);
 $session->connect();
  

@@ -4,6 +4,7 @@ ini_set( 'display_errors', 1 );
 ini_set( 'max_execution_time', 120 );
 
 // IMu server
+//$config['server-host'] = '208.103.112.159';
 $config['server-host'] = '208.103.112.150';
 $config['server-port'] = 40233;
 
