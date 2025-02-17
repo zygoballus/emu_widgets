@@ -1,10 +1,10 @@
 <?php
 require_once './imu/lib/IMu.php';
 require_once IMu::$lib . '/Session.php';
-$mainServer = "208.103.112.150";
 
 $session = new IMuSession;
-$session->host = $mainServer;
+$session->host = "208.103.112.150";
+$session->port = 40233;
 try
 {
     $session->connect();
