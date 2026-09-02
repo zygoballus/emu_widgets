@@ -163,7 +163,7 @@
                         allowEmpty: true,
                         column: 'CatVariety',
                         lookup: 'Variety',
-                        level: 0,
+                        level: 1,
                         prompt: 'advanced-variety',
                         type: 'selection'
                     },
