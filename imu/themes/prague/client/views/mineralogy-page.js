@@ -155,7 +155,7 @@
                         allowEmpty: true,
                         column: 'CatSpecies',
                         lookup: 'Catalog Species',
-                        level: 0,
+                        level: 1,
                         prompt: 'advanced-species',
                         type: 'selection'
                     },
@@ -171,7 +171,7 @@
                         allowEmpty: true,
                         column: 'CatPseudoAfter',
                         lookup: 'Pseudo After',
-                        level: 0,
+                        level: 1,
                         prompt: 'advanced-pseudo-after',
                         type: 'selection'
                     },
@@ -179,7 +179,7 @@
                         allowEmpty: true,
                         column: 'PhmAssociatedSpecies1',
                         lookup: 'Associated Species',
-                        level: 0,
+                        level: 1,
                         prompt: 'advanced-assoc-species',
                         type: 'selection'
                     },
@@ -187,7 +187,7 @@
                         allowEmpty: true,
                         column: 'ColHisCurrentCountryLocal',
                         lookup: 'Current Locality',
-                        level: 0,
+                        level: 1,
                         prompt: 'advanced-country',
                         type: 'selection'
                     },
@@ -195,7 +195,7 @@
                         allowEmpty: true,
                         column: 'ColHisCurrentStateLocal',
                         lookup: 'Current Locality',
-                        level: 2,
+                        level: 3,
                         prompt: 'advanced-state',
                         type: 'selection'
                     },
@@ -203,7 +203,7 @@
                         allowEmpty: true,
                         column: 'ColHisCurrentCityLocal',
                         lookup: 'Current Locality',
-                        level: 5,
+                        level: 6,
                         prompt: 'advanced-city',
                         type: 'selection'
                     },
@@ -211,7 +211,7 @@
                         allowEmpty: true,
                         column: 'ColHisCurrentMineDistrictLocal',
                         lookup: 'Current Locality',
-                        level: 8,
+                        level: 9,
                         prompt: 'advanced-district',
                         type: 'selection'
                     },
@@ -219,7 +219,7 @@
                         allowEmpty: true,
                         column: 'ColHisCurrentMineLocal',
                         lookup: 'Current Locality',
-                        level: 7,
+                        level: 8,
                         prompt: 'advanced-mine',
                         type: 'selection'
                     }
