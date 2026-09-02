@@ -18,7 +18,7 @@ if ( isset( $_GET['host'] ) ) {
 	$config['server-host'] = $_GET['host'];
 }
 if ( isset( $_GET['port'] ) ) {
-	$config['server-host'] = $_GET['port'];
+	$config['server-port'] = $_GET['port'];
 }
 
 $socket = @fsockopen($config['server-host'], $config['server-port'], $errno, $errstr, 15);
