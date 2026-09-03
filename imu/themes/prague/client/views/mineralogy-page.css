@@ -10,7 +10,8 @@
 
 .searches:before {
 content: ' ';
-background: url('https://carnegiemnh.wpengine.com/wp-content/uploads/2017/08/CMNH_Logo.png') no-repeat top center !important;
+background: url('/imu/shared/common/images/imu-logo-4.png') no-repeat top center !important;
+background-size: 200px 70px;
 padding: 60px 160px;
 }
 
@@ -99,7 +100,7 @@ padding: 60px 160px;
 }
 
 .imu-search-form .table .row div.submit {
-	text-align: center;
+    text-align: center;
 }
 
 .images-label-advanced, .on-display-label-advanced {
