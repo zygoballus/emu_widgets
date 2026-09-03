@@ -11,7 +11,7 @@
 .searches:before {
 content: ' ';
 background: url('/imu/shared/common/images/imu-logo-4.png') no-repeat top center !important;
-background-size: 200px 70px;
+background-size: 200px 70px !important;
 padding: 60px 160px;
 }
 
