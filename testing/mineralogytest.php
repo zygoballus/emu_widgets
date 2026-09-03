@@ -1,5 +1,5 @@
 <?php
-require_once './imu/lib/IMu.php';
+require_once '../imu/lib/IMu.php';
 require_once IMu::$lib . '/Session.php';
 
 $session = new IMuSession;

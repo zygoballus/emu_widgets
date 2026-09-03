@@ -20,7 +20,7 @@ function blockAiBots(): void
 
     $pattern =
         '/GPTBot|ChatGPT-User|OAI-SearchBot|ClaudeBot|anthropic-ai|' .
-        'Google-Extended|Bytespider|CCBot|PerplexityBot|meta-externalagent|' .
+        'Google-Extended|Baiduspider|Bytespider|CCBot|PerplexityBot|meta-externalagent|' .
         'Amazonbot|Applebot-Extended|xAI-Bot|DeepSeekBot|MistralBot|Diffbot|' .
         'cohere-ai|AI2Bot|Ai2Bot-Dolma|YouBot|DuckAssistBot|omgili|omgilibot|' .
         'webzio-extended|gemini-deep-research/i';
@@ -33,3 +33,5 @@ function blockAiBots(): void
 }
 
 blockAiBots();
+
+include 'mineralogy.html';
