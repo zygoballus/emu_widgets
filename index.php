@@ -2,13 +2,10 @@
 
 declare(strict_types=1);
 
-/**
- * Block known AI training and scraping bots.
- * Include at the top of every entry point.
- * Always allows /robots.txt through.
- */
+// Block known AI training and scraping bots.
 function blockAiBots(): void
 {
+    // Always allows /robots.txt through.
     if (str_ends_with($_SERVER['REQUEST_URI'] ?? '', '/robots.txt')) {
         return;
     }
