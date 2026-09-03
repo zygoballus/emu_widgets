@@ -76,6 +76,10 @@ padding: 60px 160px;
     padding-top: 50px;
     border-right: 2px solid #808285;
     background: #EDEAE6 !important;
+    top: 0 !important;
+    bottom: auto !important;
+    height: auto !important;
+    min-height: 100vh;
 }
 
 .searches-label {

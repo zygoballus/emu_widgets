@@ -107,7 +107,7 @@
                 if (self.widget.options.showToggle)
                 {
                     self.toggle.css(IMu.Languages.current.near, 0);
-                    self.toggle.css('bottom', footerHeight);
+                    self.toggle.css('top', footerHeight);
                     var label;
                     var title;
 
