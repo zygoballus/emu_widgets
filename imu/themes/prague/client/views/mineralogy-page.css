@@ -98,6 +98,10 @@ padding: 60px 160px;
     padding: 3px 0px;
 }
 
+.imu-search-form .table .row div.submit {
+	text-align: center;
+}
+
 .images-label-advanced, .on-display-label-advanced {
     padding-top: 10px;
 }
