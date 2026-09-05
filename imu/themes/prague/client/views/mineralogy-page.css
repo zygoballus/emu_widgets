@@ -108,12 +108,13 @@ padding: 60px 160px;
 }
 
 .imu-page button {
-    background: #6D7646 !important;
+    background: #677042 !important;
     margin-top: 10px;
     padding: 10px 20px;
     border-width: 0px !important;
     color: #fff !important;
-    font-size: 15px !important;
+    font-size: 16px !important;
+    font-weight: 500;
 }
 
 .imu-page button:hover {

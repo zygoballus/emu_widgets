@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta name="viewport" 
-        content="width=device-width, height=device-height, initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <style type="text/css">
-    </style>
-    <script type="text/javascript" src="imu/imu.php"></script>
-    <script type="text/javascript">
-        IMu.Importer.add('OpenLayers');
-        IMu.URL.Hash.complete = true;
-        function loadPage()
-        {
-            IMu.log('reloading page');
+	<title>Minerals &amp; Gems - Carnegie Museum of Natural History</title>
+	<meta name="viewport" 
+		content="width=device-width, height=device-height, initial-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<style type="text/css">
+	</style>
+	<script type="text/javascript" src="imu/imu.php"></script>
+	<script type="text/javascript">
+		IMu.Importer.add('OpenLayers');
+		IMu.URL.Hash.complete = true;
+		function loadPage()
+		{
+			IMu.log('reloading page');
 
-            var page = $('.imu-mineralogy-page').IMu();
-            page.processURLSearch();
-        }
-        IMu.ready(function()
-        {
+			var page = $('.imu-mineralogy-page').IMu();
+			page.processURLSearch();
+		}
+		IMu.ready(function()
+		{
 			$('body').IMu('mineralogy-page');
 
 			IMu.Events.bind('imu-show', loadPage);
@@ -42,8 +43,8 @@
 					IMu.URL.Hash.set('details', rid);
 				}
 			});
-        });
-    </script>
+		});
+	</script>
 </head>
 <body>
 <table>
